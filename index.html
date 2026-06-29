@@ -1,100 +1,958 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-      opacity: 0.85;
-    }
-    /* --- CENTRAL THEATER (55% SCREEN HEIGHT) --- */
-    /* --- CENTRAL THEATER (54% SCREEN HEIGHT) --- */
-    .quiz-theater {
-      height: 54vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      position: relative;
-      margin: 1vh 0;
-    }
-    .question-container {
-      font-size: 12.5vh;
-      /* Font size is set dynamically by JavaScript based on complexity */
-      font-size: 12.5vh; 
-      font-weight: 800;
-      line-height: 1.2;
-      line-height: 1.25;
-      width: 100%;
-      max-height: 100%;
-      display: flex;
-    }
-    .fraction .top, .fraction .bottom {
-      font-size: 11vh;
-      /* Scales dynamically relative to the parent container's font size */
-      font-size: 0.9em;
-      padding: 0 0.6vw;
-      text-align: center;
-    }
-      launcherScreen.style.display = 'flex';
-    }
-    // --- DYNAMIC FONT SCALING ENGINE ---
-    function getDynamicFontSize(htmlContent) {
-      // 1. Check for ASCII geometry diagrams (<pre> tags)
-      if (htmlContent.includes('<pre>')) {
-        return '4.5vh';
-      }
-      // 2. Create a temporary element to strip HTML and evaluate clean text length
-      const tempDiv = document.createElement('div');
-      tempDiv.innerHTML = htmlContent;
-      
-      const hasFractions = tempDiv.querySelector('.fraction') !== null;
-      const fractionsCount = tempDiv.querySelectorAll('.fraction').length;
-      
-      const cleanText = tempDiv.innerText || tempDiv.textContent || "";
-      const textLength = cleanText.trim().length;
-      const hasLineBreaks = htmlContent.includes('<br>') || htmlContent.includes('<p>');
-      // Fraction arithmetic scaling
-      if (hasFractions) {
-        if (fractionsCount > 2 || textLength > 15) {
-          return '10vh';
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Math Classroom Practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&family=Fira+Code:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        /* --- NEO-BRUTALIST HIGH-CONTRAST LIGHT THEME --- */
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #1a1a1a;
+            --border-color: #1a1a1a;
+            --button-bg: #f8f9fa;
+            --button-hover: #e9ecef;
+            --orange-warning: #ff8c00;
+            --red-danger: #dc143c;
+            
+            /* Module theme accent colors */
+            --theme-accent: #1a1a1a;
+            --theme-accent-light: #f1f3f5;
         }
-        return '12vh';
-      }
-      // Multi-line equations or questions
-      if (hasLineBreaks) {
-        if (textLength > 30) {
-          return '8vh';
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            user-select: none;
         }
-        return '10vh';
-      }
-      // Standard text equations
-      if (textLength <= 10) {
-        // Very simple, e.g. "324 + 142" or "8 × 9"
-        return '18vh';
-      } else if (textLength <= 18) {
-        // Medium, e.g. "24 ÷ (2 + 4)"
-        return '14vh';
-      } else if (textLength <= 28) {
-        // Longer, e.g. "5x + 3 = 28"
-        return '11vh';
-      } else {
-        // Very long equations
-        return '9vh';
-      }
-    }
-    // --- RENDER ENGINE ---
-    function renderCurrentQuestion() {
-      const currentQuestion = appState.questions[appState.currentIndex];
-      // Set Question Content (using innerHTML to parse fraction divs, superscripts, pre tags)
-      questionText.innerHTML = currentQuestion.questionText;
-      // Apply dynamic font scaling based on content complexity
-      const dynamicSize = getDynamicFontSize(currentQuestion.questionText);
-      questionText.style.fontSize = dynamicSize;
-      // Set Process & Answer Contents
-      processContent.innerHTML = currentQuestion.showProcess || 'No process details available.';
-      answerContent.innerHTML = currentQuestion.showAnswer || 'No answer available.';
-      updateRevealPanels();
-    }
-    // Toggle Answer Panel
-    function toggleAnswer() {
-      appState.answerVisible = !appState.answerVisible;
-      updateRevealPanels();
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        /* --- LAUNCHER SCREEN --- */
+        #launcher-screen {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 4vh 4vw;
+            overflow-y: auto;
+            background-color: #f1f3f5;
+        }
+
+        .launcher-header {
+            text-align: center;
+            margin-bottom: 4vh;
+        }
+
+        .launcher-header h1 {
+            font-size: 7vh;
+            font-weight: 900;
+            letter-spacing: -0.15vh;
+            color: var(--text-color);
+            text-transform: uppercase;
+            margin-bottom: 1.5vh;
+            text-shadow: 4px 4px 0px rgba(0,0,0,0.05);
+        }
+
+        .launcher-header p {
+            font-size: 2.6vh;
+            color: #495057;
+            font-weight: 600;
+        }
+
+        .module-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 3.5vh;
+            width: 100%;
+            max-width: 1400px;
+        }
+
+        .module-card {
+            background: var(--bg-color);
+            border: 4px solid var(--border-color);
+            border-radius: 12px;
+            padding: 4vh 3vw;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+            position: relative;
+            box-shadow: 6px 6px 0px var(--border-color);
+        }
+
+        .module-card:hover {
+            transform: translate(-4px, -4px);
+            box-shadow: 10px 10px 0px var(--border-color);
+        }
+
+        .module-card:active {
+            transform: translate(2px, 2px);
+            box-shadow: 4px 4px 0px var(--border-color);
+        }
+
+        .module-icon {
+            width: 7.5vh;
+            height: 7.5vh;
+            border-radius: 8px;
+            border: 3px solid var(--border-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 3vh;
+            color: #ffffff;
+            font-weight: 900;
+            font-size: 4vh;
+            box-shadow: 3px 3px 0px var(--border-color);
+        }
+
+        .module-card h3 {
+            font-size: 3.2vh;
+            font-weight: 900;
+            margin-bottom: 1.5vh;
+            letter-spacing: -0.05vh;
+        }
+
+        .module-card p {
+            font-size: 2.2vh;
+            color: #495057;
+            line-height: 1.4;
+            font-weight: 600;
+        }
+
+        /* --- QUIZ VIEW SCREEN --- */
+        #quiz-screen {
+            display: none;
+            width: 100vw;
+            height: 100vh;
+            flex-direction: column;
+            overflow: hidden;
+            background-color: var(--bg-color);
+        }
+
+        /* Top Navigation Bar */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 3vh 3vw;
+            height: 15vh;
+            border-bottom: 3px solid var(--border-color);
+        }
+
+        /* Neo-Brutalist Buttons */
+        button {
+            background-color: var(--button-bg);
+            color: var(--text-color);
+            border: 3px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.5vh 2vw;
+            font-size: 2.5vh;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 4px 4px 0px var(--border-color);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.6vw;
+            transition: transform 0.1s, box-shadow 0.1s, background-color 0.1s;
+        }
+
+        button:hover {
+            background-color: var(--button-hover);
+        }
+
+        button:active, button.keyboard-active {
+            transform: translate(2px, 2px);
+            box-shadow: 2px 2px 0px var(--border-color);
+        }
+
+        button:disabled {
+            opacity: 0.25;
+            cursor: not-allowed;
+            transform: none !important;
+            box-shadow: none !important;
+        }
+
+        /* Keyboard Helper Badge inside buttons */
+        .key-cap {
+            background: #e9ecef;
+            border: 2px solid var(--border-color);
+            border-bottom-width: 4px;
+            padding: 0.1vh 0.6vw;
+            border-radius: 4px;
+            font-family: 'Fira Code', monospace;
+            font-size: 1.5vh;
+            font-weight: 700;
+            color: var(--text-color);
+            margin-left: 0.4vw;
+        }
+
+        /* Teaching Mode Indicator (I do, We do, You do) */
+        .mode-indicator {
+            display: flex;
+            gap: 1.5vw;
+            font-size: 3vh;
+            font-weight: 900;
+            padding: 1.5vh 2.5vw;
+            border: 3px solid var(--border-color);
+            border-radius: 8px;
+            background-color: #ffffff;
+            box-shadow: 4px 4px 0px var(--border-color);
+        }
+        
+        .mode-indicator span {
+            opacity: 0.25;
+            cursor: pointer;
+            transition: opacity 0.15s ease;
+        }
+
+        .mode-indicator span:hover {
+            opacity: 0.6;
+        }
+
+        .mode-indicator span.active {
+            opacity: 1;
+            text-decoration: underline;
+            text-underline-offset: 0.6vh;
+            color: var(--theme-accent);
+        }
+
+        /* Timers */
+        .timers {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            font-size: 2.8vh;
+            font-weight: 800;
+            gap: 0.8vh;
+        }
+
+        /* Main Content Area */
+        main {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            padding: 4vh 4vw;
+            background-color: #fafafa;
+        }
+
+        .question-text {
+            font-weight: 900;
+            text-align: center;
+            width: 100%;
+            max-height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 2.5vw;
+            line-height: 1.2;
+        }
+
+        /* --- MATH FRACTION STYLING --- */
+        .fraction {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            vertical-align: middle;
+            line-height: 1.05;
+            margin: 0 1vw;
+        }
+
+        .fraction .top, .fraction .bottom {
+            font-size: 0.9em;
+            padding: 0 0.6vw;
+            text-align: center;
+        }
+
+        .fraction .bottom {
+            border-top: 0.6vh solid var(--text-color);
+            margin-top: 0.3vh;
+        }
+
+        /* --- SHAPE BLOCKS (ASCII GEOMETRY) --- */
+        pre {
+            font-family: 'Fira Code', 'Courier New', Courier, monospace;
+            font-size: 5vh;
+            line-height: 1.25;
+            font-weight: 700;
+            white-space: pre;
+            display: inline-block;
+            text-align: left;
+            background: #ffffff;
+            border: 3px solid var(--border-color);
+            border-radius: 8px;
+            padding: 2.5vh 4vw;
+            margin: 0;
+            box-shadow: 4px 4px 0px var(--border-color);
+        }
+
+        /* Bottom Navigation Bar */
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 3vh 3vw;
+            height: 15vh;
+            border-top: 3px solid var(--border-color);
+        }
+
+        .show-process-btn {
+            font-size: 3vh;
+            padding: 2vh 3.5vw;
+            background-color: #fff3cd; /* Light yellow/amber */
+        }
+        
+        .show-process-btn:hover {
+            background-color: #ffeeba;
+        }
+
+        .show-answer-btn {
+            font-size: 3.2vh;
+            padding: 2vh 4vw;
+            background-color: #d1e7dd; /* Light green for emphasis */
+        }
+
+        .show-answer-btn:hover {
+            background-color: #badbcc;
+        }
+
+        .footer-center {
+            display: flex;
+            align-items: center;
+            gap: 2vw;
+        }
+
+        /* Progress badge in footer */
+        .progress-badge {
+            background: #f1f3f5;
+            border: 3px solid var(--border-color);
+            padding: 1.2vh 2vw;
+            border-radius: 8px;
+            font-size: 2.4vh;
+            font-weight: 800;
+            color: var(--text-color);
+            box-shadow: 3px 3px 0px var(--border-color);
+        }
+
+        /* --- FULL SCREEN OVERLAYS --- */
+        #answer-overlay, #process-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: var(--bg-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            cursor: pointer;
+            padding: 6vh 6vw;
+        }
+
+        /* Process Overlay Styling */
+        #process-overlay {
+            z-index: 999;
+            background-color: #fffaf0; /* Warm cream background */
+        }
+
+        .process-wrapper {
+            border: 4px solid var(--border-color);
+            border-radius: 12px;
+            background-color: #ffffff;
+            padding: 5vh 5vw;
+            max-width: 90vw;
+            max-height: 88vh;
+            overflow-y: auto;
+            box-shadow: 8px 8px 0px var(--border-color);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .process-title {
+            font-size: 4.5vh;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.2vw;
+            color: #b25e00;
+            margin-bottom: 3.5vh;
+            border-bottom: 4px solid #ffaa00;
+            padding-bottom: 1.5vh;
+            width: 100%;
+        }
+
+        .process-body {
+            font-size: 5.5vh;
+            font-weight: 700;
+            line-height: 1.45;
+            color: #2b2b2b;
+        }
+
+        /* Answer Overlay Styling */
+        .answer-text {
+            font-size: 22vh; /* Adjusted dynamically by JS */
+            font-weight: 900;
+            color: #0f5132; /* Dark green */
+            text-align: center;
+            max-width: 90vw;
+            line-height: 1.25;
+            text-shadow: 4px 4px 0px rgba(15, 81, 50, 0.08);
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        /* Timer Colors */
+        .timer-warning { color: var(--orange-warning); }
+        .timer-danger { color: var(--red-danger); }
+    </style>
+</head>
+<body>
+
+    <!-- LAUNCHER SCREEN -->
+    <div id="launcher-screen">
+        <div class="launcher-header">
+            <h1>Math Practice Clinic</h1>
+            <p>High-contrast, anti-glare slides optimized for classroom delivery</p>
+        </div>
+        <div class="module-grid">
+            <div class="module-card" style="--theme-accent: #e65c00;" onclick="selectModule('addition_subtraction')">
+                <div class="module-icon" style="background-color: #e65c00;">±</div>
+                <h3>Addition & Subtraction</h3>
+                <p>Arithmetic fundamentals with multi-digit operations and carryovers.</p>
+            </div>
+            <div class="module-card" style="--theme-accent: #0072ff;" onclick="selectModule('multiplication_division')">
+                <div class="module-icon" style="background-color: #0072ff;">×</div>
+                <h3>Multiplication & Division</h3>
+                <p>Factoring, standard algorithms, and long division breakdowns.</p>
+            </div>
+            <div class="module-card" style="--theme-accent: #2ba84a;" onclick="selectModule('order_of_operations')">
+                <div class="module-icon" style="background-color: #2ba84a;">G</div>
+                <h3>Order of Operations</h3>
+                <p>Solve expressions using the GEMA hierarchy (Grouping, Exponents, Mult/Div, Add/Sub).</p>
+            </div>
+            <div class="module-card" style="--theme-accent: #d4af37;" onclick="selectModule('factors_multiples')">
+                <div class="module-icon" style="background-color: #d4af37;">F</div>
+                <h3>Factors & Multiples</h3>
+                <p>Find LCM, GCF, and prime factors of various number sets.</p>
+            </div>
+            <div class="module-card" style="--theme-accent: #8a2be2;" onclick="selectModule('reducing_fractions')">
+                <div class="module-icon" style="background-color: #8a2be2;">½</div>
+                <h3>Reducing Fractions</h3>
+                <p>Simplify fractions to their lowest terms and convert improper fractions.</p>
+            </div>
+            <div class="module-card" style="--theme-accent: #00a8cc;" onclick="selectModule('fraction_arithmetic')">
+                <div class="module-icon" style="background-color: #00a8cc;">+½</div>
+                <h3>Fraction Arithmetic</h3>
+                <p>Add and subtract fractions with common and uncommon denominators.</p>
+            </div>
+            <div class="module-card" style="--theme-accent: #e03e7c;" onclick="selectModule('fdp_conversions')">
+                <div class="module-icon" style="background-color: #e03e7c;">%</div>
+                <h3>FDP Conversions</h3>
+                <p>Convert between Fractions, Decimals, and Percentages seamlessly.</p>
+            </div>
+            <div class="module-card" style="--theme-accent: #10998e;" onclick="selectModule('basic_algebra')">
+                <div class="module-icon" style="background-color: #10998e;">x</div>
+                <h3>Basic Algebra</h3>
+                <p>Solve single-variable linear equations and evaluate algebraic expressions.</p>
+            </div>
+            <div class="module-card" style="--theme-accent: #ff4a5a;" onclick="selectModule('perimeter_area')">
+                <div class="module-icon" style="background-color: #ff4a5a;">▱</div>
+                <h3>Perimeter & Area</h3>
+                <p>Calculate perimeters and areas of 2D shapes with ASCII diagrams.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- QUIZ SCREEN -->
+    <div id="quiz-screen">
+        <header>
+            <button id="btn-home" onclick="returnHome()">
+                Home <span class="key-cap">Esc</span>
+            </button>
+            
+            <div class="mode-indicator" id="teaching-modes">
+                <span class="active">I Do</span>
+                <span>We Do</span>
+                <span>You Do</span>
+            </div>
+
+            <div class="timers">
+                <div id="slide-timer">Slide: 00:00</div>
+                <div id="total-timer">Total: 00:00</div>
+            </div>
+        </header>
+
+        <main id="main-content" onclick="goToNextSlide()">
+            <div class="question-text" id="question-text">
+                <!-- Question content injected here -->
+            </div>
+        </main>
+
+        <footer>
+            <button id="btn-back" onclick="previousQuestion()">
+                Back <span class="key-cap">←</span>
+            </button>
+            
+            <div class="footer-center">
+                <button id="btn-show-process" class="show-process-btn" onclick="showProcessOverlay()">
+                    Show Process <span class="key-cap">P</span>
+                </button>
+                <span class="progress-badge" id="hud-progress">0 / 0</span>
+                <button id="btn-show-answer" class="show-answer-btn" onclick="showAnswerOverlay()">
+                    Show Answer <span class="key-cap">A</span>
+                </button>
+            </div>
+
+            <button id="btn-next" onclick="nextQuestion()">
+                Next <span class="key-cap">→</span>
+            </button>
+        </footer>
+
+        <!-- Resolution Process Overlay -->
+        <div id="process-overlay" class="hidden" onclick="hideOverlays()">
+            <div class="process-wrapper" onclick="event.stopPropagation()">
+                <div class="process-title">Resolution Process</div>
+                <div class="process-body" id="process-content">
+                    <!-- Process injected here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Full Screen Answer Overlay -->
+        <div id="answer-overlay" class="hidden" onclick="hideOverlays()">
+            <div class="answer-text" id="answer-content">
+                <!-- Answer text injected here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- STATE LOGIC DEVELOPER & ARCHITECT ENGINE -->
+    <script>
+        // --- MODULE CONFIGURATION ---
+        const MODULE_CONFIG = {
+            addition_subtraction: { path: 'addition_subtraction.json', color: '#e65c00' },
+            multiplication_division: { path: 'multiplication_division.json', color: '#0072ff' },
+            order_of_operations: { path: 'order_of_operations.json', color: '#2ba84a' },
+            factors_multiples: { path: 'factors_multiples.json', color: '#d4af37' },
+            reducing_fractions: { path: 'reducing_fractions.json', color: '#8a2be2' },
+            fraction_arithmetic: { path: 'fraction_arithmetic.json', color: '#00a8cc' },
+            fdp_conversions: { path: 'fdp_conversions.json', color: '#e03e7c' },
+            basic_algebra: { path: 'basic_algebra.json', color: '#10998e' },
+            perimeter_area: { path: 'perimeter_area.json', color: '#ff4a5a' }
+        };
+
+        // --- APPLICATION STATE ---
+        let appState = {
+            currentModuleKey: null,
+            questions: [],
+            currentIndex: 0
+        };
+
+        // --- TIMERS STATE ---
+        let totalSeconds = 0;
+        let slideSeconds = 0;
+        let timerInterval = null;
+
+        // --- DOM REFERENCES ---
+        const launcherScreen = document.getElementById('launcher-screen');
+        const quizScreen = document.getElementById('quiz-screen');
+        const questionText = document.getElementById('question-text');
+        const hudProgress = document.getElementById('hud-progress');
+        const slideTimerEl = document.getElementById('slide-timer');
+        const totalTimerEl = document.getElementById('total-timer');
+        
+        // Overlays
+        const answerOverlay = document.getElementById('answer-overlay');
+        const answerContent = document.getElementById('answer-content');
+        const processOverlay = document.getElementById('process-overlay');
+        const processContent = document.getElementById('process-content');
+
+        // Buttons
+        const btnBack = document.getElementById('btn-back');
+        const btnNext = document.getElementById('btn-next');
+        const btnToggleProcess = document.getElementById('btn-show-process');
+        const btnToggleAnswer = document.getElementById('btn-show-answer');
+        const btnHome = document.getElementById('btn-home');
+
+        // --- TIMER LOGIC ---
+        function startTimers() {
+            totalSeconds = 0;
+            slideSeconds = 0;
+            
+            if (timerInterval) clearInterval(timerInterval);
+            
+            timerInterval = setInterval(() => {
+                totalSeconds++;
+                slideSeconds++;
+
+                // Update text
+                slideTimerEl.innerText = `Slide: ${formatTime(slideSeconds)}`;
+                totalTimerEl.innerText = `Total: ${formatTime(totalSeconds)}`;
+
+                // Color changing logic for Total Time
+                if (totalSeconds >= 900) { // 15 minutes
+                    totalTimerEl.className = 'timer-danger';
+                } else if (totalSeconds >= 600) { // 10 minutes
+                    totalTimerEl.className = 'timer-warning';
+                } else {
+                    totalTimerEl.className = '';
+                }
+            }, 1000);
+        }
+
+        function stopTimers() {
+            if (timerInterval) {
+                clearInterval(timerInterval);
+                timerInterval = null;
+            }
+        }
+
+        function formatTime(seconds) {
+            const m = Math.floor(seconds / 60).toString().padStart(2, '0');
+            const s = (seconds % 60).toString().padStart(2, '0');
+            return `${m}:${s}`;
+        }
+
+        // --- MODULE SELECTION & FETCHING ---
+        async function selectModule(moduleKey) {
+            const config = MODULE_CONFIG[moduleKey];
+            if (!config) return;
+
+            try {
+                const response = await fetch(config.path);
+                if (!response.ok) {
+                    throw new Error(`Failed to load data from ${config.path}`);
+                }
+                
+                const data = await response.json();
+                if (!Array.isArray(data) || data.length === 0) {
+                    throw new Error('Data is not a valid non-empty array');
+                }
+
+                // Set state
+                appState.currentModuleKey = moduleKey;
+                appState.questions = data;
+                appState.currentIndex = 0;
+
+                // Set theme color
+                document.documentElement.style.setProperty('--theme-accent', config.color);
+                document.documentElement.style.setProperty('--theme-accent-light', config.color + '15');
+
+                // Transition screens
+                launcherScreen.style.display = 'none';
+                quizScreen.style.display = 'flex';
+
+                // Start Timers
+                startTimers();
+
+                // Set default mode to "I Do"
+                setMode(0);
+
+                // Render first question
+                renderCurrentQuestion();
+
+            } catch (error) {
+                console.error('Error loading module:', error);
+                alert(`Error loading module: ${error.message}. Make sure the JSON files are placed in the same directory as index.html.`);
+            }
+        }
+
+        function returnHome() {
+            appState.currentModuleKey = null;
+            appState.questions = [];
+            appState.currentIndex = 0;
+            
+            stopTimers();
+            hideOverlays();
+
+            quizScreen.style.display = 'none';
+            launcherScreen.style.display = 'flex';
+        }
+
+        // --- DYNAMIC FONT SCALING ENGINE ---
+        function getDynamicFontSize(htmlContent) {
+            if (htmlContent.includes('<pre>')) {
+                return '4.5vh';
+            }
+
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = htmlContent;
+            
+            const hasFractions = tempDiv.querySelector('.fraction') !== null;
+            const fractionsCount = tempDiv.querySelectorAll('.fraction').length;
+            
+            const cleanText = tempDiv.innerText || tempDiv.textContent || "";
+            const textLength = cleanText.trim().length;
+            const hasLineBreaks = htmlContent.includes('<br>') || htmlContent.includes('<p>');
+
+            if (hasFractions) {
+                if (fractionsCount > 2 || textLength > 15) {
+                    return '9.5vh';
+                }
+                return '11.5vh';
+            }
+
+            if (hasLineBreaks) {
+                if (textLength > 30) {
+                    return '8vh';
+                }
+                return '10vh';
+            }
+
+            if (textLength <= 10) {
+                return '15vh'; // Matching the template's question text size!
+            } else if (textLength <= 18) {
+                return '11.5vh';
+            } else if (textLength <= 28) {
+                return '9.5vh';
+            } else {
+                return '7.5vh';
+            }
+        }
+
+        // --- RENDER ENGINE ---
+        function renderCurrentQuestion() {
+            const currentQuestion = appState.questions[appState.currentIndex];
+            if (!currentQuestion) return;
+
+            // Hide overlays on slide change
+            hideOverlays();
+
+            // Update HUD Progress
+            hudProgress.textContent = `${appState.currentIndex + 1} / ${appState.questions.length}`;
+
+            // Set Question Content
+            questionText.innerHTML = currentQuestion.questionText;
+
+            // Apply dynamic font scaling
+            const dynamicSize = getDynamicFontSize(currentQuestion.questionText);
+            questionText.style.fontSize = dynamicSize;
+
+            // Update toolbar buttons state
+            btnBack.disabled = appState.currentIndex === 0;
+            btnNext.disabled = appState.currentIndex === appState.questions.length - 1;
+        }
+
+        // --- OVERLAY TRIGGERS ---
+        function showAnswerOverlay() {
+            const currentQuestion = appState.questions[appState.currentIndex];
+            if (!currentQuestion) return;
+            
+            const answerText = currentQuestion.showAnswer || "";
+            answerContent.innerHTML = answerText;
+            
+            // Dynamic scaling for answer text overlay
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = answerText;
+            const cleanText = tempDiv.innerText || tempDiv.textContent || "";
+            const len = cleanText.length;
+            
+            if (len <= 5) {
+                answerContent.style.fontSize = '22vh';
+            } else if (len <= 15) {
+                answerContent.style.fontSize = '14vh';
+            } else if (len <= 30) {
+                answerContent.style.fontSize = '9vh';
+            } else {
+                answerContent.style.fontSize = '6vh';
+            }
+            
+            answerOverlay.classList.remove('hidden');
+        }
+
+        function showProcessOverlay() {
+            const currentQuestion = appState.questions[appState.currentIndex];
+            if (!currentQuestion) return;
+            
+            processContent.innerHTML = currentQuestion.showProcess || "No process details available.";
+            
+            // Adjust process text size based on length
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = currentQuestion.showProcess || "";
+            const cleanText = tempDiv.innerText || tempDiv.textContent || "";
+            const len = cleanText.length;
+            
+            if (len < 100) {
+                processContent.style.fontSize = '6vh';
+            } else if (len < 200) {
+                processContent.style.fontSize = '4.8vh';
+            } else {
+                processContent.style.fontSize = '3.6vh';
+            }
+            
+            processOverlay.classList.remove('hidden');
+        }
+
+        function hideOverlays() {
+            let closed = false;
+            if (!answerOverlay.classList.contains('hidden')) {
+                answerOverlay.classList.add('hidden');
+                closed = true;
+            }
+            if (!processOverlay.classList.contains('hidden')) {
+                processOverlay.classList.add('hidden');
+                closed = true;
+            }
+            return closed;
+        }
+
+        // --- NAVIGATION CONTROLS ---
+        function nextQuestion() {
+            if (appState.currentIndex < appState.questions.length - 1) {
+                appState.currentIndex++;
+                slideSeconds = 0;
+                slideTimerEl.innerText = `Slide: 00:00`;
+                renderCurrentQuestion();
+            }
+        }
+
+        function previousQuestion() {
+            if (appState.currentIndex > 0) {
+                appState.currentIndex--;
+                slideSeconds = 0;
+                slideTimerEl.innerText = `Slide: 00:00`;
+                renderCurrentQuestion();
+            }
+        }
+
+        // Click anywhere in the main content area goes to the next slide
+        function goToNextSlide() {
+            if (quizScreen.style.display === 'flex') {
+                nextQuestion();
+            }
+        }
+
+        // --- TEACHING MODE CONTROLLER ---
+        const modeSpans = document.querySelectorAll('#teaching-modes span');
+        modeSpans.forEach((span, index) => {
+            span.addEventListener('click', (e) => {
+                e.stopPropagation(); // Prevents advancing the slide when clicking the header
+                setMode(index);
+            });
+        });
+
+        function setMode(index) {
+            modeSpans.forEach((span, i) => {
+                if (i === index) {
+                    span.classList.add('active');
+                } else {
+                    span.classList.remove('active');
+                }
+            });
+        }
+
+        // --- KEYBOARD CLICKER INTEGRATION ---
+        window.addEventListener('keydown', function(e) {
+            // Only capture keyboard events if we are in the Quiz screen
+            if (quizScreen.style.display !== 'flex') return;
+
+            const overlayOpen = !answerOverlay.classList.contains('hidden') || !processOverlay.classList.contains('hidden');
+
+            if (overlayOpen) {
+                // If any overlay is open, pressing these keys will close it
+                if (['Space', 'ArrowRight', 'ArrowLeft', 'Escape', 'KeyP', 'KeyA'].includes(e.code)) {
+                    e.preventDefault();
+                    hideOverlays();
+                }
+                return;
+            }
+
+            switch(e.code) {
+                case 'ArrowRight':
+                case 'Space':
+                    e.preventDefault(); // Prevent page scroll on Space
+                    triggerButtonFeedback(btnNext);
+                    nextQuestion();
+                    break;
+                case 'ArrowLeft':
+                    e.preventDefault();
+                    if (appState.currentIndex > 0) {
+                        triggerButtonFeedback(btnBack);
+                        previousQuestion();
+                    }
+                    break;
+                case 'KeyP':
+                    triggerButtonFeedback(btnToggleProcess);
+                    showProcessOverlay();
+                    break;
+                case 'KeyA':
+                    triggerButtonFeedback(btnToggleAnswer);
+                    showAnswerOverlay();
+                    break;
+                case 'Escape':
+                    triggerButtonFeedback(btnHome);
+                    returnHome();
+                    break;
+                case 'Digit1':
+                    setMode(0);
+                    break;
+                case 'Digit2':
+                    setMode(1);
+                    break;
+                case 'Digit3':
+                    setMode(2);
+                    break;
+            }
+        });
+
+        // Mouse Wheel Navigation with Debounce
+        window.addEventListener('wheel', (e) => {
+            if (quizScreen.style.display !== 'flex') return;
+            
+            if (window.isScrolling) return;
+            window.isScrolling = true;
+            setTimeout(() => { window.isScrolling = false; }, 300); // 300ms cooldown
+
+            // Scroll Down: hide overlays or go to next question
+            if (e.deltaY > 0) {
+                let overlayClosed = hideOverlays();
+                if (!overlayClosed) {
+                    nextQuestion();
+                }
+            }
+            // Scroll Up: hide overlays or go to previous question
+            else if (e.deltaY < 0) {
+                let overlayClosed = hideOverlays();
+                if (!overlayClosed) {
+                    previousQuestion();
+                }
+            }
+        });
+
+        // Provide quick visual feedback when hotkeys are pressed
+        function triggerButtonFeedback(buttonElement) {
+            if (buttonElement && !buttonElement.disabled) {
+                buttonElement.classList.add('keyboard-active');
+                setTimeout(() => {
+                    buttonElement.classList.remove('keyboard-active');
+                }, 120);
+            }
+        }
+    </script>
 </body>
 </html>
