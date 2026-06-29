@@ -136,6 +136,33 @@
             font-weight: 600;
         }
 
+        /* Shuffle/Randomize Button inside card */
+        .card-action-btn {
+            margin-top: 3vh;
+            background-color: var(--button-bg);
+            color: var(--text-color);
+            border: 3px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.2vh 1.8vw;
+            font-size: 2.2vh;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 3px 3px 0px var(--border-color);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5vw;
+            transition: transform 0.1s, box-shadow 0.1s, background-color 0.1s;
+        }
+
+        .card-action-btn:hover {
+            background-color: var(--button-hover);
+        }
+
+        .card-action-btn:active {
+            transform: translate(1px, 1px);
+            box-shadow: 2px 2px 0px var(--border-color);
+        }
+
         /* --- QUIZ VIEW SCREEN --- */
         #quiz-screen {
             display: none;
@@ -440,50 +467,77 @@
             <p>High-contrast, anti-glare slides optimized for classroom delivery</p>
         </div>
         <div class="module-grid">
-            <div class="module-card" style="--theme-accent: #e65c00;" onclick="selectModule('addition_subtraction')">
+            <div class="module-card" style="--theme-accent: #e65c00;" onclick="selectModule('addition_subtraction', false)">
                 <div class="module-icon" style="background-color: #e65c00;">±</div>
                 <h3>Addition & Subtraction</h3>
                 <p>Arithmetic fundamentals with multi-digit operations and carryovers.</p>
+                <button class="card-action-btn" onclick="event.stopPropagation(); selectModule('addition_subtraction', true)">
+                    🔀 Randomize
+                </button>
             </div>
-            <div class="module-card" style="--theme-accent: #0072ff;" onclick="selectModule('multiplication_division')">
+            <div class="module-card" style="--theme-accent: #0072ff;" onclick="selectModule('multiplication_division', false)">
                 <div class="module-icon" style="background-color: #0072ff;">×</div>
                 <h3>Multiplication & Division</h3>
                 <p>Factoring, standard algorithms, and long division breakdowns.</p>
+                <button class="card-action-btn" onclick="event.stopPropagation(); selectModule('multiplication_division', true)">
+                    🔀 Randomize
+                </button>
             </div>
-            <div class="module-card" style="--theme-accent: #2ba84a;" onclick="selectModule('order_of_operations')">
+            <div class="module-card" style="--theme-accent: #2ba84a;" onclick="selectModule('order_of_operations', false)">
                 <div class="module-icon" style="background-color: #2ba84a;">G</div>
                 <h3>Order of Operations</h3>
                 <p>Solve expressions using the GEMA hierarchy (Grouping, Exponents, Mult/Div, Add/Sub).</p>
+                <button class="card-action-btn" onclick="event.stopPropagation(); selectModule('order_of_operations', true)">
+                    🔀 Randomize
+                </button>
             </div>
-            <div class="module-card" style="--theme-accent: #d4af37;" onclick="selectModule('factors_multiples')">
+            <div class="module-card" style="--theme-accent: #d4af37;" onclick="selectModule('factors_multiples', false)">
                 <div class="module-icon" style="background-color: #d4af37;">F</div>
                 <h3>Factors & Multiples</h3>
                 <p>Find LCM, GCF, and prime factors of various number sets.</p>
+                <button class="card-action-btn" onclick="event.stopPropagation(); selectModule('factors_multiples', true)">
+                    🔀 Randomize
+                </button>
             </div>
-            <div class="module-card" style="--theme-accent: #8a2be2;" onclick="selectModule('reducing_fractions')">
+            <div class="module-card" style="--theme-accent: #8a2be2;" onclick="selectModule('reducing_fractions', false)">
                 <div class="module-icon" style="background-color: #8a2be2;">½</div>
                 <h3>Reducing Fractions</h3>
                 <p>Simplify fractions to their lowest terms and convert improper fractions.</p>
+                <button class="card-action-btn" onclick="event.stopPropagation(); selectModule('reducing_fractions', true)">
+                    🔀 Randomize
+                </button>
             </div>
-            <div class="module-card" style="--theme-accent: #00a8cc;" onclick="selectModule('fraction_arithmetic')">
+            <div class="module-card" style="--theme-accent: #00a8cc;" onclick="selectModule('fraction_arithmetic', false)">
                 <div class="module-icon" style="background-color: #00a8cc;">+½</div>
                 <h3>Fraction Arithmetic</h3>
                 <p>Add and subtract fractions with common and uncommon denominators.</p>
+                <button class="card-action-btn" onclick="event.stopPropagation(); selectModule('fraction_arithmetic', true)">
+                    🔀 Randomize
+                </button>
             </div>
-            <div class="module-card" style="--theme-accent: #e03e7c;" onclick="selectModule('fdp_conversions')">
+            <div class="module-card" style="--theme-accent: #e03e7c;" onclick="selectModule('fdp_conversions', false)">
                 <div class="module-icon" style="background-color: #e03e7c;">%</div>
                 <h3>FDP Conversions</h3>
                 <p>Convert between Fractions, Decimals, and Percentages seamlessly.</p>
+                <button class="card-action-btn" onclick="event.stopPropagation(); selectModule('fdp_conversions', true)">
+                    🔀 Randomize
+                </button>
             </div>
-            <div class="module-card" style="--theme-accent: #10998e;" onclick="selectModule('basic_algebra')">
+            <div class="module-card" style="--theme-accent: #10998e;" onclick="selectModule('basic_algebra', false)">
                 <div class="module-icon" style="background-color: #10998e;">x</div>
                 <h3>Basic Algebra</h3>
                 <p>Solve single-variable linear equations and evaluate algebraic expressions.</p>
+                <button class="card-action-btn" onclick="event.stopPropagation(); selectModule('basic_algebra', true)">
+                    🔀 Randomize
+                </button>
             </div>
-            <div class="module-card" style="--theme-accent: #ff4a5a;" onclick="selectModule('perimeter_area')">
+            <div class="module-card" style="--theme-accent: #ff4a5a;" onclick="selectModule('perimeter_area', false)">
                 <div class="module-icon" style="background-color: #ff4a5a;">▱</div>
                 <h3>Perimeter & Area</h3>
                 <p>Calculate perimeters and areas of 2D shapes with ASCII diagrams.</p>
+                <button class="card-action-btn" onclick="event.stopPropagation(); selectModule('perimeter_area', true)">
+                    🔀 Randomize
+                </button>
             </div>
         </div>
     </div>
@@ -638,8 +692,18 @@
             return `${m}:${s}`;
         }
 
+        // --- Fisher-Yates Shuffle Algorithm ---
+        function shuffleArray(array) {
+            const arr = [...array];
+            for (let i = arr.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [arr[i], arr[j]] = [arr[j], arr[i]];
+            }
+            return arr;
+        }
+
         // --- MODULE SELECTION & FETCHING ---
-        async function selectModule(moduleKey) {
+        async function selectModule(moduleKey, randomize = false) {
             const config = MODULE_CONFIG[moduleKey];
             if (!config) return;
 
@@ -649,9 +713,14 @@
                     throw new Error(`Failed to load data from ${config.path}`);
                 }
                 
-                const data = await response.json();
+                let data = await response.json();
                 if (!Array.isArray(data) || data.length === 0) {
                     throw new Error('Data is not a valid non-empty array');
+                }
+
+                // Shuffle array if randomize is requested
+                if (randomize) {
+                    data = shuffleArray(data);
                 }
 
                 // Set state
@@ -831,6 +900,7 @@
             }
         }
 
+        // Previous Question
         function previousQuestion() {
             if (appState.currentIndex > 0) {
                 appState.currentIndex--;
