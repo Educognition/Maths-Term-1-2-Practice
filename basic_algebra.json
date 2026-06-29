@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "questionText": "Simplify: 2x + 3x",
+    "showProcess": "1. Both terms are like terms (x).<br>2. Add the coefficients: 2 + 3 = 5.",
+    "showAnswer": "5x"
+  },
+  {
+    "id": 2,
+    "questionText": "Simplify: 5y + 4y",
+    "showProcess": "1. Both terms are like terms (y).<br>2. Add the coefficients: 5 + 4 = 9.",
+    "showAnswer": "9y"
+  },
+  {
+    "id": 3,
+    "questionText": "Simplify: 7a - 3a",
+    "showProcess": "1. Both terms are like terms (a).<br>2. Subtract the coefficients: 7 - 3 = 4.",
+    "showAnswer": "4a"
+  },
+  {
+    "id": 4,
+    "questionText": "Simplify: 10b - 6b",
+    "showProcess": "1. Both terms are like terms (b).<br>2. Subtract the coefficients: 10 - 6 = 4.",
+    "showAnswer": "4b"
+  },
+  {
+    "id": 5,
+    "questionText": "Simplify: 8m + m",
+    "showProcess": "1. Remember that m is the same as 1m.<br>2. Add the coefficients: 8 + 1 = 9.",
+    "showAnswer": "9m"
+  },
+  {
+    "id": 6,
+    "questionText": "Simplify: 4p + 5p + 2p",
+    "showProcess": "1. All terms are like terms (p).<br>2. Add the coefficients sequentially: 4 + 5 + 2 = 11.",
+    "showAnswer": "11 p"
+  },
+  {
+    "id": 7,
+    "questionText": "Simplify: 9k - 4k + k",
+    "showProcess": "1. k counts as 1k.<br>2. Calculate: 9 - 4 + 1 = 6.",
+    "showAnswer": "6k"
+  },
+  {
+    "id": 8,
+    "questionText": "Simplify: 12w - w - 4w",
+    "showProcess": "1. w counts as 1w.<br>2. Calculate sequentially: 12 - 1 - 4 = 7.",
+    "showAnswer": "7w"
+  },
+  {
+    "id": 9,
+    "questionText": "Simplify: 3c + 7c + 4c",
+    "showProcess": "1. All terms are like terms (c).<br>2. Add the coefficients: 3 + 7 + 4 = 14.",
+    "showAnswer": "14c"
+  },
+  {
+    "id": 10,
+    "questionText": "Simplify: 15h - 9h",
+    "showProcess": "1. Both terms are like terms (h).<br>2. Subtract the coefficients: 15 - 9 = 6.",
+    "showAnswer": "6h"
+  },
+  {
+    "id": 11,
+    "questionText": "Simplify: 6z + 2z + 8z",
+    "showProcess": "1. Combine coefficients together: 6 + 2 + 8 = 16.",
+    "showAnswer": "16z"
+  },
+  {
+    "id": 12,
+    "questionText": "Simplify: 20g - 11g - 3g",
+    "showProcess": "1. Subtract coefficients sequentially: 20 - 11 = 9.<br>2. Next: 9 - 3 = 6.",
+    "showAnswer": "6g"
+  },
+  {
+    "id": 13,
+    "questionText": "Simplify: 4r + 4r + r",
+    "showProcess": "1. Combine: 4r + 4r + 1r.<br>2. Add coefficients: 4 + 4 + 1 = 9.",
+    "showAnswer": "9r"
+  },
+  {
+    "id": 14,
+    "questionText": "Simplify: 18u - 12u + 2u",
+    "showProcess": "1. Calculate: 18 - 12 = 6.<br>2. Next: 6 + 2 = 8.",
+    "showAnswer": "8u"
+  },
+  {
+    "id": 15,
+    "questionText": "Simplify: 7f + 6f - 5f",
+    "showProcess": "1. Calculate: 7 + 6 = 13.<br>2. Next: 13 - 5 = 8.",
+    "showAnswer": "8f"
+  },
+  {
+    "id": 16,
+    "questionText": "Simplify: d + d + d + d",
+    "showProcess": "1. Each variable d has an implicit coefficient of 1.<br>2. 1 + 1 + 1 + 1 = 4.",
+    "showAnswer": "4d"
+  },
+  {
+    "id": 17,
+    "questionText": "Simplify: 11q - q",
+    "showProcess": "1. Subtract 1q from 11q.<br>2. 11 - 1 = 10.",
+    "showAnswer": "10q"
+  },
+  {
+    "id": 18,
+    "questionText": "Simplify: 5t + 8t + 7t",
+    "showProcess": "1. All terms match (t).<br>2. Add coefficients: 5 + 8 + 7 = 20.",
+    "showAnswer": "20t"
+  },
+  {
+    "id": 19,
+    "questionText": "Simplify: 25v - 15v - 5v",
+    "showProcess": "1. Calculate: 25 - 15 = 10.<br>2. Next: 10 - 5 = 5.",
+    "showAnswer": "5v"
+  },
+  {
+    "id": 20,
+    "questionText": "Simplify: 3a + 9a - a",
+    "showProcess": "1. Calculate: 3 + 9 = 12.<br>2. Next: 12 - 1 = 11.",
+    "showAnswer": "11a"
+  },
+  {
+    "id": 21,
+    "questionText": "Simplify: 13x - 4x - 6x",
+    "showProcess": "1. Calculate: 13 - 4 = 9.<br>2. Next: 9 - 6 = 3.",
+    "showAnswer": "3x"
+  },
+  {
+    "id": 22,
+    "questionText": "Simplify: 2y + 8y + y + 3y",
+    "showProcess": "1. Combine coefficients sequentially: 2 + 8 + 1 + 3 = 14.",
+    "showAnswer": "14y"
+  },
+  {
+    "id": 23,
+    "questionText": "Simplify: 30m - 12m - 8m",
+    "showProcess": "1. Calculate: 30 - 12 = 18.<br>2. Next: 18 - 8 = 10.",
+    "showAnswer": "10m"
+  },
+  {
+    "id": 24,
+    "questionText": "Simplify: 6k - k + 4k",
+    "showProcess": "1. Calculate: 6 - 1 = 5.<br>2. Next: 5 + 4 = 9.",
+    "showAnswer": "9k"
+  },
+  {
+    "id": 25,
+    "questionText": "Simplify: 50w - 20w - 10w",
+    "showProcess": "1. Calculate: 50 - 20 = 30.<br>2. Next: 30 - 10 = 20.",
+    "showAnswer": "20w"
+  },
+  {
+    "id": 26,
+    "questionText": "Simplify: 4x + 3y + 2x",
+    "showProcess": "1. Identify like terms: 4x and 2x.<br>2. Combine them: 4x + 2x = 6x.<br>3. Keep the unlike +3y term separate.",
+    "showAnswer": "6x + 3y"
+  },
+  {
+    "id": 27,
+    "questionText": "Simplify: 5a + 7b + 2a + b",
+    "showProcess": "1. Combine a terms: 5a + 2a = 7a.<br>2. Combine b terms: 7b + 1b = 8b.",
+    "showAnswer": "7a + 8b"
+  },
+  {
+    "id": 28,
+    "questionText": "Simplify: 6m + 4 - 2m",
+    "showProcess": "1. Group like terms: (6m - 2m) + 4.<br>2. Combine terms: 4m + 4.",
+    "showAnswer": "4m + 4"
+  },
+  {
+    "id": 29,
+    "questionText": "Simplify: 8h + 9 - 3",
+    "showProcess": "1. Group plain numbers together: 8h + (9 - 3).<br>2. Calculate: 8h + 6.",
+    "showAnswer": "8h + 6"
+  },
+  {
+    "id": 30,
+    "questionText": "Simplify: 3x + 5y + 4x - 2y",
+    "showProcess": "1. Combine x terms: 3x + 4x = 7x.<br>2. Combine y terms: 5y - 2y = 3y.",
+    "showAnswer": "7x + 3y"
+  },
+  {
+    "id": 31,
+    "questionText": "Simplify: 10c + 4d - 3c - d",
+    "showProcess": "1. Combine c terms: 10c - 3c = 7c.<br>2. Combine d terms: 4d - 1d = 3d.",
+    "showAnswer": "7c + 3d"
+  },
+  {
+    "id": 32,
+    "questionText": "Simplify: 5p + 3 + 4p + 7",
+    "showProcess": "1. Combine p terms: 5p + 4p = 9p.<br>2. Combine numbers: 3 + 7 = 10.",
+    "showAnswer": "9p + 10"
+  },
+  {
+    "id": 33,
+    "questionText": "Simplify: 12b - 5 + 2b - 1",
+    "showProcess": "1. Combine b terms: 12b + 2b = 14b.<br>2. Combine constants: -5 - 1 = -6.",
+    "showAnswer": "14b - 6"
+  },
+  {
+    "id": 34,
+    "questionText": "Simplify: 7r + 2s + r - 2s",
+    "showProcess": "1. Combine r terms: 7r + 1r = 8r.<br>2. Combine s terms: 2s - 2s = 0.",
+    "showAnswer": "8r"
+  },
+  {
+    "id": 35,
+    "questionText": "Simplify: 6k + 5h - 4k + 2h",
+    "showProcess": "1. Combine k terms: 6k - 4k = 2k.<br>2. Combine h terms: 5h + 2h = 7h.",
+    "showAnswer": "2k + 7h"
+  },
+  {
+    "id": 36,
+    "questionText": "Simplify: w + 8 + 3w - 5",
+    "showProcess": "1. Combine w terms: 1w + 3w = 4w.<br>2. Combine numbers: 8 - 5 = 3.",
+    "showAnswer": "4w + 3"
+  },
+  {
+    "id": 37,
+    "questionText": "Simplify: 9u + 4v - 8u - 3v",
+    "showProcess": "1. Combine u terms: 9u - 8u = 1u.<br>2. Combine v terms: 4v - 3v = 1v.",
+    "showAnswer": "u + v"
+  },
+  {
+    "id": 38,
+    "questionText": "Simplify: 2x + 7 + 5x - 4 + x",
+    "showProcess": "1. Combine all x terms: 2x + 5x + 1x = 8x.<br>2. Combine numbers: 7 - 4 = 3.",
+    "showAnswer": "8x + 3"
+  },
+  {
+    "id": 39,
+    "questionText": "Simplify: 15m + 6n - 5m - 6n",
+    "showProcess": "1. Combine m terms: 15m - 5m = 10m.<br>2. Combine n terms: 6n - 6n = 0.",
+    "showAnswer": "10m"
+  },
+  {
+    "id": 40,
+    "questionText": "Simplify: 4a + 3b + 2 + 5a",
+    "showProcess": "1. Combine a terms: 4a + 5a = 9a.<br>2. Keep remaining isolated terms: + 3b + 2.",
+    "showAnswer": "9a + 3b + 2"
+  },
+  {
+    "id": 41,
+    "questionText": "Simplify: 8 + 3y - 2 + 4y",
+    "showProcess": "1. Combine y terms: 3y + 4y = 7y.<br>2. Combine numbers: 8 - 2 = 6.",
+    "showAnswer": "7y + 6"
+  },
+  {
+    "id": 42,
+    "questionText": "Simplify: 11g - 4h + 2g + 5h",
+    "showProcess": "1. Combine g terms: 11g + 2g = 13g.<br>2. Combine h terms: -4h + 5h = 1h.",
+    "showAnswer": "13g + h"
+  },
+  {
+    "id": 43,
+    "questionText": "Simplify: 5z + 10 - z - 7",
+    "showProcess": "1. Combine z terms: 5z - 1z = 4z.<br>2. Combine numbers: 10 - 7 = 3.",
+    "showAnswer": "4z + 3"
+  },
+  {
+    "id": 44,
+    "questionText": "Simplify: 3p + 2q + 4p + 5q + p",
+    "showProcess": "1. Combine p terms: 3p + 4p + 1p = 8p.<br>2. Combine q terms: 2q + 5q = 7q.",
+    "showAnswer": "8p + 7q"
+  },
+  {
+    "id": 45,
+    "questionText": "Simplify: 20 - 5b + 4 - 2b",
+    "showProcess": "1. Combine numbers: 20 + 4 = 24.<br>2. Combine b terms: -5b - 2b = -7b.",
+    "showAnswer": "24 - 7b"
+  },
+  {
+    "id": 46,
+    "questionText": "Simplify: 7x + 2y - 6x - 2y + 3",
+    "showProcess": "1. Combine x terms: 7x - 6x = x.<br>2. Combine y terms: 2y - 2y = 0.<br>3. Plain remaining number is 3.",
+    "showAnswer": "x + 3"
+  },
+  {
+    "id": 47,
+    "questionText": "Simplify: 6w + 3v + w - v + 2w",
+    "showProcess": "1. Combine w terms: 6w + 1w + 2w = 9w.<br>2. Combine v terms: 3v - v = 2v.",
+    "showAnswer": "9w + 2v"
+  },
+  {
+    "id": 48,
+    "questionText": "Simplify: 14a + 12 - 4a - 8",
+    "showProcess": "1. Combine a terms: 14a - 4a = 10a.<br>2. Combine numbers: 12 - 8 = 4.",
+    "showAnswer": "10a + 4"
+  },
+  {
+    "id": 49,
+    "questionText": "Simplify: 9k + 9h - k - h + 2",
+    "showProcess": "1. Combine k terms: 9k - 1k = 8k.<br>2. Combine h terms: 9h - 1h = 8h.<br>3. Keep number component: + 2.",
+    "showAnswer": "8k + 8h + 2"
+  },
+  {
+    "id": 50,
+    "questionText": "Simplify: 50m + 25 - 20m - 5",
+    "showProcess": "1. Combine m terms: 50m - 20m = 30m.<br>2. Combine numbers: 25 - 5 = 20.",
+    "showAnswer": "30m + 20"
+  },
+  {
+    "id": 51,
+    "questionText": "Solve for x: x + 4 = 10",
+    "showProcess": "1. Opposite of + 4 is - 4.<br>2. Subtract 4 from both sides:<br>x = 10 - 4",
+    "showAnswer": "x = 6"
+  },
+  {
+    "id": 52,
+    "questionText": "Solve for x: x + 7 = 15",
+    "showProcess": "1. Opposite of + 7 is - 7.<br>2. Subtract 7 from both sides:<br>x = 15 - 7",
+    "showAnswer": "x = 8"
+  },
+  {
+    "id": 53,
+    "questionText": "Solve for y: y + 9 = 20",
+    "showProcess": "1. Subtract 9 from both sides:<br>y = 20 - 9",
+    "showAnswer": "y = 11"
+  },
+  {
+    "id": 54,
+    "questionText": "Solve for a: a + 12 = 18",
+    "showProcess": "1. Subtract 12 from both sides:<br>a = 18 - 12",
+    "showAnswer": "a = 6"
+  },
+  {
+    "id": 55,
+    "questionText": "Solve for b: b - 3 = 8",
+    "showProcess": "1. Opposite of - 3 is + 3.<br>2. Add 3 to both sides:<br>b = 8 + 3",
+    "showAnswer": "b = 11"
+  },
+  {
+    "id": 56,
+    "questionText": "Solve for m: m - 6 = 14",
+    "showProcess": "1. Add 6 to both sides:<br>m = 14 + 6",
+    "showAnswer": "m = 20"
+  },
+  {
+    "id": 57,
+    "questionText": "Solve for p: p - 10 = 5",
+    "showProcess": "1. Add 10 to both sides:<br>p = 5 + 10",
+    "showAnswer": "p = 15"
+  },
+  {
+    "id": 58,
+    "questionText": "Solve for k: k - 8 = 12",
+    "showProcess": "1. Add 8 to both sides:<br>k = 12 + 8",
+    "showAnswer": "k = 20"
+  },
+  {
+    "id": 59,
+    "questionText": "Solve for x: 3x = 15",
+    "showProcess": "1. 3x means 3 multiplied by x.<br>2. Opposite operation is division.<br>3. Divide both sides by 3:<br>x = 15 ÷ 3",
+    "showAnswer": "x = 5"
+  },
+  {
+    "id": 60,
+    "questionText": "Solve for y: 5y = 30",
+    "showProcess": "1. Divide both sides by 5:<br>y = 30 ÷ 5",
+    "showAnswer": "y = 6"
+  },
+  {
+    "id": 61,
+    "questionText": "Solve for a: 4a = 28",
+    "showProcess": "1. Divide both sides by 4:<br>a = 28 ÷ 4",
+    "showAnswer": "a = 7"
+  },
+  {
+    "id": 62,
+    "questionText": "Solve for m: 8m = 40",
+    "showProcess": "1. Divide both sides by 8:<br>m = 40 ÷ 8",
+    "showAnswer": "m = 5"
+  },
+  {
+    "id": 63,
+    "questionText": "Solve for c: 10c = 90",
+    "showProcess": "1. Divide both sides by 10:<br>c = 90 ÷ 10",
+    "showAnswer": "c = 9"
+  },
+  {
+    "id": 64,
+    "questionText": "Solve for x: <div class=\"fraction\"><span class=\"top\">x</span><span class=\"bottom\">2</span></div> = 6",
+    "showProcess": "1. The fraction means x divided by 2.<br>2. Opposite operation is multiplication.<br>3. Multiply both sides by 2:<br>x = 6 × 2",
+    "showAnswer": "x = 12"
+  },
+  {
+    "id": 65,
+    "questionText": "Solve for y: <div class=\"fraction\"><span class=\"top\">y</span><span class=\"bottom\">3</span></div> = 5",
+    "showProcess": "1. Multiply both sides by 3:<br>y = 5 × 3",
+    "showAnswer": "y = 15"
+  },
+  {
+    "id": 66,
+    "questionText": "Solve for b: <div class=\"fraction\"><span class=\"top\">b</span><span class=\"bottom\">4</span></div> = 4",
+    "showProcess": "1. Multiply both sides by 4:<br>b = 4 × 4",
+    "showAnswer": "b = 16"
+  },
+  {
+    "id": 67,
+    "questionText": "Solve for w: <div class=\"fraction\"><span class=\"top\">w</span><span class=\"bottom\">5</span></div> = 10",
+    "showProcess": "1. Multiply both sides by 5:<br>w = 10 × 5",
+    "showAnswer": "w = 50"
+  },
+  {
+    "id": 68,
+    "questionText": "Solve for x: 7 + x = 19",
+    "showProcess": "1. Subtract 7 from both sides:<br>x = 19 - 7",
+    "showAnswer": "x = 12"
+  },
+  {
+    "id": 69,
+    "questionText": "Solve for z: 6z = 42",
+    "showProcess": "1. Divide both sides by 6:<br>z = 42 ÷ 6",
+    "showAnswer": "z = 7"
+  },
+  {
+    "id": 70,
+    "questionText": "Solve for h: h - 15 = 15",
+    "showProcess": "1. Add 15 to both sides:<br>h = 15 + 15",
+    "showAnswer": "h = 30"
+  },
+  {
+    "id": 71,
+    "questionText": "Solve for x: 9x = 81",
+    "showProcess": "1. Divide both sides by 9:<br>x = 81 ÷ 9",
+    "showAnswer": "x = 9"
+  },
+  {
+    "id": 72,
+    "questionText": "Solve for d: <div class=\"fraction\"><span class=\"top\">d</span><span class=\"bottom\">10</span></div> = 7",
+    "showProcess": "1. Multiply both sides by 10:<br>d = 7 × 10",
+    "showAnswer": "d = 70"
+  },
+  {
+    "id": 73,
+    "questionText": "Solve for p: p + 14 = 30",
+    "showProcess": "1. Subtract 14 from both sides:<br>p = 30 - 14",
+    "showAnswer": "p = 16"
+  },
+  {
+    "id": 74,
+    "questionText": "Solve for q: 12q = 36",
+    "showProcess": "1. Divide both sides by 12:<br>q = 36 ÷ 12",
+    "showAnswer": "q = 3"
+  },
+  {
+    "id": 75,
+    "questionText": "Solve for r: r - 25 = 50",
+    "showProcess": "1. Add 25 to both sides:<br>r = 50 + 25",
+    "showAnswer": "r = 75"
+  },
+  {
+    "id": 76,
+    "questionText": "Solve for x: 2x + 3 = 11",
+    "showProcess": "1. First, subtract 3 from both sides:<br>2x = 11 - 3 -> 2x = 8<br>2. Next, divide both sides by 2:<br>x = 8 ÷ 2",
+    "showAnswer": "x = 4"
+  },
+  {
+    "id": 77,
+    "questionText": "Solve for x: 3x + 5 = 17",
+    "showProcess": "1. First, subtract 5 from both sides:<br>3x = 17 - 5 -> 3x = 12<br>2. Next, divide both sides by 3:<br>x = 12 ÷ 3",
+    "showAnswer": "x = 4"
+  },
+  {
+    "id": 78,
+    "questionText": "Solve for y: 4y - 2 = 14",
+    "showProcess": "1. First, add 2 to both sides:<br>4y = 14 + 2 -> 4y = 16<br>2. Next, divide both sides by 4:<br>y = 16 ÷ 4",
+    "showAnswer": "y = 4"
+  },
+  {
+    "id": 79,
+    "questionText": "Solve for a: 5a - 6 = 24",
+    "showProcess": "1. First, add 6 to both sides:<br>5a = 24 + 6 -> 5a = 30<br>2. Next, divide both sides by 5:<br>a = 30 ÷ 5",
+    "showAnswer": "a = 6"
+  },
+  {
+    "id": 80,
+    "questionText": "Solve for m: 2m + 10 = 22",
+    "showProcess": "1. Subtract 10 from both sides:<br>2m = 12<br>2. Divide both sides by 2:<br>m = 12 ÷ 2",
+    "showAnswer": "m = 6"
+  },
+  {
+    "id": 81,
+    "questionText": "Solve for b: 3b - 7 = 20",
+    "showProcess": "1. Add 7 to both sides:<br>3b = 27<br>2. Divide both sides by 3:<br>b = 27 ÷ 3",
+    "showAnswer": "b = 9"
+  },
+  {
+    "id": 82,
+    "questionText": "Solve for p: 6p + 4 = 40",
+    "showProcess": "1. Subtract 4 from both sides:<br>6p = 36<br>2. Divide both sides by 6:<br>p = 36 ÷ 6",
+    "showAnswer": "p = 6"
+  },
+  {
+    "id": 83,
+    "questionText": "Solve for k: 8k - 5 = 59",
+    "showProcess": "1. Add 5 to both sides:<br>8k = 64<br>2. Divide both sides by 8:<br>k = 64 ÷ 8",
+    "showAnswer": "k = 8"
+  },
+  {
+    "id": 84,
+    "questionText": "Solve for w: 10w + 15 = 85",
+    "showProcess": "1. Subtract 15 from both sides:<br>10w = 70<br>2. Divide both sides by 10:<br>w = 70 ÷ 10",
+    "showAnswer": "w = 7"
+  },
+  {
+    "id": 85,
+    "questionText": "Solve for h: 7h - 3 = 32",
+    "showProcess": "1. Add 3 to both sides:<br>7h = 35<br>2. Divide both sides by 7:<br>h = 35 ÷ 7",
+    "showAnswer": "h = 5"
+  },
+  {
+    "id": 86,
+    "questionText": "Solve for x: <div class=\"fraction\"><span class=\"top\">x</span><span class=\"bottom\">2</span></div> + 3 = 8",
+    "showProcess": "1. First, subtract 3 from both sides:<br><div class=\"fraction\"><span class=\"top\">x</span><span class=\"bottom\">2</span></div> = 5<br>2. Next, multiply both sides by 2:<br>x = 5 × 2",
+    "showAnswer": "x = 10"
+  },
+  {
+    "id": 87,
+    "questionText": "Solve for y: <div class=\"fraction\"><span class=\"top\">y</span><span class=\"bottom\">3</span></div> - 4 = 2",
+    "showProcess": "1. First, add 4 to both sides:<br><div class=\"fraction\"><span class=\"top\">y</span><span class=\"bottom\">3</span></div> = 6<br>2. Next, multiply both sides by 3:<br>y = 6 × 3",
+    "showAnswer": "y = 18"
+  },
+  {
+    "id": 88,
+    "questionText": "Solve for c: <div class=\"fraction\"><span class=\"top\">c</span><span class=\"bottom\">5</span></div> + 6 = 10",
+    "showProcess": "1. Subtract 6 from both sides:<br><div class=\"fraction\"><span class=\"top\">c</span><span class=\"bottom\">5</span></div> = 4<br>2. Multiply both sides by 5:<br>c = 4 × 5",
+    "showAnswer": "c = 20"
+  },
+  {
+    "id": 89,
+    "questionText": "Solve for z: 9z - 8 = 73",
+    "showProcess": "1. Add 8 to both sides:<br>9z = 81<br>2. Divide both sides by 9:<br>z = 81 ÷ 9",
+    "showAnswer": "z = 9"
+  },
+  {
+    "id": 90,
+    "questionText": "Solve for x: 12 + 2x = 20",
+    "showProcess": "1. Subtract 12 from both sides:<br>2x = 8<br>2. Divide both sides by 2:<br>x = 8 ÷ 2",
+    "showAnswer": "x = 4"
+  },
+  {
+    "id": 91,
+    "questionText": "Solve for m: 15 + 3m = 45",
+    "showProcess": "1. Subtract 15 from both sides:<br>3m = 30<br>2. Divide both sides by 3:<br>m = 30 ÷ 3",
+    "showAnswer": "m = 10"
+  },
+  {
+    "id": 92,
+    "questionText": "Solve for b: 4b - 12 = 20",
+    "showProcess": "1. Add 12 to both sides:<br>4b = 32<br>2. Divide both sides by 4:<br>b = 32 ÷ 4",
+    "showAnswer": "b = 8"
+  },
+  {
+    "id": 93,
+    "questionText": "Solve for p: 5p + 25 = 50",
+    "showProcess": "1. Subtract 25 from both sides:<br>5p = 25<br>2. Divide both sides by 5:<br>p = 25 ÷ 5",
+    "showAnswer": "p = 5"
+  },
+  {
+    "id": 94,
+    "questionText": "Solve for n: <div class=\"fraction\"><span class=\"top\">n</span><span class=\"bottom\">4</span></div> - 7 = 1",
+    "showProcess": "1. Add 7 to both sides:<br><div class=\"fraction\"><span class=\"top\">n</span><span class=\"bottom\">4</span></div> = 8<br>2. Multiply both sides by 4:<br>n = 8 × 4",
+    "showAnswer": "n = 32"
+  },
+  {
+    "id": 95,
+    "questionText": "Solve for x: 11x + 2 = 24",
+    "showProcess": "1. Subtract 2 from both sides:<br>11x = 22<br>2. Divide both sides by 11:<br>x = 22 ÷ 11",
+    "showAnswer": "x = 2"
+  },
+  {
+    "id": 96,
+    "questionText": "Solve for y: 20y - 30 = 170",
+    "showProcess": "1. Add 30 to both sides:<br>20y = 200<br>2. Divide both sides by 20:<br>y = 200 ÷ 20",
+    "showAnswer": "y = 10"
+  },
+  {
+    "id": 97,
+    "questionText": "Solve for a: 7a + 14 = 70",
+    "showProcess": "1. Subtract 14 from both sides:<br>7a = 56<br>2. Divide both sides by 7:<br>a = 56 ÷ 7",
+    "showAnswer": "a = 8"
+  },
+  {
+    "id": 98,
+    "questionText": "Solve for k: <div class=\"fraction\"><span class=\"top\">k</span><span class=\"bottom\">6</span></div> + 9 = 15",
+    "showProcess": "1. Subtract 9 from both sides:<br><div class=\"fraction\"><span class=\"top\">k</span><span class=\"bottom\">6</span></div> = 6<br>2. Multiply both sides by 6:<br>k = 6 × 6",
+    "showAnswer": "k = 36"
+  },
+  {
+    "id": 99,
+    "questionText": "Solve for w: 6w - 18 = 42",
+    "showProcess": "1. Add 18 to both sides:<br>6w = 60<br>2. Divide both sides by 6:<br>w = 60 ÷ 6",
+    "showAnswer": "w = 10"
+  },
+  {
+    "id": 100,
+    "questionText": "Solve for x: 100x + 50 = 450",
+    "showProcess": "1. Subtract 50 from both sides:<br>100x = 400<br>2. Divide both sides by 100:<br>x = 400 ÷ 100",
+    "showAnswer": "x = 4"
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "questionText": "Find all the factors of 6",
+    "showProcess": "1. Find whole numbers that multiply to 6:<br>1 × 6 = 6<br>2 × 3 = 6<br>2. List them in order.",
+    "showAnswer": "1, 2, 3, 6"
+  },
+  {
+    "id": 2,
+    "questionText": "Find all the factors of 8",
+    "showProcess": "1. Find whole numbers that multiply to 8:<br>1 × 8 = 8<br>2 × 4 = 8<br>2. List them in order.",
+    "showAnswer": "1, 2, 4, 8"
+  },
+  {
+    "id": 3,
+    "questionText": "Find all the factors of 9",
+    "showProcess": "1. Find whole numbers that multiply to 9:<br>1 × 9 = 9<br>3 × 3 = 9<br>2. List them in order.",
+    "showAnswer": "1, 3, 9"
+  },
+  {
+    "id": 4,
+    "questionText": "Find all the factors of 10",
+    "showProcess": "1. Find whole numbers that multiply to 10:<br>1 × 10 = 10<br>2 × 5 = 10<br>2. List them in order.",
+    "showAnswer": "1, 2, 5, 10"
+  },
+  {
+    "id": 5,
+    "questionText": "Find all the factors of 12",
+    "showProcess": "1. Find whole numbers that multiply to 12:<br>1 × 12 = 12<br>2 × 6 = 12<br>3 × 4 = 12<br>2. List them in order.",
+    "showAnswer": "1, 2, 3, 4, 6, 12"
+  },
+  {
+    "id": 6,
+    "questionText": "Find all the factors of 15",
+    "showProcess": "1. Find whole numbers that multiply to 15:<br>1 × 15 = 15<br>3 × 5 = 15<br>2. List them in order.",
+    "showAnswer": "1, 3, 5, 15"
+  },
+  {
+    "id": 7,
+    "questionText": "Find all the factors of 16",
+    "showProcess": "1. Find whole numbers that multiply to 16:<br>1 × 16 = 16<br>2 × 8 = 16<br>4 × 4 = 16<br>2. List them in order.",
+    "showAnswer": "1, 2, 4, 8, 16"
+  },
+  {
+    "id": 8,
+    "questionText": "Find all the factors of 18",
+    "showProcess": "1. Find whole numbers that multiply to 18:<br>1 × 18 = 18<br>2 × 9 = 18<br>3 × 6 = 18<br>2. List them in order.",
+    "showAnswer": "1, 2, 3, 6, 9, 18"
+  },
+  {
+    "id": 9,
+    "questionText": "Find all the factors of 20",
+    "showProcess": "1. Find whole numbers that multiply to 20:<br>1 × 20 = 20<br>2 × 10 = 20<br>4 × 5 = 20<br>2. List them in order.",
+    "showAnswer": "1, 2, 4, 5, 10, 20"
+  },
+  {
+    "id": 10,
+    "questionText": "Find all the factors of 21",
+    "showProcess": "1. Find whole numbers that multiply to 21:<br>1 × 21 = 21<br>3 × 7 = 21<br>2. List them in order.",
+    "showAnswer": "1, 3, 7, 21"
+  },
+  {
+    "id": 11,
+    "questionText": "Find all the factors of 24",
+    "showProcess": "1. Find whole numbers that multiply to 24:<br>1 × 24 = 24<br>2 × 12 = 24<br>3 × 8 = 24<br>4 × 6 = 24<br>2. List them in order.",
+    "showAnswer": "1, 2, 3, 4, 6, 8, 12, 24"
+  },
+  {
+    "id": 12,
+    "questionText": "Find all the factors of 25",
+    "showProcess": "1. Find whole numbers that multiply to 25:<br>1 × 25 = 25<br>5 × 5 = 25<br>2. List them in order.",
+    "showAnswer": "1, 5, 25"
+  },
+  {
+    "id": 13,
+    "questionText": "Find all the factors of 27",
+    "showProcess": "1. Find whole numbers that multiply to 27:<br>1 × 27 = 27<br>3 × 9 = 27<br>2. List them in order.",
+    "showAnswer": "1, 3, 9, 27"
+  },
+  {
+    "id": 14,
+    "questionText": "Find all the factors of 28",
+    "showProcess": "1. Find whole numbers that multiply to 28:<br>1 × 28 = 28<br>2 × 14 = 28<br>4 × 7 = 28<br>2. List them in order.",
+    "showAnswer": "1, 2, 4, 7, 14, 28"
+  },
+  {
+    "id": 15,
+    "questionText": "Find all the factors of 30",
+    "showProcess": "1. Find whole numbers that multiply to 30:<br>1 × 30 = 30<br>2 × 15 = 30<br>3 × 10 = 30<br>5 × 6 = 30<br>2. List them in order.",
+    "showAnswer": "1, 2, 3, 5, 6, 10, 15, 30"
+  },
+  {
+    "id": 16,
+    "questionText": "Find all the factors of 32",
+    "showProcess": "1. Find whole numbers that multiply to 32:<br>1 × 32 = 32<br>2 × 16 = 32<br>4 × 8 = 32<br>2. List them in order.",
+    "showAnswer": "1, 2, 4, 8, 16, 32"
+  },
+  {
+    "id": 17,
+    "questionText": "Find all the factors of 35",
+    "showProcess": "1. Find whole numbers that multiply to 35:<br>1 × 35 = 35<br>5 × 7 = 35<br>2. List them in order.",
+    "showAnswer": "1, 5, 7, 35"
+  },
+  {
+    "id": 18,
+    "questionText": "Find all the factors of 36",
+    "showProcess": "1. Find whole numbers that multiply to 36:<br>1 × 36 = 36<br>2 × 18 = 36<br>3 × 12 = 36<br>4 × 9 = 36<br>6 × 6 = 36<br>2. List them in order.",
+    "showAnswer": "1, 2, 3, 4, 6, 9, 12, 18, 36"
+  },
+  {
+    "id": 19,
+    "questionText": "Find all the factors of 40",
+    "showProcess": "1. Find whole numbers that multiply to 40:<br>1 × 40 = 40<br>2 × 20 = 40<br>4 × 10 = 40<br>5 × 8 = 40<br>2. List them in order.",
+    "showAnswer": "1, 2, 4, 5, 8, 10, 20, 40"
+  },
+  {
+    "id": 20,
+    "questionText": "Find all the factors of 42",
+    "showProcess": "1. Find whole numbers that multiply to 42:<br>1 × 42 = 42<br>2 × 21 = 42<br>3 × 14 = 42<br>6 × 7 = 42<br>2. List them in order.",
+    "showAnswer": "1, 2, 3, 6, 7, 14, 21, 42"
+  },
+  {
+    "id": 21,
+    "questionText": "Find all the factors of 45",
+    "showProcess": "1. Find whole numbers that multiply to 45:<br>1 × 45 = 45<br>3 × 15 = 45<br>5 × 9 = 45<br>2. List them in order.",
+    "showAnswer": "1, 3, 5, 9, 15, 45"
+  },
+  {
+    "id": 22,
+    "questionText": "Find all the factors of 48",
+    "showProcess": "1. Find whole numbers that multiply to 48:<br>1 × 48 = 48<br>2 × 24 = 48<br>3 × 16 = 48<br>4 × 12 = 48<br>6 × 8 = 48<br>2. List them in order.",
+    "showAnswer": "1, 2, 3, 4, 6, 8, 12, 16, 24, 48"
+  },
+  {
+    "id": 23,
+    "questionText": "Find all the factors of 50",
+    "showProcess": "1. Find whole numbers that multiply to 50:<br>1 × 50 = 50<br>2 × 25 = 50<br>5 × 10 = 50<br>2. List them in order.",
+    "showAnswer": "1, 2, 5, 10, 25, 50"
+  },
+  {
+    "id": 24,
+    "questionText": "Find all the factors of 60",
+    "showProcess": "1. Find whole numbers that multiply to 60:<br>1 × 60 = 60<br>2 × 30 = 60<br>3 × 20 = 60<br>4 × 15 = 60<br>5 × 12 = 60<br>6 × 10 = 60<br>2. List them in order.",
+    "showAnswer": "1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60"
+  },
+  {
+    "id": 25,
+    "questionText": "Find all the factors of 100",
+    "showProcess": "1. Find whole numbers that multiply to 100:<br>1 × 100 = 100<br>2 × 50 = 100<br>4 × 25 = 100<br>5 × 20 = 100<br>10 × 10 = 100<br>2. List them in order.",
+    "showAnswer": "1, 2, 4, 5, 10, 20, 25, 50, 100"
+  },
+  {
+    "id": 26,
+    "questionText": "What are the first 5 multiples of 2?",
+    "showProcess": "Multiply 2 by 1, 2, 3, 4, and 5:<br>2 × 1 = 2<br>2 × 2 = 4<br>2 × 3 = 6<br>2 × 4 = 8<br>2 × 5 = 10",
+    "showAnswer": "2, 4, 6, 8, 10"
+  },
+  {
+    "id": 27,
+    "questionText": "What are the first 5 multiples of 3?",
+    "showProcess": "Multiply 3 by 1, 2, 3, 4, and 5:<br>3 × 1 = 3<br>3 × 2 = 6<br>3 × 3 = 9<br>3 × 4 = 12<br>3 × 5 = 15",
+    "showAnswer": "3, 6, 9, 12, 15"
+  },
+  {
+    "id": 28,
+    "questionText": "What are the first 5 multiples of 4?",
+    "showProcess": "Multiply 4 by 1, 2, 3, 4, and 5:<br>4 × 1 = 4<br>4 × 2 = 8<br>4 × 3 = 12<br>4 × 4 = 16<br>4 × 5 = 20",
+    "showAnswer": "4, 8, 12, 16, 20"
+  },
+  {
+    "id": 29,
+    "questionText": "What are the first 5 multiples of 5?",
+    "showProcess": "Multiply 5 by 1, 2, 3, 4, and 5:<br>5 × 1 = 5<br>5 × 2 = 10<br>5 × 3 = 15<br>5 × 4 = 20<br>5 × 5 = 25",
+    "showAnswer": "5, 10, 15, 20, 25"
+  },
+  {
+    "id": 30,
+    "questionText": "What are the first 5 multiples of 6?",
+    "showProcess": "Multiply 6 by 1, 2, 3, 4, and 5:<br>6 × 1 = 6<br>6 × 2 = 12<br>6 × 3 = 18<br>6 × 4 = 24<br>6 × 5 = 30",
+    "showAnswer": "6, 12, 18, 24, 30"
+  },
+  {
+    "id": 31,
+    "questionText": "What are the first 5 multiples of 7?",
+    "showProcess": "Multiply 7 by 1, 2, 3, 4, and 5:<br>7 × 1 = 7<br>7 × 2 = 14<br>7 × 3 = 21<br>7 × 4 = 28<br>7 × 5 = 35",
+    "showAnswer": "7, 14, 21, 28, 35"
+  },
+  {
+    "id": 32,
+    "questionText": "What are the first 5 multiples of 8?",
+    "showProcess": "Multiply 8 by 1, 2, 3, 4, and 5:<br>8 × 1 = 8<br>8 × 2 = 16<br>8 × 3 = 24<br>8 × 4 = 32<br>8 × 5 = 40",
+    "showAnswer": "8, 16, 24, 32, 40"
+  },
+  {
+    "id": 33,
+    "questionText": "What are the first 5 multiples of 9?",
+    "showProcess": "Multiply 9 by 1, 2, 3, 4, and 5:<br>9 × 1 = 9<br>9 × 2 = 18<br>9 × 3 = 27<br>9 × 4 = 36<br>9 × 5 = 45",
+    "showAnswer": "9, 18, 27, 36, 45"
+  },
+  {
+    "id": 34,
+    "questionText": "What are the first 5 multiples of 10?",
+    "showProcess": "Multiply 10 by 1, 2, 3, 4, and 5:<br>10 × 1 = 10<br>10 × 2 = 20<br>10 × 3 = 30<br>10 × 4 = 40<br>10 × 5 = 50",
+    "showAnswer": "10, 20, 30, 40, 50"
+  },
+  {
+    "id": 35,
+    "questionText": "What are the first 5 multiples of 11?",
+    "showProcess": "Multiply 11 by 1, 2, 3, 4, and 5:<br>11 × 1 = 11<br>11 × 2 = 22<br>11 × 3 = 33<br>11 × 4 = 44<br>11 × 5 = 55",
+    "showAnswer": "11, 22, 33, 44, 55"
+  },
+  {
+    "id": 36,
+    "questionText": "What are the first 5 multiples of 12?",
+    "showProcess": "Multiply 12 by 1, 2, 3, 4, and 5:<br>12 × 1 = 12<br>12 × 2 = 24<br>12 × 3 = 36<br>12 × 4 = 48<br>12 × 5 = 60",
+    "showAnswer": "12, 24, 36, 48, 60"
+  },
+  {
+    "id": 37,
+    "questionText": "What are the first 5 multiples of 15?",
+    "showProcess": "Multiply 15 by 1, 2, 3, 4, and 5:<br>15 × 1 = 15<br>15 × 2 = 30<br>15 × 3 = 45<br>15 × 4 = 60<br>15 × 5 = 75",
+    "showAnswer": "15, 30, 45, 60, 75"
+  },
+  {
+    "id": 38,
+    "questionText": "What are the first 4 multiples of 20?",
+    "showProcess": "Multiply 20 by 1, 2, 3, and 4:<br>20 × 1 = 20<br>20 × 2 = 40<br>20 × 3 = 60<br>20 × 4 = 80",
+    "showAnswer": "20, 40, 60, 80"
+  },
+  {
+    "id": 39,
+    "questionText": "What are the first 4 multiples of 25?",
+    "showProcess": "Multiply 25 by 1, 2, 3, and 4:<br>25 × 1 = 25<br>25 × 2 = 50<br>25 × 3 = 75<br>25 × 4 = 100",
+    "showAnswer": "25, 50, 75, 100"
+  },
+  {
+    "id": 40,
+    "questionText": "What are the first 4 multiples of 50?",
+    "showProcess": "Multiply 50 by 1, 2, 3, and 4:<br>50 × 1 = 50<br>50 × 2 = 100<br>50 × 3 = 150<br>50 × 4 = 200",
+    "showAnswer": "50, 100, 150, 200"
+  },
+  {
+    "id": 41,
+    "questionText": "List the multiples of 8 that are less than 30",
+    "showProcess": "Find multiples of 8 up until 30:<br>8 × 1 = 8<br>8 × 2 = 16<br>8 × 3 = 24<br>8 × 4 = 32 (Too high!)",
+    "showAnswer": "8, 16, 24"
+  },
+  {
+    "id": 42,
+    "questionText": "List the multiples of 9 that are less than 40",
+    "showProcess": "Find multiples of 9 up until 40:<br>9 × 1 = 9<br>9 × 2 = 18<br>9 × 3 = 27<br>9 × 4 = 36<br>9 × 5 = 45 (Too high!)",
+    "showAnswer": "9, 18, 27, 36"
+  },
+  {
+    "id": 43,
+    "questionText": "List the multiples of 12 that are less than 50",
+    "showProcess": "Find multiples of 12 up until 50:<br>12 × 1 = 12<br>12 × 2 = 24<br>12 × 3 = 36<br>12 × 4 = 48<br>12 × 5 = 60 (Too high!)",
+    "showAnswer": "12, 24, 36, 48"
+  },
+  {
+    "id": 44,
+    "questionText": "List the multiples of 15 that are less than 70",
+    "showProcess": "Find multiples of 15 up until 70:<br>15 × 1 = 15<br>15 × 2 = 30<br>15 × 3 = 45<br>15 × 4 = 60<br>15 × 5 = 75 (Too high!)",
+    "showAnswer": "15, 30, 45, 60"
+  },
+  {
+    "id": 45,
+    "questionText": "List the multiples of 20 that are less than 90",
+    "showProcess": "Find multiples of 20 up until 90:<br>20 × 1 = 20<br>20 × 2 = 40<br>20 × 3 = 60<br>20 × 4 = 80<br>20 × 5 = 100 (Too high!)",
+    "showAnswer": "20, 40, 60, 80"
+  },
+  {
+    "id": 46,
+    "questionText": "List the multiples of 7 between 10 and 30",
+    "showProcess": "Find multiples of 7 that fall inside 10 to 30:<br>7 × 1 = 7 (Too low)<br>7 × 2 = 14<br>7 × 3 = 21<br>7 × 4 = 28<br>7 × 5 = 35 (Too high)",
+    "showAnswer": "14, 21, 28"
+  },
+  {
+    "id": 47,
+    "questionText": "List the multiples of 6 between 20 and 40",
+    "showProcess": "Find multiples of 6 that fall inside 20 to 40:<br>6 × 3 = 18 (Too low)<br>6 × 4 = 24<br>6 × 5 = 30<br>6 × 6 = 36<br>6 × 7 = 42 (Too high)",
+    "showAnswer": "24, 30, 36"
+  },
+  {
+    "id": 48,
+    "questionText": "List the multiples of 8 between 30 and 60",
+    "showProcess": "Find multiples of 8 that fall inside 30 to 60:<br>8 × 3 = 24 (Too low)<br>8 × 4 = 32<br>8 × 5 = 40<br>8 × 6 = 48<br>8 × 7 = 56<br>8 × 8 = 64 (Too high)",
+    "showAnswer": "32, 40, 48, 56"
+  },
+  {
+    "id": 49,
+    "questionText": "List the multiples of 11 between 40 and 80",
+    "showProcess": "Find multiples of 11 that fall inside 40 to 80:<br>11 × 3 = 33 (Too low)<br>11 × 4 = 44<br>11 × 5 = 55<br>11 × 6 = 66<br>11 × 7 = 77<br>11 × 8 = 88 (Too high)",
+    "showAnswer": "44, 55, 66, 77"
+  },
+  {
+    "id": 50,
+    "questionText": "List the multiples of 13 between 10 and 40",
+    "showProcess": "Find multiples of 13 that fall inside 10 to 40:<br>13 × 1 = 13<br>13 × 2 = 26<br>13 × 3 = 39<br>13 × 4 = 52 (Too high)",
+    "showAnswer": "13, 26, 39"
+  },
+  {
+    "id": 51,
+    "questionText": "Find the Greatest Common Factor (GCF) of 6 and 9",
+    "showProcess": "1. Factors of 6: 1, 2, 3, 6<br>2. Factors of 9: 1, 3, 9<br>3. Find the biggest matching factor.",
+    "showAnswer": "3"
+  },
+  {
+    "id": 52,
+    "questionText": "Find the Greatest Common Factor (GCF) of 8 and 12",
+    "showProcess": "1. Factors of 8: 1, 2, 4, 8<br>2. Factors of 12: 1, 2, 3, 4, 6, 12<br>3. Find the biggest matching factor.",
+    "showAnswer": "4"
+  },
+  {
+    "id": 53,
+    "questionText": "Find the Greatest Common Factor (GCF) of 10 and 15",
+    "showProcess": "1. Factors of 10: 1, 2, 5, 10<br>2. Factors of 15: 1, 3, 5, 15<br>3. Find the biggest matching factor.",
+    "showAnswer": "5"
+  },
+  {
+    "id": 54,
+    "questionText": "Find the Greatest Common Factor (GCF) of 12 and 16",
+    "showProcess": "1. Factors of 12: 1, 2, 3, 4, 6, 12<br>2. Factors of 16: 1, 2, 4, 8, 16<br>3. Find the biggest matching factor.",
+    "showAnswer": "4"
+  },
+  {
+    "id": 55,
+    "questionText": "Find the Greatest Common Factor (GCF) of 14 and 21",
+    "showProcess": "1. Factors of 14: 1, 2, 7, 14<br>2. Factors of 21: 1, 3, 7, 21<br>3. Find the biggest matching factor.",
+    "showAnswer": "7"
+  },
+  {
+    "id": 56,
+    "questionText": "Find the Greatest Common Factor (GCF) of 15 and 20",
+    "showProcess": "1. Factors of 15: 1, 3, 5, 15<br>2. Factors of 20: 1, 2, 4, 5, 10, 20<br>3. Find the biggest matching factor.",
+    "showAnswer": "5"
+  },
+  {
+    "id": 57,
+    "questionText": "Find the Greatest Common Factor (GCF) of 18 and 24",
+    "showProcess": "1. Factors of 18: 1, 2, 3, 6, 9, 18<br>2. Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24<br>3. Find the biggest matching factor.",
+    "showAnswer": "6"
+  },
+  {
+    "id": 58,
+    "questionText": "Find the Greatest Common Factor (GCF) of 20 and 30",
+    "showProcess": "1. Factors of 20: 1, 2, 4, 5, 10, 20<br>2. Factors of 30: 1, 2, 3, 5, 6, 10, 15, 30<br>3. Find the biggest matching factor.",
+    "showAnswer": "10"
+  },
+  {
+    "id": 59,
+    "questionText": "Find the Greatest Common Factor (GCF) of 16 and 24",
+    "showProcess": "1. Factors of 16: 1, 2, 4, 8, 16<br>2. Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24<br>3. Find the biggest matching factor.",
+    "showAnswer": "8"
+  },
+  {
+    "id": 60,
+    "questionText": "Find the Greatest Common Factor (GCF) of 21 and 28",
+    "showProcess": "1. Factors of 21: 1, 3, 7, 21<br>2. Factors of 28: 1, 2, 4, 7, 14, 28<br>3. Find the biggest matching factor.",
+    "showAnswer": "7"
+  },
+  {
+    "id": 61,
+    "questionText": "Find the Greatest Common Factor (GCF) of 24 and 36",
+    "showProcess": "1. Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24<br>2. Factors of 36: 1, 2, 3, 4, 6, 9, 12, 18, 36<br>3. Find the biggest matching factor.",
+    "showAnswer": "12"
+  },
+  {
+    "id": 62,
+    "questionText": "Find the Greatest Common Factor (GCF) of 25 and 50",
+    "showProcess": "1. Factors of 25: 1, 5, 25<br>2. Factors of 50: 1, 2, 5, 10, 25, 50<br>3. Find the biggest matching factor.",
+    "showAnswer": "25"
+  },
+  {
+    "id": 63,
+    "questionText": "Find the Greatest Common Factor (GCF) of 27 and 36",
+    "showProcess": "1. Factors of 27: 1, 3, 9, 27<br>2. Factors of 36: 1, 2, 3, 4, 6, 9, 12, 18, 36<br>3. Find the biggest matching factor.",
+    "showAnswer": "9"
+  },
+  {
+    "id": 64,
+    "questionText": "Find the Greatest Common Factor (GCF) of 30 and 45",
+    "showProcess": "1. Factors of 30: 1, 2, 3, 5, 6, 10, 15, 30<br>2. Factors of 45: 1, 3, 5, 9, 15, 45<br>3. Find the biggest matching factor.",
+    "showAnswer": "15"
+  },
+  {
+    "id": 65,
+    "questionText": "Find the Greatest Common Factor (GCF) of 32 and 48",
+    "showProcess": "1. Factors of 32: 1, 2, 4, 8, 16, 32<br>2. Factors of 48: 1, 2, 3, 4, 6, 8, 12, 16, 24, 48<br>3. Find the biggest matching factor.",
+    "showAnswer": "16"
+  },
+  {
+    "id": 66,
+    "questionText": "Find the Greatest Common Factor (GCF) of 40 and 60",
+    "showProcess": "1. Factors of 40: 1, 2, 4, 5, 8, 10, 20, 40<br>2. Factors of 60: 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60<br>3. Find the biggest matching factor.",
+    "showAnswer": "20"
+  },
+  {
+    "id": 67,
+    "questionText": "Find the Greatest Common Factor (GCF) of 42 and 56",
+    "showProcess": "1. Factors of 42: 1, 2, 3, 6, 7, 14, 21, 42<br>2. Factors of 56: 1, 2, 4, 7, 8, 14, 28, 56<br>3. Find the biggest matching factor.",
+    "showAnswer": "14"
+  },
+  {
+    "id": 68,
+    "questionText": "Find the Greatest Common Factor (GCF) of 35 and 49",
+    "showProcess": "1. Factors of 35: 1, 5, 7, 35<br>2. Factors of 49: 1, 7, 49<br>3. Find the biggest matching factor.",
+    "showAnswer": "7"
+  },
+  {
+    "id": 69,
+    "questionText": "Find the Greatest Common Factor (GCF) of 45 and 60",
+    "showProcess": "1. Factors of 45: 1, 3, 5, 9, 15, 45<br>2. Factors of 60: 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60<br>3. Find the biggest matching factor.",
+    "showAnswer": "15"
+  },
+  {
+    "id": 70,
+    "questionText": "Find the Greatest Common Factor (GCF) of 50 and 100",
+    "showProcess": "1. Factors of 50: 1, 2, 5, 10, 25, 50<br>2. Factors of 100: 1, 2, 4, 5, 10, 20, 25, 50, 100<br>3. Find the biggest matching factor.",
+    "showAnswer": "50"
+  },
+  {
+    "id": 71,
+    "questionText": "Find the Greatest Common Factor (GCF) of 12 and 36",
+    "showProcess": "1. Factors of 12: 1, 2, 3, 4, 6, 12<br>2. Factors of 36: 1, 2, 3, 4, 6, 9, 12, 18, 36<br>3. Find the biggest matching factor.",
+    "showAnswer": "12"
+  },
+  {
+    "id": 72,
+    "questionText": "Find the Greatest Common Factor (GCF) of 16 and 40",
+    "showProcess": "1. Factors of 16: 1, 2, 4, 8, 16<br>2. Factors of 40: 1, 2, 4, 5, 8, 10, 20, 40<br>3. Find the biggest matching factor.",
+    "showAnswer": "8"
+  },
+  {
+    "id": 73,
+    "questionText": "Find the Greatest Common Factor (GCF) of 24 and 60",
+    "showProcess": "1. Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24<br>2. Factors of 60: 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60<br>3. Find the biggest matching factor.",
+    "showAnswer": "12"
+  },
+  {
+    "id": 74,
+    "questionText": "Find the Greatest Common Factor (GCF) of 18 and 45",
+    "showProcess": "1. Factors of 18: 1, 2, 3, 6, 9, 18<br>2. Factors of 45: 1, 3, 5, 9, 15, 45<br>3. Find the biggest matching factor.",
+    "showAnswer": "9"
+  },
+  {
+    "id": 75,
+    "questionText": "Find the Greatest Common Factor (GCF) of 48 and 72",
+    "showProcess": "1. Factors of 48: 1, 2, 3, 4, 6, 8, 12, 16, 24, 48<br>2. Factors of 72: 1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 36, 72<br>3. Find the biggest matching factor.",
+    "showAnswer": "24"
+  },
+  {
+    "id": 76,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 2 and 3",
+    "showProcess": "1. Multiples of 2: 2, 4, 6, 8<br>2. Multiples of 3: 3, 6, 9<br>3. Find the smallest matching number.",
+    "showAnswer": "6"
+  },
+  {
+    "id": 77,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 3 and 4",
+    "showProcess": "1. Multiples of 3: 3, 6, 9, 12, 15<br>2. Multiples of 4: 4, 8, 12, 16<br>3. Find the smallest matching number.",
+    "showAnswer": "12"
+  },
+  {
+    "id": 78,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 4 and 5",
+    "showProcess": "1. Multiples of 4: 4, 8, 12, 16, 20, 24<br>2. Multiples of 5: 5, 10, 15, 20, 25<br>3. Find the smallest matching number.",
+    "showAnswer": "20"
+  },
+  {
+    "id": 79,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 4 and 6",
+    "showProcess": "1. Multiples of 4: 4, 8, 12, 16, 20<br>2. Multiples of 6: 6, 12, 18, 24<br>3. Find the smallest matching number.",
+    "showAnswer": "12"
+  },
+  {
+    "id": 80,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 5 and 6",
+    "showProcess": "1. Multiples of 5: 5, 10, 15, 20, 25, 30, 35<br>2. Multiples of 6: 6, 12, 18, 24, 30, 36<br>3. Find the smallest matching number.",
+    "showAnswer": "30"
+  },
+  {
+    "id": 81,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 6 and 8",
+    "showProcess": "1. Multiples of 6: 6, 12, 18, 24, 30<br>2. Multiples of 8: 8, 16, 24, 32<br>3. Find the smallest matching number.",
+    "showAnswer": "24"
+  },
+  {
+    "id": 82,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 6 and 9",
+    "showProcess": "1. Multiples of 6: 6, 12, 18, 24<br>2. Multiples of 9: 9, 18, 27<br>3. Find the smallest matching number.",
+    "showAnswer": "18"
+  },
+  {
+    "id": 83,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 8 and 10",
+    "showProcess": "1. Multiples of 8: 8, 16, 24, 32, 40, 48<br>2. Multiples of 10: 10, 20, 30, 40, 50<br>3. Find the smallest matching number.",
+    "showAnswer": "40"
+  },
+  {
+    "id": 84,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 8 and 12",
+    "showProcess": "1. Multiples of 8: 8, 16, 24, 32, 40<br>2. Multiples of 12: 12, 24, 36<br>3. Find the smallest matching number.",
+    "showAnswer": "24"
+  },
+  {
+    "id": 85,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 9 and 12",
+    "showProcess": "1. Multiples of 9: 9, 18, 27, 36, 45<br>2. Multiples of 12: 12, 24, 36, 48<br>3. Find the smallest matching number.",
+    "showAnswer": "36"
+  },
+  {
+    "id": 86,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 10 and 15",
+    "showProcess": "1. Multiples of 10: 10, 20, 30, 40<br>2. Multiples of 15: 15, 30, 45<br>3. Find the smallest matching number.",
+    "showAnswer": "30"
+  },
+  {
+    "id": 87,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 12 and 15",
+    "showProcess": "1. Multiples of 12: 12, 24, 36, 48, 60, 72<br>2. Multiples of 15: 15, 30, 45, 60, 75<br>3. Find the smallest matching number.",
+    "showAnswer": "60"
+  },
+  {
+    "id": 88,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 12 and 16",
+    "showProcess": "1. Multiples of 12: 12, 24, 36, 48, 60<br>2. Multiples of 16: 16, 32, 48, 64<br>3. Find the smallest matching number.",
+    "showAnswer": "48"
+  },
+  {
+    "id": 89,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 15 and 20",
+    "showProcess": "1. Multiples of 15: 15, 30, 45, 60, 75<br>2. Multiples of 20: 20, 40, 60, 80<br>3. Find the smallest matching number.",
+    "showAnswer": "60"
+  },
+  {
+    "id": 90,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 20 and 25",
+    "showProcess": "1. Multiples of 20: 20, 40, 60, 80, 100, 120<br>2. Multiples of 25: 25, 50, 75, 100, 125<br>3. Find the smallest matching number.",
+    "showAnswer": "100"
+  },
+  {
+    "id": 91,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 6 and 10",
+    "showProcess": "1. Multiples of 6: 6, 12, 18, 24, 30, 36<br>2. Multiples of 10: 10, 20, 30, 40<br>3. Find the smallest matching number.",
+    "showAnswer": "30"
+  },
+  {
+    "id": 92,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 7 and 14",
+    "showProcess": "1. Multiples of 7: 7, 14, 21<br>2. Multiples of 14: 14, 28<br>3. Find the smallest matching number.",
+    "showAnswer": "14"
+  },
+  {
+    "id": 93,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 12 and 18",
+    "showProcess": "1. Multiples of 12: 12, 24, 36, 48<br>2. Multiples of 18: 18, 36, 54<br>3. Find the smallest matching number.",
+    "showAnswer": "36"
+  },
+  {
+    "id": 94,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 16 and 24",
+    "showProcess": "1. Multiples of 16: 16, 32, 48, 64<br>2. Multiples of 24: 24, 48, 72<br>3. Find the smallest matching number.",
+    "showAnswer": "48"
+  },
+  {
+    "id": 95,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 20 and 30",
+    "showProcess": "1. Multiples of 20: 20, 40, 60, 80<br>2. Multiples of 30: 30, 60, 90<br>3. Find the smallest matching number.",
+    "showAnswer": "60"
+  },
+  {
+    "id": 96,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 15 and 18",
+    "showProcess": "1. Multiples of 15: 15, 30, 45, 60, 75, 90, 105<br>2. Multiples of 18: 18, 36, 54, 72, 90, 108<br>3. Find the smallest matching number.",
+    "showAnswer": "90"
+  },
+  {
+    "id": 97,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 24 and 36",
+    "showProcess": "1. Multiples of 24: 24, 48, 72, 96<br>2. Multiples of 36: 36, 72, 108<br>3. Find the smallest matching number.",
+    "showAnswer": "72"
+  },
+  {
+    "id": 98,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 30 and 45",
+    "showProcess": "1. Multiples of 30: 30, 60, 90, 120<br>2. Multiples of 45: 45, 90, 135<br>3. Find the smallest matching number.",
+    "showAnswer": "90"
+  },
+  {
+    "id": 99,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 25 and 50",
+    "showProcess": "1. Multiples of 25: 25, 50, 75<br>2. Multiples of 50: 50, 100<br>3. Find the smallest matching number.",
+    "showAnswer": "50"
+  },
+  {
+    "id": 100,
+    "questionText": "Find the Lowest Common Multiple (LCM) of 40 and 50",
+    "showProcess": "1. Multiples of 40: 40, 80, 120, 160, 200, 240<br>2. Multiples of 50: 50, 100, 150, 200, 250<br>3. Find the smallest matching number.",
+    "showAnswer": "200"
+  }
+]

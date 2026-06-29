@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "questionText": "Find the Perimeter and Area of this rectangle:<br><pre>\n ┌────────────────────────┐\n │                        │ 4 cm\n └────────────────────────┘\n          10 cm           \n</pre>",
+    "showProcess": "1. Perimeter = 10 + 4 + 10 + 4 = 28 cm<br>2. Area = length × width = 10 × 4 = 40",
+    "showAnswer": "Perimeter = 28 cm, Area = 40 cm<sup>2</sup>"
+  },
+  {
+    "id": 2,
+    "questionText": "Find the Perimeter and Area of this rectangle:<br><pre>\n ┌────────────────────────┐\n │                        │ 3 m\n └────────────────────────┘\n           8 m            \n</pre>",
+    "showProcess": "1. Perimeter = 8 + 3 + 8 + 3 = 22 m<br>2. Area = length × width = 8 × 3 = 24",
+    "showAnswer": "Perimeter = 22 m, Area = 24 m<sup>2</sup>"
+  },
+  {
+    "id": 3,
+    "questionText": "Find the Perimeter and Area of this square:<br><pre>\n ┌──────────────────┐\n │                  │ 5 cm\n │                  │\n └──────────────────┘\n        5 cm        \n</pre>",
+    "showProcess": "1. Perimeter = 5 + 5 + 5 + 5 = 20 cm<br>2. Area = side × side = 5 × 5 = 25",
+    "showAnswer": "Perimeter = 20 cm, Area = 25 cm<sup>2</sup>"
+  },
+  {
+    "id": 4,
+    "questionText": "Find the Perimeter and Area of this rectangle:<br><pre>\n ┌────────────────────────┐\n │                        │ 6 mm\n └────────────────────────┘\n          12 mm           \n</pre>",
+    "showProcess": "1. Perimeter = 12 + 6 + 12 + 6 = 36 mm<br>2. Area = length × width = 12 × 6 = 72",
+    "showAnswer": "Perimeter = 36 mm, Area = 72 mm<sup>2</sup>"
+  },
+  {
+    "id": 5,
+    "questionText": "Find the Perimeter and Area of this rectangle:<br><pre>\n ┌────────────────────────┐\n │                        │ 2 m\n └────────────────────────┘\n           9 m            \n</pre>",
+    "showProcess": "1. Perimeter = 9 + 2 + 9 + 2 = 22 m<br>2. Area = length × width = 9 × 2 = 18",
+    "showAnswer": "Perimeter = 22 m, Area = 18 m<sup>2</sup>"
+  },
+  {
+    "id": 6,
+    "questionText": "Find the Perimeter and Area of this square:<br><pre>\n ┌──────────────────┐\n │                  │ 8 cm\n │                  │\n └──────────────────┘\n        8 cm        \n</pre>",
+    "showProcess": "1. Perimeter = 8 × 4 = 32 cm<br>2. Area = 8 × 8 = 64",
+    "showAnswer": "Perimeter = 32 cm, Area = 64 cm<sup>2</sup>"
+  },
+  {
+    "id": 7,
+    "questionText": "Find the Perimeter and Area of this rectangle:<br><pre>\n ┌────────────────────────┐\n │                        │ 5 cm\n └────────────────────────┘\n          11 cm           \n</pre>",
+    "showProcess": "1. Perimeter = 11 + 5 + 11 + 5 = 32 cm<br>2. Area = 11 × 5 = 55",
+    "showAnswer": "Perimeter = 32 cm, Area = 55 cm<sup>2</sup>"
+  },
+  {
+    "id": 8,
+    "questionText": "Find the Perimeter and Area of this rectangle:<br><pre>\n ┌────────────────────────┐\n │                        │ 7 m\n └────────────────────────┘\n           7 m            \n</pre>",
+    "showProcess": "1. Perimeter = 7 × 4 = 28 m<br>2. Area = 7 × 7 = 49",
+    "showAnswer": "Perimeter = 28 m, Area = 49 m<sup>2</sup>"
+  },
+  {
+    "id": 9,
+    "questionText": "Find the Perimeter and Area of this rectangle:<br><pre>\n ┌────────────────────────┐\n │                        │ 3 mm\n └────────────────────────┘\n          15 mm           \n</pre>",
+    "showProcess": "1. Perimeter = 15 + 3 + 15 + 3 = 34 mm<br>2. Area = 15 × 3 = 45",
+    "showAnswer": "Perimeter = 34 mm, Area = 45 mm<sup>2</sup>"
+  },
+  {
+    "id": 10,
+    "questionText": "Find the Perimeter and Area of this rectangle:<br><pre>\n ┌────────────────────────┐\n │                        │ 8 cm\n └────────────────────────┘\n          10 cm           \n</pre>",
+    "showProcess": "1. Perimeter = 10 + 8 + 10 + 8 = 36 cm<br>2. Area = 10 × 8 = 80",
+    "showAnswer": "Perimeter = 36 cm, Area = 80 cm<sup>2</sup>"
+  },
+  {
+    "id": 11,
+    "questionText": "Find the Perimeter and Area of this rectangle:<br><pre>\n ┌────────────────────────┐\n │                        │ 1 m\n └────────────────────────┘\n          20 m            \n</pre>",
+    "showProcess": "1. Perimeter = 20 + 1 + 20 + 1 = 42 m<br>2. Area = 20 × 1 = 20",
+    "showAnswer": "Perimeter = 42 m, Area = 20 m<sup>2</sup>"
+  },
+  {
+    "id": 12,
+    "questionText": "Find the Perimeter and Area of this square:<br><pre>\n ┌──────────────────┐\n │                  │ 6 cm\n │                  │\n └──────────────────┘\n        6 cm        \n</pre>",
+    "showProcess": "1. Perimeter = 6 × 4 = 24 cm<br>2. Area = 6 × 6 = 36",
+    "showAnswer": "Perimeter = 24 cm, Area = 36 cm<sup>2</sup>"
+  },
+  {
+    "id": 13,
+    "questionText": "Find the Perimeter and Area of this rectangle:<br><pre>\n ┌────────────────────────┐\n │                        │ 5 mm\n └────────────────────────┘\n          14 mm           \n</pre>",
+    "showProcess": "1. Perimeter = 14 + 5 + 14 + 5 = 38 mm<br>2. Area = 14 × 5 = 70",
+    "showAnswer": "Perimeter = 38 mm, Area = 70 mm<sup>2</sup>"
+  },
+  {
+    "id": 14,
+    "questionText": "Find the Perimeter and Area of this rectangle:<br><pre>\n ┌────────────────────────┐\n │                        │ 9 cm\n └────────────────────────┘\n          11 cm           \n</pre>",
+    "showProcess": "1. Perimeter = 11 + 9 + 11 + 9 = 40 cm<br>2. Area = 11 × 9 = 99",
+    "showAnswer": "Perimeter = 40 cm, Area = 99 cm<sup>2</sup>"
+  },
+  {
+    "id": 15,
+    "questionText": "Find the Perimeter and Area of this rectangle:<br><pre>\n ┌────────────────────────┐\n │                        │ 2 m\n └────────────────────────┘\n          18 m            \n</pre>",
+    "showProcess": "1. Perimeter = 18 + 2 + 18 + 2 = 40 m<br>2. Area = 18 × 2 = 36",
+    "showAnswer": "Perimeter = 40 m, Area = 36 m<sup>2</sup>"
+  },
+  {
+    "id": 16,
+    "questionText": "Find the Perimeter and Area of this square:<br><pre>\n ┌──────────────────┐\n │                  │ 9 mm\n │                  │\n └──────────────────┘\n        9 mm        \n</pre>",
+    "showProcess": "1. Perimeter = 9 × 4 = 36 mm<br>2. Area = 9 × 9 = 81",
+    "showAnswer": "Perimeter = 36 mm, Area = 81 mm<sup>2</sup>"
+  },
+  {
+    "id": 17,
+    "questionText": "Find the Perimeter and Area of this rectangle:<br><pre>\n ┌────────────────────────┐\n │                        │ 6 cm\n └────────────────────────┘\n          15 cm           \n</pre>",
+    "showProcess": "1. Perimeter = 15 + 6 + 15 + 6 = 42 cm<br>2. Area = 15 × 6 = 90",
+    "showAnswer": "Perimeter = 42 cm, Area = 90 cm<sup>2</sup>"
+  },
+  {
+    "id": 18,
+    "questionText": "Find the Perimeter and Area of this rectangle:<br><pre>\n ┌────────────────────────┐\n │                        │ 4 m\n └────────────────────────┘\n          25 m            \n</pre>",
+    "showProcess": "1. Perimeter = 25 + 4 + 25 + 4 = 58 m<br>2. Area = 25 × 4 = 100",
+    "showAnswer": "Perimeter = 58 m, Area = 100 m<sup>2</sup>"
+  },
+  {
+    "id": 19,
+    "questionText": "Find the Perimeter and Area of this square:<br><pre>\n ┌──────────────────┐\n │                  │ 10 cm\n │                  │\n └──────────────────┘\n        10 cm       \n</pre>",
+    "showProcess": "1. Perimeter = 10 × 4 = 40 cm<br>2. Area = 10 × 10 = 100",
+    "showAnswer": "Perimeter = 40 cm, Area = 100 cm<sup>2</sup>"
+  },
+  {
+    "id": 20,
+    "questionText": "Find the Perimeter and Area of this rectangle:<br><pre>\n ┌────────────────────────┐\n │                        │ 7 mm\n └────────────────────────┘\n          13 mm           \n</pre>",
+    "showProcess": "1. Perimeter = 13 + 7 + 13 + 7 = 40 mm<br>2. Area = 13 × 7 = 91",
+    "showAnswer": "Perimeter = 40 mm, Area = 91 mm<sup>2</sup>"
+  },
+  {
+    "id": 21,
+    "questionText": "Find the Perimeter and Area of this rectangle:<br><pre>\n ┌────────────────────────┐\n │                        │ 8 m\n └────────────────────────┘\n          12 m            \n</pre>",
+    "showProcess": "1. Perimeter = 12 + 8 + 12 + 8 = 40 m<br>2. Area = 12 × 8 = 96",
+    "showAnswer": "Perimeter = 40 m, Area = 96 m<sup>2</sup>"
+  },
+  {
+    "id": 22,
+    "questionText": "Find the Perimeter and Area of this rectangle:<br><pre>\n ┌────────────────────────┐\n │                        │ 3 cm\n └────────────────────────┘\n          30 cm           \n</pre>",
+    "showProcess": "1. Perimeter = 30 + 3 + 30 + 3 = 66 cm<br>2. Area = 30 × 3 = 90",
+    "showAnswer": "Perimeter = 66 cm, Area = 90 cm<sup>2</sup>"
+  },
+  {
+    "id": 23,
+    "questionText": "Find the Perimeter and Area of this square:<br><pre>\n ┌──────────────────┐\n │                  │ 12 m\n │                  │\n └──────────────────┘\n        12 m        \n</pre>",
+    "showProcess": "1. Perimeter = 12 × 4 = 48 m<br>2. Area = 12 × 12 = 144",
+    "showAnswer": "Perimeter = 48 m, Area = 144 m<sup>2</sup>"
+  },
+  {
+    "id": 24,
+    "questionText": "Find the Perimeter and Area of this rectangle:<br><pre>\n ┌────────────────────────┐\n │                        │ 6 mm\n └────────────────────────┘\n          20 mm           \n</pre>",
+    "showProcess": "1. Perimeter = 20 + 6 + 20 + 6 = 52 mm<br>2. Area = 20 × 6 = 120",
+    "showAnswer": "Perimeter = 52 mm, Area = 120 mm<sup>2</sup>"
+  },
+  {
+    "id": 25,
+    "questionText": "Find the Perimeter and Area of this rectangle:<br><pre>\n ┌────────────────────────┐\n │                        │ 9 cm\n └────────────────────────┘\n          15 cm           \n</pre>",
+    "showProcess": "1. Perimeter = 15 + 9 + 15 + 9 = 48 cm<br>2. Area = 15 × 9 = 135",
+    "showAnswer": "Perimeter = 48 cm, Area = 135 cm<sup>2</sup>"
+  },
+  {
+    "id": 26,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  5 cm\n |  \\ \n └───┘\n  4 cm\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (4 × 5) ÷ 2 = 20 ÷ 2 = 10",
+    "showAnswer": "Area = 10 cm<sup>2</sup>"
+  },
+  {
+    "id": 27,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  6 m\n |  \\ \n └───┘\n  8 m\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (8 × 6) ÷ 2 = 48 ÷ 2 = 24",
+    "showAnswer": "Area = 24 m<sup>2</sup>"
+  },
+  {
+    "id": 28,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  10 mm\n |  \\ \n └───┘\n  3 mm\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (3 × 10) ÷ 2 = 30 ÷ 2 = 15",
+    "showAnswer": "Area = 15 mm<sup>2</sup>"
+  },
+  {
+    "id": 29,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  4 cm\n |  \\ \n └───┘\n  12 cm\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (12 × 4) ÷ 2 = 48 ÷ 2 = 24",
+    "showAnswer": "Area = 24 cm<sup>2</sup>"
+  },
+  {
+    "id": 30,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  12 m\n |  \\ \n └───┘\n  5 m\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (5 × 12) ÷ 2 = 60 ÷ 2 = 30",
+    "showAnswer": "Area = 30 m<sup>2</sup>"
+  },
+  {
+    "id": 31,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  8 mm\n |  \\ \n └───┘\n  7 mm\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (7 × 8) ÷ 2 = 56 ÷ 2 = 28",
+    "showAnswer": "Area = 28 mm<sup>2</sup>"
+  },
+  {
+    "id": 32,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  9 cm\n |  \\ \n └───┘\n  6 cm\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (6 × 9) ÷ 2 = 54 ÷ 2 = 27",
+    "showAnswer": "Area = 27 cm<sup>2</sup>"
+  },
+  {
+    "id": 33,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  2 m\n |  \\ \n └───┘\n  15 m\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (15 × 2) ÷ 2 = 30 ÷ 2 = 15",
+    "showAnswer": "Area = 15 m<sup>2</sup>"
+  },
+  {
+    "id": 34,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  14 mm\n |  \\ \n └───┘\n  4 mm\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (4 × 14) ÷ 2 = 56 ÷ 2 = 28",
+    "showAnswer": "Area = 28 mm<sup>2</sup>"
+  },
+  {
+    "id": 35,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  10 cm\n |  \\ \n └───┘\n  10 cm\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (10 × 10) ÷ 2 = 100 ÷ 2 = 50",
+    "showAnswer": "Area = 50 cm<sup>2</sup>"
+  },
+  {
+    "id": 36,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  6 m\n |  \\ \n └───┘\n  11 m\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (11 × 6) ÷ 2 = 66 ÷ 2 = 33",
+    "showAnswer": "Area = 33 m<sup>2</sup>"
+  },
+  {
+    "id": 37,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  3 mm\n |  \\ \n └───┘\n  16 mm\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (16 × 3) ÷ 2 = 48 ÷ 2 = 24",
+    "showAnswer": "Area = 24 mm<sup>2</sup>"
+  },
+  {
+    "id": 38,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  8 cm\n |  \\ \n └───┘\n  12 cm\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (12 × 8) ÷ 2 = 96 ÷ 2 = 48",
+    "showAnswer": "Area = 48 cm<sup>2</sup>"
+  },
+  {
+    "id": 39,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  7 m\n |  \\ \n └───┘\n  20 m\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (20 × 7) ÷ 2 = 140 ÷ 2 = 70",
+    "showAnswer": "Area = 70 m<sup>2</sup>"
+  },
+  {
+    "id": 40,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  5 mm\n |  \\ \n └───┘\n  18 mm\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (18 × 5) ÷ 2 = 90 ÷ 2 = 45",
+    "showAnswer": "Area = 45 mm<sup>2</sup>"
+  },
+  {
+    "id": 41,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  13 cm\n |  \\ \n └───┘\n  4 cm\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (4 × 13) ÷ 2 = 52 ÷ 2 = 26",
+    "showAnswer": "Area = 26 cm<sup>2</sup>"
+  },
+  {
+    "id": 42,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  15 m\n |  \\ \n └───┘\n  6 m\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (6 × 15) ÷ 2 = 90 ÷ 2 = 45",
+    "showAnswer": "Area = 45 m<sup>2</sup>"
+  },
+  {
+    "id": 43,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  9 mm\n |  \\ \n └───┘\n  8 mm\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (8 × 9) ÷ 2 = 72 ÷ 2 = 36",
+    "showAnswer": "Area = 36 mm<sup>2</sup>"
+  },
+  {
+    "id": 44,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  6 cm\n |  \\ \n └───┘\n  14 cm\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (14 × 6) ÷ 2 = 84 ÷ 2 = 42",
+    "showAnswer": "Area = 42 cm<sup>2</sup>"
+  },
+  {
+    "id": 45,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  4 m\n |  \\ \n └───┘\n  22 m\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (22 × 4) ÷ 2 = 88 ÷ 2 = 44",
+    "showAnswer": "Area = 44 m<sup>2</sup>"
+  },
+  {
+    "id": 46,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  11 mm\n |  \\ \n └───┘\n  8 mm\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (8 × 11) ÷ 2 = 88 ÷ 2 = 44",
+    "showAnswer": "Area = 44 mm<sup>2</sup>"
+  },
+  {
+    "id": 47,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  7 cm\n |  \\ \n └───┘\n  16 cm\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (16 × 7) ÷ 2 = 112 ÷ 2 = 56",
+    "showAnswer": "Area = 56 cm<sup>2</sup>"
+  },
+  {
+    "id": 48,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  3 m\n |  \\ \n └───┘\n  30 m\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (30 × 3) ÷ 2 = 90 ÷ 2 = 45",
+    "showAnswer": "Area = 45 m<sup>2</sup>"
+  },
+  {
+    "id": 49,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  12 mm\n |  \\ \n └───┘\n  12 mm\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (12 × 12) ÷ 2 = 144 ÷ 2 = 72",
+    "showAnswer": "Area = 72 mm<sup>2</sup>"
+  },
+  {
+    "id": 50,
+    "questionText": "Find the Area of this right-angled triangle:<br><pre>\n |\n |\\ \n | \\  5 cm\n |  \\ \n └───┘\n  24 cm\n</pre>",
+    "showProcess": "1. Area = (base × height) ÷ 2<br>2. Calculate: (24 × 5) ÷ 2 = 120 ÷ 2 = 60",
+    "showAnswer": "Area = 60 cm<sup>2</sup>"
+  },
+  {
+    "id": 51,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │5m \\ \n  /___│____\\ \n     10 m    \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (10 × 5) ÷ 2 = 50 ÷ 2 = 25",
+    "showAnswer": "Area = 25 m<sup>2</sup>"
+  },
+  {
+    "id": 52,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │6cm\\ \n  /___│____\\ \n     8 cm    \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (8 × 6) ÷ 2 = 48 ÷ 2 = 24",
+    "showAnswer": "Area = 24 cm<sup>2</sup>"
+  },
+  {
+    "id": 53,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │4mm\\ \n  /___│____\\ \n     12 mm   \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (12 × 4) ÷ 2 = 48 ÷ 2 = 24",
+    "showAnswer": "Area = 24 mm<sup>2</sup>"
+  },
+  {
+    "id": 54,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │8m \\ \n  /___│____\\ \n     15 m    \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (15 × 8) ÷ 2 = 120 ÷ 2 = 60",
+    "showAnswer": "Area = 60 m<sup>2</sup>"
+  },
+  {
+    "id": 55,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │7cm\\ \n  /___│____\\ \n     20 cm   \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (20 × 7) ÷ 2 = 140 ÷ 2 = 70",
+    "showAnswer": "Area = 70 cm<sup>2</sup>"
+  },
+  {
+    "id": 56,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │3mm\\ \n  /___│____\\ \n     14 mm   \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (14 × 3) ÷ 2 = 42 ÷ 2 = 21",
+    "showAnswer": "Area = 21 mm<sup>2</sup>"
+  },
+  {
+    "id": 57,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │10m\\ \n  /___│____\\ \n     11 m    \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (11 × 10) ÷ 2 = 110 ÷ 2 = 55",
+    "showAnswer": "Area = 55 m<sup>2</sup>"
+  },
+  {
+    "id": 58,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │5cm\\ \n  /___│____\\ \n     16 cm   \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (16 × 5) ÷ 2 = 80 ÷ 2 = 40",
+    "showAnswer": "Area = 40 cm<sup>2</sup>"
+  },
+  {
+    "id": 59,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │6mm\\ \n  /___│____\\ \n     30 mm   \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (30 × 6) ÷ 2 = 180 ÷ 2 = 90",
+    "showAnswer": "Area = 90 mm<sup>2</sup>"
+  },
+  {
+    "id": 60,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │12m\\ \n  /___│____\\ \n     7 m     \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (7 × 12) ÷ 2 = 84 ÷ 2 = 42",
+    "showAnswer": "Area = 42 m<sup>2</sup>"
+  },
+  {
+    "id": 61,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │9cm\\ \n  /___│____\\ \n     10 cm   \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (10 × 9) ÷ 2 = 90 ÷ 2 = 45",
+    "showAnswer": "Area = 45 cm<sup>2</sup>"
+  },
+  {
+    "id": 62,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │4mm\\ \n  /___│____\\ \n     25 mm   \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (25 × 4) ÷ 2 = 100 ÷ 2 = 50",
+    "showAnswer": "Area = 50 mm<sup>2</sup>"
+  },
+  {
+    "id": 63,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │8m \\ \n  /___│____\\ \n     13 m    \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (13 × 8) ÷ 2 = 104 ÷ 2 = 52",
+    "showAnswer": "Area = 52 m<sup>2</sup>"
+  },
+  {
+    "id": 64,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │7cm\\ \n  /___│____\\ \n     12 cm   \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (12 × 7) ÷ 2 = 84 ÷ 2 = 42",
+    "showAnswer": "Area = 42 cm<sup>2</sup>"
+  },
+  {
+    "id": 65,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │11mm\\ \n  /___│____\\ \n     6 mm    \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (6 × 11) ÷ 2 = 66 ÷ 2 = 33",
+    "showAnswer": "Area = 33 mm<sup>2</sup>"
+  },
+  {
+    "id": 66,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │2m  \\ \n  /___│____\\ \n     45 m    \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (45 × 2) ÷ 2 = 90 ÷ 2 = 45",
+    "showAnswer": "Area = 45 m<sup>2</sup>"
+  },
+  {
+    "id": 67,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │5cm\\ \n  /___│____\\ \n     22 cm   \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (22 × 5) ÷ 2 = 110 ÷ 2 = 55",
+    "showAnswer": "Area = 55 cm<sup>2</sup>"
+  },
+  {
+    "id": 68,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │9mm\\ \n  /___│____\\ \n     14 mm   \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (14 × 9) ÷ 2 = 126 ÷ 2 = 63",
+    "showAnswer": "Area = 63 mm<sup>2</sup>"
+  },
+  {
+    "id": 69,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │10m\\ \n  /___│____\\ \n     18 m    \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (18 × 10) ÷ 2 = 180 ÷ 2 = 90",
+    "showAnswer": "Area = 90 m<sup>2</sup>"
+  },
+  {
+    "id": 70,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │4cm\\ \n  /___│____\\ \n     35 cm   \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (35 × 4) ÷ 2 = 140 ÷ 2 = 70",
+    "showAnswer": "Area = 70 cm<sup>2</sup>"
+  },
+  {
+    "id": 71,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │6mm\\ \n  /___│____\\ \n     15 mm   \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (15 × 6) ÷ 2 = 90 ÷ 2 = 45",
+    "showAnswer": "Area = 45 mm<sup>2</sup>"
+  },
+  {
+    "id": 72,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │12m\\ \n  /___│____\\ \n     12 m    \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (12 × 12) ÷ 2 = 144 ÷ 2 = 72",
+    "showAnswer": "Area = 72 m<sup>2</sup>"
+  },
+  {
+    "id": 73,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │8cm\\ \n  /___│____\\ \n     25 cm   \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (25 × 8) ÷ 2 = 200 ÷ 2 = 100",
+    "showAnswer": "Area = 100 cm<sup>2</sup>"
+  },
+  {
+    "id": 74,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │3mm\\ \n  /___│____\\ \n     40 mm   \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (40 × 3) ÷ 2 = 120 ÷ 2 = 60",
+    "showAnswer": "Area = 60 mm<sup>2</sup>"
+  },
+  {
+    "id": 75,
+    "questionText": "Find the Area of this triangle:<br><pre>\n      /\\ \n     /│ \\ \n    / │  \\ \n   /  │7m \\ \n  /___│____\\ \n     16 m    \n</pre>",
+    "showProcess": "1. Area = (base × perpendicular height) ÷ 2<br>2. Calculate: (16 × 7) ÷ 2 = 112 ÷ 2 = 56",
+    "showAnswer": "Area = 56 m<sup>2</sup>"
+  },
+  {
+    "id": 76,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this L-shape:<br><pre>\n 6 m ┌──────┐\n     │      │\n     │  ┌───┘ 4 m\n     │  │\n     └──┴───────┐\n        3 m     │ 2 m\n └──────────────┘\n       10 m\n</pre>",
+    "showProcess": "1. Top horizontal missing side = 10 - 3 = 7 m<br>2. Left inner vertical missing side = 6 - 2 = 4 m<br>3. Total Perimeter = 6 + 7 + 4 + 3 + 2 + 10 = 32 m<br>4. Split into 2 rectangles horizontally:<br>Top part: 7 m × 4 m = 28 m<sup>2</sup><br>Bottom part: 10 m × 2 m = 20 m<sup>2</sup><br>5. Total Area = 28 + 20 = 48",
+    "showAnswer": "Perimeter = 32 m, Area = 48 m<sup>2</sup>"
+  },
+  {
+    "id": 77,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this L-shape:<br><pre>\n 8 cm┌──────────┐\n     │          │\n     │    ┌─────┘ 5 cm\n     │    │\n     └────┴─────────┐\n         4 cm       │ 3 cm\n └──────────────────┘\n        12 cm\n</pre>",
+    "showProcess": "1. Top horizontal missing side = 12 - 4 = 8 cm<br>2. Inner vertical missing side = 8 - 3 = 5 cm<br>3. Total Perimeter = 8 + 8 + 5 + 4 + 3 + 12 = 40 cm<br>4. Split vertically into 2 rectangles:<br>Left part: 4 cm × 8 cm = 32 cm<sup>2</sup><br>Right part: 8 cm × 3 cm = 24 cm<sup>2</sup><br>5. Total Area = 32 + 24 = 56",
+    "showAnswer": "Perimeter = 40 cm, Area = 56 cm<sup>2</sup>"
+  },
+  {
+    "id": 78,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this L-shape:<br><pre>\n 5 mm┌──────┐\n     │      │\n     │  ┌───┘ 3 mm\n     │  │\n     └──┴───────┐\n        2 mm    │ 2 mm\n └──────────────┘\n       6 mm\n</pre>",
+    "showProcess": "1. Top horizontal missing side = 6 - 2 = 4 mm<br>2. Inner vertical missing side = 5 - 2 = 3 mm<br>3. Total Perimeter = 5 + 4 + 3 + 2 + 2 + 6 = 22 mm<br>4. Area = (2 × 5) + (4 × 2) = 10 + 8 = 18",
+    "showAnswer": "Perimeter = 22 mm, Area = 18 mm<sup>2</sup>"
+  },
+  {
+    "id": 79,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this L-shape:<br><pre>\n 7 m ┌────────┐\n     │        │\n     │   ┌────┘ 4 m\n     │   │\n     └───┴──────────┐\n         5 m        │ 3 m\n └──────────────────┘\n        11 m\n</pre>",
+    "showProcess": "1. Top side = 11 - 5 = 6 m<br>2. Inner vertical = 7 - 3 = 4 m<br>3. Total Perimeter = 7 + 6 + 4 + 5 + 3 + 11 = 36 m<br>4. Total Area = (5 × 3) + (6 × 7) = 15 + 42 = 57",
+    "showAnswer": "Perimeter = 36 m, Area = 57 m<sup>2</sup>"
+  },
+  {
+    "id": 80,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this L-shape:<br><pre>\n 10 cm┌───────┐\n      │       │\n      │   ┌───┘ 6 cm\n      │   │\n      └───┴───────┐\n         3 cm     │ 4 cm\n └────────────────┘\n        8 cm\n</pre>",
+    "showProcess": "1. Top side = 8 - 3 = 5 cm<br>2. Inner vertical = 10 - 4 = 6 cm<br>3. Total Perimeter = 10 + 5 + 6 + 3 + 4 + 8 = 36 cm<br>4. Total Area = (3 × 4) + (5 × 10) = 12 + 50 = 62",
+    "showAnswer": "Perimeter = 36 cm, Area = 62 cm<sup>2</sup>"
+  },
+  {
+    "id": 81,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this T-shape:<br><pre>\n        12 m\n ┌──────────────────┐\n └────┐        ┌────┘ 3 m\n      │        │\n      │        │ 5 m\n      └────────┘\n         4 m\n</pre>",
+    "showProcess": "1. Left/Right upper wings = (12 - 4) ÷ 2 = 4 m each<br>2. Total Perimeter = 12 + 3 + 4 + 5 + 4 + 5 + 4 + 3 = 40 m<br>3. Split into 2 blocks horizontally:<br>Top block: 12 m × 3 m = 36 m<sup>2</sup><br>Bottom block: 4 m × 5 m = 20 m<sup>2</sup><br>4. Total Area = 36 + 20 = 56",
+    "showAnswer": "Perimeter = 40 m, Area = 56 m<sup>2</sup>"
+  },
+  {
+    "id": 82,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this T-shape:<br><pre>\n        10 cm\n ┌────────────────┐\n └────┐      ┌────┘ 2 cm\n      │      │\n      │      │ 6 cm\n      └──────┘\n        4 cm\n</pre>",
+    "showProcess": "1. Missing upper horizontal segments = (10 - 4) ÷ 2 = 3 cm each<br>2. Total Perimeter = 10 + 2 + 3 + 6 + 4 + 6 + 3 + 2 = 36 cm<br>3. Total Area = (10 × 2) + (4 × 6) = 20 + 24 = 44",
+    "showAnswer": "Perimeter = 36 cm, Area = 44 cm<sup>2</sup>"
+  },
+  {
+    "id": 83,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this T-shape:<br><pre>\n        16 mm\n ┌──────────────────────┐\n └──────┐        ┌──────┘ 4 mm\n        │        │\n        │        │ 8 mm\n        └────────┘\n           6 mm\n</pre>",
+    "showProcess": "1. Upper horizontal wings = (16 - 6) ÷ 2 = 5 mm each<br>2. Total Perimeter = 16 + 4 + 5 + 8 + 6 + 8 + 5 + 4 = 56 mm<br>3. Total Area = (16 × 4) + (6 × 8) = 64 + 48 = 112",
+    "showAnswer": "Perimeter = 56 mm, Area = 112 mm<sup>2</sup>"
+  },
+  {
+    "id": 84,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this T-shape:<br><pre>\n        8 m\n ┌──────────────┐\n └───┐      ┌───┘ 2 m\n     │      │\n     │      │ 4 m\n     └──────┘\n       2 m\n</pre>",
+    "showProcess": "1. Upper segments = (8 - 2) ÷ 2 = 3 m each<br>2. Total Perimeter = 8 + 2 + 3 + 4 + 2 + 4 + 3 + 2 = 28 m<br>3. Total Area = (8 × 2) + (2 × 4) = 16 + 8 = 24",
+    "showAnswer": "Perimeter = 28 m, Area = 24 m<sup>2</sup>"
+  },
+  {
+    "id": 85,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this T-shape:<br><pre>\n        15 cm\n ┌───────────────────┐\n └────┐         ┌────┘ 5 cm\n      │         │\n      │         │ 10 cm\n      └─────────┘\n         5 cm\n</pre>",
+    "showProcess": "1. Upper side segments = (15 - 5) ÷ 2 = 5 cm each<br>2. Total Perimeter = 15 + 5 + 5 + 10 + 5 + 10 + 5 + 5 = 60 cm<br>3. Total Area = (15 × 5) + (5 × 10) = 75 + 50 = 125",
+    "showAnswer": "Perimeter = 60 cm, Area = 125 cm<sup>2</sup>"
+  },
+  {
+    "id": 86,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this composite shape:<br><pre>\n     9 mm\n ┌──────────┐\n │          │ 3 mm\n │   ┌──────┘\n │   └──────┐\n │          │ 3 mm\n └──────────┘\n     9 mm\n (Total height = 10 mm)\n</pre>",
+    "showProcess": "1. Inner horizontal indented layout segment = 9 mm<br>2. Inner vertical indentation segment = 10 - 3 - 3 = 4 mm<br>3. Total Perimeter = 9 + 3 + 9 + 4 + 9 + 3 + 9 + 10 = 56 mm<br>4. Total Area = Full bounding box minus cutout: (9 × 10) - (9 × 4) = 90 - 36 = 54",
+    "showAnswer": "Perimeter = 56 mm, Area = 54 mm<sup>2</sup>"
+  },
+  {
+    "id": 87,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this U-shape:<br><pre>\n 6 m ┌───┐      ┌───┐\n     │   │      │   │\n     │   └──────┘   │ 4 m\n     │              │\n     └──────────────┘\n           12 m\n (Width of each column = 3 m)\n</pre>",
+    "showProcess": "1. Missing interior floor width = 12 - 3 - 3 = 6 m<br>2. Right outer vertical side = 6 m<br>3. Inner vertical depths = 6 - (6 - 4) = 4 m each<br>4. Total Perimeter = 12 + 6 + 3 + 4 + 6 + 4 + 3 + 6 = 44 m<br>5. Area = Big box minus inner space = (12 × 6) - (6 × 4) = 72 - 24 = 48",
+    "showAnswer": "Perimeter = 44 m, Area = 48 m<sup>2</sup>"
+  },
+  {
+    "id": 88,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this U-shape:<br><pre>\n 8 cm┌────┐    ┌────┐\n     │    │    │    │\n     │    └────┘    │ 5 cm\n     │              │\n     └──────────────┘\n          14 cm\n (Width of each column = 4 cm)\n</pre>",
+    "showProcess": "1. Inner cutout width = 14 - 4 - 4 = 6 cm<br>2. Inner cutout depth = 8 - 5 = 3 cm<br>3. Total Perimeter = 14 + 8 + 4 + 3 + 6 + 3 + 4 + 8 = 50 cm<br>4. Total Area = (14 × 5) + (4 × 3) + (4 × 3) = 70 + 12 + 12 = 94",
+    "showAnswer": "Perimeter = 50 cm, Area = 94 cm<sup>2</sup>"
+  },
+  {
+    "id": 89,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this step shape:<br><pre>\n          4 mm\n        ┌───┐\n        │   │ 3 mm\n    ┌───┘   │\n    │       │ 3 mm\n ───┘       │\n     4 mm\n └──────────┘\n     8 mm\n</pre>",
+    "showProcess": "1. Total Height = 3 + 3 = 6 mm<br>2. Missing step vertical = 3 mm<br>3. Missing horizontal steps are balanced perfectly.<br>4. Total Perimeter = 8 + 6 + 4 + 3 + 4 + 3 = 28 mm<br>5. Total Area = Split into columns: (4 × 3) + (8 × 3) = 12 + 24 = 36",
+    "showAnswer": "Perimeter = 28 mm, Area = 36 mm<sup>2</sup>"
+  },
+  {
+    "id": 90,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this composite shape:<br><pre>\n     6 m\n ┌────────┐\n │        │ 2 m\n └────┐   │\n      │   │ 5 m\n ┌────┘   │\n │        │ 2 m\n └────────┘\n     6 m\n</pre>",
+    "showProcess": "1. Internal vertical neck = 5 m<br>2. Total vertical height = 2 + 5 + 2 = 9 m<br>3. Left side missing elements match line limits.<br>4. Total Perimeter = 6 + 9 + 6 + 2 + 3 + 5 + 3 + 2 = 36 m<br>5. Total Area = (6 × 2) + (6 × 2) + (3 × 5) = 12 + 12 = 24 + 15 = 39",
+    "showAnswer": "Perimeter = 36 m, Area = 39 m<sup>2</sup>"
+  },
+  {
+    "id": 91,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this L-shape:<br><pre>\n 9 cm┌────────┐\n     │        │\n     │   ┌────┘ 6 cm\n     │   │\n     └───┴──────────┐\n         3 cm       │ 3 cm\n └──────────────────┘\n        10 cm\n</pre>",
+    "showProcess": "1. Top side = 10 - 3 = 7 cm<br>2. Inner vertical = 9 - 3 = 6 cm<br>3. Total Perimeter = 9 + 7 + 6 + 3 + 3 + 10 = 38 cm<br>4. Total Area = (3 × 3) + (7 × 9) = 9 + 63 = 72",
+    "showAnswer": "Perimeter = 38 cm, Area = 72 cm<sup>2</sup>"
+  },
+  {
+    "id": 92,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this L-shape:<br><pre>\n 12 m┌────┐\n     │    │\n     │    └───┐ 7 m\n     │        │\n     └────────┴─────┐\n         5 m        │ 5 m\n └──────────────────┘\n        12 m\n</pre>",
+    "showProcess": "1. Top side = 12 - 5 = 7 m<br>2. Inner vertical = 12 - 5 = 7 m<br>3. Total Perimeter = 12 + 7 + 7 + 5 + 5 + 12 = 48 m<br>4. Total Area = (5 × 5) + (7 × 12) = 25 + 84 = 109",
+    "showAnswer": "Perimeter = 48 m, Area = 109 m<sup>2</sup>"
+  },
+  {
+    "id": 93,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this T-shape:<br><pre>\n        20 mm\n ┌──────────────────┐\n └──────┐    ┌──────┘ 5 mm\n        │    │\n        │    │ 15 mm\n        └────┘\n         6 mm\n</pre>",
+    "showProcess": "1. Top side extensions = (20 - 6) ÷ 2 = 7 mm each<br>2. Total Perimeter = 20 + 5 + 7 + 15 + 6 + 15 + 7 + 5 = 80 mm<br>3. Total Area = (20 × 5) + (6 × 15) = 100 + 90 = 190",
+    "showAnswer": "Perimeter = 80 mm, Area = 190 mm<sup>2</sup>"
+  },
+  {
+    "id": 94,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this U-shape:<br><pre>\n 10 m┌───┐      ┌───┐\n     │   │      │   │\n     │   └──────┘   │ 6 m\n     │              │\n     └──────────────┘\n           15 m\n (Width of each column = 3 m)\n</pre>",
+    "showProcess": "1. Center empty floor space width = 15 - 3 - 3 = 9 m<br>2. Cutout downward length = 10 - 6 = 4 m<br>3. Total Perimeter = 15 + 10 + 3 + 4 + 9 + 4 + 3 + 10 = 58 m<br>4. Total Area = (15 × 6) + (3 × 4) + (3 × 4) = 90 + 12 + 12 = 114",
+    "showAnswer": "Perimeter = 58 m, Area = 114 m<sup>2</sup>"
+  },
+  {
+    "id": 95,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this composite shape:<br><pre>\n     8 cm\n ┌──────────┐\n │          │ 4 cm\n └─────┐    │\n       │    │ 6 cm\n ┌─────┘    │\n │          │ 4 cm\n └──────────┘\n     8 cm\n</pre>",
+    "showProcess": "1. Inner vertical = 6 cm<br>2. Left outer missing bits match context perfectly.<br>3. Total Perimeter = 8 + 14 + 8 + 4 + 4 + 6 + 4 + 4 = 52 cm<br>4. Total Area = (8 × 4) + (8 × 4) + (4 × 6) = 32 + 32 + 24 = 88",
+    "showAnswer": "Perimeter = 52 cm, Area = 88 cm<sup>2</sup>"
+  },
+  {
+    "id": 96,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this L-shape:<br><pre>\n 15 mm┌──────┐\n      │      │\n      │  ┌───┘ 10 mm\n      │  │\n      └──┴───────┐\n         5 mm    │ 5 mm\n └───────────────┘\n       20 mm\n</pre>",
+    "showProcess": "1. Top side = 20 - 5 = 15 mm<br>2. Inner vertical = 15 - 5 = 10 mm<br>3. Total Perimeter = 15 + 15 + 10 + 5 + 5 + 20 = 70 mm<br>4. Total Area = (5 × 5) + (15 × 15) = 25 + 225 = 250",
+    "showAnswer": "Perimeter = 70 mm, Area = 250 mm<sup>2</sup>"
+  },
+  {
+    "id": 97,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this L-shape:<br><pre>\n 6 m ┌──────────┐\n     │          │\n     │    ┌─────┘ 4 m\n     │    │\n     └────┴─────────┐\n         6 m        │ 2 m\n └──────────────────┘\n        12 m\n</pre>",
+    "showProcess": "1. Top side = 12 - 6 = 6 m<br>2. Inner vertical = 6 - 2 = 4 m<br>3. Total Perimeter = 6 + 6 + 4 + 6 + 2 + 12 = 36 m<br>4. Total Area = (6 × 2) + (6 × 6) = 12 + 36 = 48",
+    "showAnswer": "Perimeter = 36 m, Area = 48 m<sup>2</sup>"
+  },
+  {
+    "id": 98,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this T-shape:<br><pre>\n        14 cm\n ┌──────────────────┐\n └────┐        ┌────┘ 4 cm\n      │        │\n      │        │ 6 cm\n      └────────┘\n         6 cm\n</pre>",
+    "showProcess": "1. Top wing segments = (14 - 6) ÷ 2 = 4 cm each<br>2. Total Perimeter = 14 + 4 + 4 + 6 + 6 + 6 + 4 + 4 = 48 cm<br>3. Total Area = (14 × 4) + (6 × 6) = 56 + 36 = 92",
+    "showAnswer": "Perimeter = 48 cm, Area = 92 cm<sup>2</sup>"
+  },
+  {
+    "id": 99,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this U-shape:<br><pre>\n 5 mm┌───┐      ┌───┐\n     │   │      │   │\n     │   └──────┘   │ 3 mm\n     │              │\n     └──────────────┘\n           10 mm\n (Width of each column = 2 mm)\n</pre>",
+    "showProcess": "1. Center gap floor width = 10 - 2 - 2 = 6 mm<br>2. Center drop distance = 5 - 3 = 2 mm<br>3. Total Perimeter = 10 + 5 + 2 + 2 + 6 + 2 + 2 + 5 = 34 mm<br>4. Total Area = (10 × 3) + (2 × 2) + (2 × 2) = 30 + 4 + 4 = 38",
+    "showAnswer": "Perimeter = 34 mm, Area = 38 mm<sup>2</sup>"
+  },
+  {
+    "id": 100,
+    "questionText": "Find the missing sides, then find the Total Perimeter and Total Area of this step shape:<br><pre>\n         5 m\n       ┌────┐\n       │    │ 5 m\n   ┌───┘    │\n   │        │ 5 m\n ──┘        │\n    5 m\n └──────────┘\n    10 m\n</pre>",
+    "showProcess": "1. Total structural height = 5 + 5 = 10 m<br>2. Missing segment calculations balance matching walls line-for-line.<br>3. Total Perimeter = 10 + 10 + 5 + 5 + 5 + 5 = 40 m<br>4. Total Area = (5 × 5) + (10 × 5) = 25 + 50 = 75",
+    "showAnswer": "Perimeter = 40 m, Area = 75 m<sup>2</sup>"
+  }
+]

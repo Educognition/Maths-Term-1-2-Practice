@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "questionText": "324 + 142",
+    "showProcess": "Step 1: 4 + 2 = 6. Step 2: 2 + 4 = 6. Step 3: 3 + 1 = 4.",
+    "showAnswer": "466"
+  },
+  {
+    "id": 2,
+    "questionText": "365 − 142",
+    "showProcess": "Step 1: 5 − 2 = 3. Step 2: 6 − 4 = 2. Step 3: 3 − 1 = 2.",
+    "showAnswer": "223"
+  },
+  {
+    "id": 3,
+    "questionText": "513 + 264",
+    "showProcess": "Step 1: 3 + 4 = 7. Step 2: 1 + 6 = 7. Step 3: 5 + 2 = 7.",
+    "showAnswer": "777"
+  },
+  {
+    "id": 4,
+    "questionText": "578 − 234",
+    "showProcess": "Step 1: 8 − 4 = 4. Step 2: 7 − 3 = 4. Step 3: 5 − 2 = 3.",
+    "showAnswer": "344"
+  },
+  {
+    "id": 5,
+    "questionText": "402 + 375",
+    "showProcess": "Step 1: 2 + 5 = 7. Step 2: 0 + 7 = 7. Step 3: 4 + 3 = 7.",
+    "showAnswer": "777"
+  },
+  {
+    "id": 6,
+    "questionText": "492 − 170",
+    "showProcess": "Step 1: 2 − 0 = 2. Step 2: 9 − 7 = 2. Step 3: 4 − 1 = 3.",
+    "showAnswer": "322"
+  },
+  {
+    "id": 7,
+    "questionText": "620 + 158",
+    "showProcess": "Step 1: 0 + 8 = 8. Step 2: 2 + 5 = 7. Step 3: 6 + 1 = 7.",
+    "showAnswer": "778"
+  },
+  {
+    "id": 8,
+    "questionText": "687 − 351",
+    "showProcess": "Step 1: 7 − 1 = 6. Step 2: 8 − 5 = 3. Step 3: 6 − 3 = 3.",
+    "showAnswer": "336"
+  },
+  {
+    "id": 9,
+    "questionText": "231 + 546",
+    "showProcess": "Step 1: 1 + 6 = 7. Step 2: 3 + 4 = 7. Step 3: 2 + 5 = 7.",
+    "showAnswer": "777"
+  },
+  {
+    "id": 10,
+    "questionText": "859 − 526",
+    "showProcess": "Step 1: 9 − 6 = 3. Step 2: 5 − 2 = 3. Step 3: 8 − 5 = 3.",
+    "showAnswer": "333"
+  },
+  {
+    "id": 11,
+    "questionText": "704 + 283",
+    "showProcess": "Step 1: 4 + 3 = 7. Step 2: 0 + 8 = 8. Step 3: 7 + 2 = 9.",
+    "showAnswer": "987"
+  },
+  {
+    "id": 12,
+    "questionText": "794 − 283",
+    "showProcess": "Step 1: 4 − 3 = 1. Step 2: 79 − 28 = 51 (or 9 − 8 = 1, 7 − 2 = 5).",
+    "showAnswer": "511"
+  },
+  {
+    "id": 13,
+    "questionText": "115 + 842",
+    "showProcess": "Step 1: 5 + 2 = 7. Step 2: 1 + 4 = 5. Step 3: 1 + 8 = 9.",
+    "showAnswer": "957"
+  },
+  {
+    "id": 14,
+    "questionText": "946 − 412",
+    "showProcess": "Step 1: 6 − 2 = 4. Step 2: 4 − 1 = 3. Step 3: 9 − 4 = 5.",
+    "showAnswer": "534"
+  },
+  {
+    "id": 15,
+    "questionText": "333 + 444",
+    "showProcess": "Step 1: 3 + 4 = 7. Step 2: 3 + 4 = 7. Step 3: 3 + 4 = 7.",
+    "showAnswer": "777"
+  },
+  {
+    "id": 16,
+    "questionText": "333 − 111",
+    "showProcess": "Step 1: 3 − 1 = 2. Step 2: 3 − 1 = 2. Step 3: 3 − 1 = 2.",
+    "showAnswer": "222"
+  },
+  {
+    "id": 17,
+    "questionText": "521 + 367",
+    "showProcess": "Step 1: 1 + 7 = 8. Step 2: 2 + 6 = 8. Step 3: 5 + 3 = 8.",
+    "showAnswer": "888"
+  },
+  {
+    "id": 18,
+    "questionText": "567 − 321",
+    "showProcess": "Step 1: 7 − 1 = 6. Step 2: 6 − 2 = 4. Step 3: 5 − 3 = 2.",
+    "showAnswer": "246"
+  },
+  {
+    "id": 19,
+    "questionText": "812 + 175",
+    "showProcess": "Step 1: 2 + 5 = 7. Step 2: 1 + 7 = 8. Step 3: 8 + 1 = 9.",
+    "showAnswer": "987"
+  },
+  {
+    "id": 20,
+    "questionText": "875 − 172",
+    "showProcess": "Step 1: 5 − 2 = 3. Step 2: 7 − 7 = 0. Step 3: 8 − 1 = 7.",
+    "showAnswer": "703"
+  },
+  {
+    "id": 21,
+    "questionText": "452 + 239",
+    "showProcess": "Step 1: 2 + 9 = 11 (write 1, carry 1). Step 2: 5 + 3 + 1 = 9. Step 3: 4 + 2 = 6.",
+    "showAnswer": "691"
+  },
+  {
+    "id": 22,
+    "questionText": "452 − 239",
+    "showProcess": "Step 1: 2 − 9 needs borrowing. Borrow 1 from 5 (turns to 4) to make 12. 12 − 9 = 3. Step 2: 4 − 3 = 1. Step 3: 4 − 2 = 2.",
+    "showAnswer": "213"
+  },
+  {
+    "id": 23,
+    "questionText": "617 + 145",
+    "showProcess": "Step 1: 7 + 5 = 12 (write 2, carry 1). Step 2: 1 + 4 + 1 = 6. Step 3: 6 + 1 = 7.",
+    "showAnswer": "762"
+  },
+  {
+    "id": 24,
+    "questionText": "617 − 145",
+    "showProcess": "Step 1: 7 − 5 = 2. Step 2: 1 − 4 needs borrowing. Borrow 1 from 6 (turns to 5) to make 11. 11 − 4 = 7. Step 3: 5 − 1 = 4.",
+    "showAnswer": "472"
+  },
+  {
+    "id": 25,
+    "questionText": "381 + 243",
+    "showProcess": "Step 1: 1 + 3 = 4. Step 2: 8 + 4 = 12 (write 2, carry 1). Step 3: 3 + 2 + 1 = 6.",
+    "showAnswer": "624"
+  },
+  {
+    "id": 26,
+    "questionText": "381 − 243",
+    "showProcess": "Step 1: 1 − 3 needs borrowing. Borrow 1 from 8 (turns to 7) to make 11. 11 − 3 = 8. Step 2: 7 − 4 = 3. Step 3: 3 − 2 = 1.",
+    "showAnswer": "138"
+  },
+  {
+    "id": 27,
+    "questionText": "572 + 154",
+    "showProcess": "Step 1: 2 + 4 = 6. Step 2: 7 + 5 = 12 (write 2, carry 1). Step 3: 5 + 1 + 1 = 7.",
+    "showAnswer": "726"
+  },
+  {
+    "id": 28,
+    "questionText": "572 − 154",
+    "showProcess": "Step 1: 2 − 4 needs borrowing. Borrow 1 from 7 (turns to 6) to make 12. 12 − 4 = 8. Step 2: 6 − 5 = 1. Step 3: 5 − 1 = 4.",
+    "showAnswer": "418"
+  },
+  {
+    "id": 29,
+    "questionText": "294 + 403",
+    "showProcess": "Step 1: 4 + 3 = 7. Step 2: 9 + 0 = 9. Step 3: 2 + 4 = 6.",
+    "showAnswer": "697"
+  },
+  {
+    "id": 30,
+    "questionText": "423 − 205",
+    "showProcess": "Step 1: 3 − 5 needs borrowing. Borrow 1 from 2 (turns to 1) to make 13. 13 − 5 = 8. Step 2: 1 − 0 = 1. Step 3: 4 − 2 = 2.",
+    "showAnswer": "218"
+  },
+  {
+    "id": 31,
+    "questionText": "846 + 127",
+    "showProcess": "Step 1: 6 + 7 = 13 (write 3, carry 1). Step 2: 4 + 2 + 1 = 7. Step 3: 8 + 1 = 9.",
+    "showAnswer": "973"
+  },
+  {
+    "id": 32,
+    "questionText": "846 − 127",
+    "showProcess": "Step 1: 6 − 7 needs borrowing. Borrow 1 from 4 (turns to 3) to make 16. 16 − 7 = 9. Step 2: 3 − 2 = 1. Step 3: 8 − 1 = 7.",
+    "showAnswer": "719"
+  },
+  {
+    "id": 33,
+    "questionText": "165 + 728",
+    "showProcess": "Step 1: 5 + 8 = 13 (write 3, carry 1). Step 2: 6 + 2 + 1 = 9. Step 3: 1 + 7 = 8.",
+    "showAnswer": "893"
+  },
+  {
+    "id": 34,
+    "questionText": "765 − 128",
+    "showProcess": "Step 1: 5 − 8 needs borrowing. Borrow 1 from 6 (turns to 5) to make 15. 15 − 8 = 7. Step 2: 5 − 2 = 3. Step 3: 7 − 1 = 6.",
+    "showAnswer": "637"
+  },
+  {
+    "id": 35,
+    "questionText": "439 + 380",
+    "showProcess": "Step 1: 9 + 0 = 9. Step 2: 3 + 8 = 11 (write 1, carry 1). Step 3: 4 + 3 + 1 = 8.",
+    "showAnswer": "819"
+  },
+  {
+    "id": 36,
+    "questionText": "439 − 380",
+    "showProcess": "Step 1: 9 − 0 = 9. Step 2: 3 − 8 needs borrowing. Borrow 1 from 4 (turns to 3) to make 13. 13 − 8 = 5. Step 3: 3 − 3 = 0.",
+    "showAnswer": "59"
+  },
+  {
+    "id": 37,
+    "questionText": "748 + 135",
+    "showProcess": "Step 1: 8 + 5 = 13 (write 3, carry 1). Step 2: 4 + 3 + 1 = 8. Step 3: 7 + 1 = 8.",
+    "showAnswer": "883"
+  },
+  {
+    "id": 38,
+    "questionText": "748 − 155",
+    "showProcess": "Step 1: 8 − 5 = 3. Step 2: 4 − 5 needs borrowing. Borrow 1 from 7 (turns to 6) to make 14. 14 − 5 = 9. Step 3: 6 − 1 = 5.",
+    "showAnswer": "593"
+  },
+  {
+    "id": 39,
+    "questionText": "256 + 681",
+    "showProcess": "Step 1: 6 + 1 = 7. Step 2: 5 + 8 = 13 (write 3, carry 1). Step 3: 2 + 6 + 1 = 9.",
+    "showAnswer": "937"
+  },
+  {
+    "id": 40,
+    "questionText": "956 − 681",
+    "showProcess": "Step 1: 6 − 1 = 5. Step 2: 5 − 8 needs borrowing. Borrow 1 from 9 (turns to 8) to make 15. 15 − 8 = 7. Step 3: 8 − 6 = 2.",
+    "showAnswer": "275"
+  },
+  {
+    "id": 41,
+    "questionText": "387 + 465",
+    "showProcess": "Step 1: 7 + 5 = 12 (write 2, carry 1). Step 2: 8 + 6 + 1 = 15 (write 5, carry 1). Step 3: 3 + 4 + 1 = 8.",
+    "showAnswer": "852"
+  },
+  {
+    "id": 42,
+    "questionText": "523 − 165",
+    "showProcess": "Step 1: Borrow to make 13 − 5 = 8. Step 2: Remaining 1 needs borrowing to make 11 − 6 = 5. Step 3: Remaining 4 − 1 = 3.",
+    "showAnswer": "358"
+  },
+  {
+    "id": 43,
+    "questionText": "596 + 238",
+    "showProcess": "Step 1: 6 + 8 = 14 (write 4, carry 1). Step 2: 9 + 3 + 1 = 13 (write 3, carry 1). Step 3: 5 + 2 + 1 = 8.",
+    "showAnswer": "834"
+  },
+  {
+    "id": 44,
+    "questionText": "631 − 278",
+    "showProcess": "Step 1: Borrow to make 11 − 8 = 3. Step 2: Remaining 2 needs borrowing to make 12 − 7 = 5. Step 3: Remaining 5 − 2 = 3.",
+    "showAnswer": "353"
+  },
+  {
+    "id": 45,
+    "questionText": "679 + 184",
+    "showProcess": "Step 1: 9 + 4 = 13 (write 3, carry 1). Step 2: 7 + 8 + 1 = 16 (write 6, carry 1). Step 3: 6 + 1 + 1 = 8.",
+    "showAnswer": "863"
+  },
+  {
+    "id": 46,
+    "questionText": "412 − 184",
+    "showProcess": "Step 1: Borrow to make 12 − 4 = 8. Step 2: Remaining 0 needs borrowing to make 10 − 8 = 2. Step 3: Remaining 3 − 1 = 2.",
+    "showAnswer": "228"
+  },
+  {
+    "id": 47,
+    "questionText": "488 + 355",
+    "showProcess": "Step 1: 8 + 5 = 13 (write 3, carry 1). Step 2: 8 + 5 + 1 = 14 (write 4, carry 1). Step 3: 4 + 3 + 1 = 8.",
+    "showAnswer": "843"
+  },
+  {
+    "id": 48,
+    "questionText": "834 − 355",
+    "showProcess": "Step 1: Borrow to make 14 − 5 = 9. Step 2: Remaining 2 needs borrowing to make 12 − 5 = 7. Step 3: Remaining 7 − 3 = 4.",
+    "showAnswer": "479"
+  },
+  {
+    "id": 49,
+    "questionText": "764 + 189",
+    "showProcess": "Step 1: 4 + 9 = 13 (write 3, carry 1). Step 2: 6 + 8 + 1 = 15 (write 5, carry 1). Step 3: 7 + 1 + 1 = 9.",
+    "showAnswer": "953"
+  },
+  {
+    "id": 50,
+    "questionText": "743 − 189",
+    "showProcess": "Step 1: Borrow to make 13 − 9 = 4. Step 2: Remaining 3 needs borrowing to make 13 − 8 = 5. Step 3: Remaining 6 − 1 = 5.",
+    "showAnswer": "554"
+  },
+  {
+    "id": 51,
+    "questionText": "295 + 567",
+    "showProcess": "Step 1: 5 + 7 = 12 (write 2, carry 1). Step 2: 9 + 6 + 1 = 16 (write 6, carry 1). Step 3: 2 + 5 + 1 = 8.",
+    "showAnswer": "862"
+  },
+  {
+    "id": 52,
+    "questionText": "821 − 567",
+    "showProcess": "Step 1: Borrow to make 11 − 7 = 4. Step 2: Remaining 1 needs borrowing to make 11 − 6 = 5. Step 3: Remaining 7 − 5 = 2.",
+    "showAnswer": "254"
+  },
+  {
+    "id": 53,
+    "questionText": "876 + 147",
+    "showProcess": "Step 1: 6 + 7 = 13 (write 3, carry 1). Step 2: 7 + 1 + 4 = 12 (write 2, carry 1). Step 3: 8 + 1 + 1 = 10.",
+    "showAnswer": "1023"
+  },
+  {
+    "id": 54,
+    "questionText": "913 − 447",
+    "showProcess": "Step 1: Borrow to make 13 − 47 ... 13 − 7 = 6. Step 2: Remaining 0 becomes 10 − 4 = 6. Step 3: Remaining 8 − 4 = 4.",
+    "showAnswer": "466"
+  },
+  {
+    "id": 55,
+    "questionText": "499 + 388",
+    "showProcess": "Step 1: 9 + 8 = 17 (write 7, carry 1). Step 2: 9 + 8 + 1 = 18 (write 8, carry 1). Step 3: 4 + 3 + 1 = 8.",
+    "showAnswer": "887"
+  },
+  {
+    "id": 56,
+    "questionText": "624 − 388",
+    "showProcess": "Step 1: Borrow to make 14 − 8 = 6. Step 2: Remaining 1 becomes 11 − 8 = 3. Step 3: Remaining 5 − 3 = 2.",
+    "showAnswer": "236"
+  },
+  {
+    "id": 57,
+    "questionText": "657 + 865",
+    "showProcess": "Step 1: 7 + 5 = 12 (write 2, carry 1). Step 2: 5 + 6 + 1 = 12 (write 2, carry 1). Step 3: 6 + 8 + 1 = 15.",
+    "showAnswer": "1522"
+  },
+  {
+    "id": 58,
+    "questionText": "512 − 165",
+    "showProcess": "Step 1: Borrow to make 12 − 5 = 7. Step 2: Remaining 0 becomes 10 − 6 = 4. Step 3: Remaining 4 − 1 = 3.",
+    "showAnswer": "347"
+  },
+  {
+    "id": 59,
+    "questionText": "989 + 768",
+    "showProcess": "Step 1: 9 + 8 = 17 (write 7, carry 1). Step 2: 8 + 6 + 1 = 15 (write 5, carry 1). Step 3: 9 + 7 + 1 = 17.",
+    "showAnswer": "1757"
+  },
+  {
+    "id": 60,
+    "questionText": "735 − 468",
+    "showProcess": "Step 1: Borrow to make 15 − 8 = 7. Step 2: Remaining 2 becomes 12 − 6 = 6. Step 3: Remaining 6 − 4 = 2.",
+    "showAnswer": "267"
+  },
+  {
+    "id": 61,
+    "questionText": "4325 + 1542",
+    "showProcess": "Step 1: 5+2=7. Step 2: 2+4=6. Step 3: 3+5=8. Step 4: 4+1=5.",
+    "showAnswer": "5867"
+  },
+  {
+    "id": 62,
+    "questionText": "4567 − 1243",
+    "showProcess": "Step 1: 7 − 3 = 4. Step 2: 6 − 4 = 2. Step 3: 5 − 2 = 3. Step 4: 4 − 1 = 3.",
+    "showAnswer": "3324"
+  },
+  {
+    "id": 63,
+    "questionText": "6104 + 2783",
+    "showProcess": "Step 1: 4+3=7. Step 2: 0+8=8. Step 3: 1+7=8. Step 4: 6+2=8.",
+    "showAnswer": "8887"
+  },
+  {
+    "id": 64,
+    "questionText": "8954 − 2731",
+    "showProcess": "Step 1: 4 − 1 = 3. Step 2: 5 − 3 = 2. Step 3: 9 − 7 = 2. Step 4: 8 − 2 = 6.",
+    "showAnswer": "6223"
+  },
+  {
+    "id": 65,
+    "questionText": "2531 + 5462",
+    "showProcess": "Step 1: 1+2=3. Step 2: 3+6=9. Step 3: 5+4=9. Step 4: 2+5=7.",
+    "showAnswer": "7993"
+  },
+  {
+    "id": 66,
+    "questionText": "7693 − 5461",
+    "showProcess": "Step 1: 3 − 1 = 2. Step 2: 9 − 6 = 3. Step 3: 6 − 4 = 2. Step 4: 7 − 5 = 2.",
+    "showAnswer": "2232"
+  },
+  {
+    "id": 67,
+    "questionText": "7015 + 1842",
+    "showProcess": "Step 1: 5+2=7. Step 2: 1+4=5. Step 3: 0+8=8. Step 4: 7+1=8.",
+    "showAnswer": "8857"
+  },
+  {
+    "id": 68,
+    "questionText": "9857 − 1842",
+    "showProcess": "Step 1: 7 − 2 = 5. Step 2: 5 − 4 = 1. Step 3: 8 − 8 = 0. Step 4: 9 − 1 = 8.",
+    "showAnswer": "8015"
+  },
+  {
+    "id": 69,
+    "questionText": "3420 + 4159",
+    "showProcess": "Step 1: 0+9=9. Step 2: 2+5=7. Step 3: 4+1=5. Step 4: 3+4=7.",
+    "showAnswer": "7579"
+  },
+  {
+    "id": 70,
+    "questionText": "5479 − 4153",
+    "showProcess": "Step 1: 9 − 3 = 6. Step 2: 7 − 5 = 2. Step 3: 4 − 1 = 3. Step 4: 5 − 4 = 1.",
+    "showAnswer": "1326"
+  },
+  {
+    "id": 71,
+    "questionText": "8234 + 1653",
+    "showProcess": "Step 1: 4+3=7. Step 2: 3+5=8. Step 3: 2+6=8. Step 4: 8+1=9.",
+    "showAnswer": "9887"
+  },
+  {
+    "id": 72,
+    "questionText": "8294 − 1153",
+    "showProcess": "Step 1: 4 − 3 = 1. Step 2: 9 − 5 = 4. Step 3: 2 − 1 = 1. Step 4: 8 − 1 = 7.",
+    "showAnswer": "7141"
+  },
+  {
+    "id": 73,
+    "questionText": "1562 + 7314",
+    "showProcess": "Step 1: 2+4=6. Step 2: 6+1=7. Step 3: 5+3=8. Step 4: 1+7=8.",
+    "showAnswer": "8876"
+  },
+  {
+    "id": 74,
+    "questionText": "7568 − 2314",
+    "showProcess": "Step 1: 8 − 4 = 4. Step 2: 6 − 1 = 5. Step 3: 5 − 3 = 2. Step 4: 7 − 2 = 5.",
+    "showAnswer": "5254"
+  },
+  {
+    "id": 75,
+    "questionText": "5371 + 3208",
+    "showProcess": "Step 1: 1+8=9. Step 2: 7+0=7. Step 3: 3+2=5. Step 4: 5+3=8.",
+    "showAnswer": "8579"
+  },
+  {
+    "id": 76,
+    "questionText": "5379 − 3208",
+    "showProcess": "Step 1: 9 − 8 = 1. Step 2: 7 − 0 = 7. Step 3: 3 − 2 = 1. Step 4: 5 − 3 = 2.",
+    "showAnswer": "2171"
+  },
+  {
+    "id": 77,
+    "questionText": "9024 +  console 853",
+    "showProcess": "Step 1: 4+3=7. Step 2: 2+5=7. Step 3: 0+8=8. Step 4: 9+0=9.",
+    "showAnswer": "9877"
+  },
+  {
+    "id": 78,
+    "questionText": "9877 − 4352",
+    "showProcess": "Step 1: 7 − 2 = 5. Step 2: 7 − 5 = 2. Step 3: 8 − 3 = 5. Step 4: 9 − 4 = 5.",
+    "showAnswer": "5525"
+  },
+  {
+    "id": 79,
+    "questionText": "4444 + 5555",
+    "showProcess": "Step 1: 4+5=9. Step 2: 4+5=9. Step 3: 4+5=9. Step 4: 4+5=9.",
+    "showAnswer": "9999"
+  },
+  {
+    "id": 80,
+    "questionText": "9999 − 5555",
+    "showProcess": "Step 1: 9 − 5 = 4. Step 2: 9 − 5 = 4. Step 3: 9 − 5 = 4. Step 4: 9 − 5 = 4.",
+    "showAnswer": "4444"
+  },
+  {
+    "id": 81,
+    "questionText": "3256 + 1428",
+    "showProcess": "Step 1: 6+8=14 (carry 1). Step 2: 5+2+1=8. Step 3: 2+4=6. Step 4: 3+1=4.",
+    "showAnswer": "4684"
+  },
+  {
+    "id": 82,
+    "questionText": "4684 − 1428",
+    "showProcess": "Step 1: 4 − 8 needs borrowing. Borrow from 8 (turns to 7) to make 14. 14 − 8 = 6. Step 2: 7 − 2 = 5. Step 3: 6 − 4 = 2. Step 4: 4 − 1 = 3.",
+    "showAnswer": "3256"
+  },
+  {
+    "id": 83,
+    "questionText": "6713 + 2154",
+    "showProcess": "Step 1: 3+4=7. Step 2: 1+5=6. Step 3: 7+1=8. Step 4: 6+2=8.",
+    "showAnswer": "8867"
+  },
+  {
+    "id": 84,
+    "questionText": "8867 − 2159",
+    "showProcess": "Step 1: Borrow to make 17 − 9 = 8. Step 2: Remaining 5 − 5 = 0. Step 3: 8 − 1 = 7. Step 4: 8 − 2 = 6.",
+    "showAnswer": "6708"
+  },
+  {
+    "id": 85,
+    "questionText": "5182 + 3475",
+    "showProcess": "Step 1: 2+5=7. Step 2: 8+7=15 (carry 1). Step 3: 1+4+1=6. Step 4: 5+3=8.",
+    "showAnswer": "8657"
+  },
+  {
+    "id": 86,
+    "questionText": "5475 − 3182",
+    "showProcess": "Step 1: 5 − 2 = 3. Step 2: 7 − 8 needs borrowing. Borrow from 4 (turns to 3) to make 17. 17 − 8 = 9. Step 3: 3 − 1 = 2. Step 4: 5 − 3 = 2.",
+    "showAnswer": "2293"
+  },
+  {
+    "id": 87,
+    "questionText": "2491 + 4305",
+    "showProcess": "Step 1: 1+5=6. Step 2: 9+0=9. Step 3: 4+3=7. Step 4: 2+4=6.",
+    "showAnswer": "6796"
+  },
+  {
+    "id": 88,
+    "questionText": "6746 − 4391",
+    "showProcess": "Step 1: 6 − 1 = 5. Step 2: 4 − 9 needs borrowing. Borrow from 7 (turns to 6) to make 14. 14 − 9 = 5. Step 3: 6 − 3 = 3. Step 4: 6 − 4 = 2.",
+    "showAnswer": "2355"
+  },
+  {
+    "id": 89,
+    "questionText": "8037 + 1526",
+    "showProcess": "Step 1: 7+6=13 (carry 1). Step 2: 3+2+1=6. Step 3: 0+5=5. Step 4: 8+1=9.",
+    "showAnswer": "9563"
+  },
+  {
+    "id": 90,
+    "questionText": "9563 − 1526",
+    "showProcess": "Step 1: Borrow to make 13 − 6 = 7. Step 2: Remaining 5 − 2 = 3. Step 3: 5 − 5 = 0. Step 4: 9 − 1 = 8.",
+    "showAnswer": "8037"
+  },
+  {
+    "id": 91,
+    "questionText": "1365 + 6273",
+    "showProcess": "Step 1: 5+3=8. Step 2: 6+7=13 (carry 1). Step 3: 3+2+1=6. Step 4: 1+6=7.",
+    "showAnswer": "7638"
+  },
+  {
+    "id": 92,
+    "questionText": "7638 − 6273",
+    "showProcess": "Step 1: 8 − 3 = 5. Step 2: 3 − 7 needs borrowing. Borrow from 6 (turns to 5) to make 13. 13 − 7 = 6. Step 3: 5 − 2 = 3. Step 4: 7 − 6 = 1.",
+    "showAnswer": "1365"
+  },
+  {
+    "id": 93,
+    "questionText": "7248 + 1534",
+    "showProcess": "Step 1: 8+4=12 (carry 1). Step 2: 4+3+1=8. Step 3: 2+5=7. Step 4: 7+1=8.",
+    "showAnswer": "8782"
+  },
+  {
+    "id": 94,
+    "questionText": "8782 − 1534",
+    "showProcess": "Step 1: Borrow to make 12 − 4 = 8. Step 2: Remaining 7 − 3 = 4. Step 3: 7 − 5 = 2. Step 4: 8 − 1 = 7.",
+    "showAnswer": "7248"
+  },
+  {
+    "id": 95,
+    "questionText": "4810 + 2935",
+    "showProcess": "Step 1: 0+5=5. Step 2: 1+3=4. Step 3: 8+9=17 (carry 1). Step 4: 4+2+1=7.",
+    "showAnswer": "7745"
+  },
+  {
+    "id": 96,
+    "questionText": "7745 − 2935",
+    "showProcess": "Step 1: 5 − 5 = 0. Step 2: 4 − 3 = 1. Step 3: 7 − 9 needs borrowing. Borrow from 7 to make 17 − 9 = 8. Step 4: Remaining 6 − 2 = 4.",
+    "showAnswer": "4810"
+  },
+  {
+    "id": 97,
+    "questionText": "3529 + 5143",
+    "showProcess": "Step 1: 9+3=12 (carry 1). Step 2: 2+4+1=7. Step 3: 5+1=6. Step 4: 3+5=8.",
+    "showAnswer": "8672"
+  },
+  {
+    "id": 98,
+    "questionText": "8672 − 5143",
+    "showProcess": "Step 1: Borrow to make 12 − 3 = 9. Step 2: Remaining 6 − 4 = 2. Step 3: 6 − 1 = 5. Step 4: 8 − 5 = 3.",
+    "showAnswer": "3529"
+  },
+  {
+    "id": 99,
+    "questionText": "6074 + 2851",
+    "showProcess": "Step 1: 4+1=5. Step 2: 7+5=12 (carry 1). Step 3: 0+8+1=9. Step 4: 6+2=8.",
+    "showAnswer": "8925"
+  },
+  {
+    "id": 100,
+    "questionText": "8925 − 2851",
+    "showProcess": "Step 1: 5 − 1 = 4. Step 2: 2 − 5 needs borrowing. Borrow from 9 to make 12 − 5 = 7. Step 3: Remaining 8 − 8 = 0. Step 4: 8 − 2 = 6.",
+    "showAnswer": "6074"
+  },
+  {
+    "id": 101,
+    "questionText": "4785 + 2649",
+    "showProcess": "Step 1: 5+9=14 (carry 1). Step 2: 8+4+1=13 (carry 1). Step 3: 7+6+1=14 (carry 1). Step 4: 4+2+1=7.",
+    "showAnswer": "7434"
+  },
+  {
+    "id": 102,
+    "questionText": "7434 − 2649",
+    "showProcess": "Step 1: Borrow to make 14 − 9 = 5. Step 2: Remaining 2 becomes 12 − 4 = 8. Step 3: Remaining 3 becomes 13 − 6 = 7. Step 4: Remaining 6 − 2 = 4.",
+    "showAnswer": "4785"
+  },
+  {
+    "id": 103,
+    "questionText": "6897 + 1435",
+    "showProcess": "Step 1: 7+5=12 (carry 1). Step 2: 9+3+1=13 (carry 1). Step 3: 8+4+1=13 (carry 1). Step 4: 6+1+1=8.",
+    "showAnswer": "8332"
+  },
+  {
+    "id": 104,
+    "questionText": "8332 − 1435",
+    "showProcess": "Step 1: Borrow to make 12 − 5 = 7. Step 2: Remaining 2 becomes 12 − 3 = 9. Step 3: Remaining 2 becomes 12 − 4 = 8. Step 4: Remaining 7 − 1 = 6.",
+    "showAnswer": "6897"
+  },
+  {
+    "id": 105,
+    "questionText": "3568 + 4785",
+    "showProcess": "Step 1: 8+5=13 (carry 1). Step 2: 6+8+1=15 (carry 1). Step 3: 5+4+7+1=13 (carry 1). Step 4: 3+4+1=8.",
+    "showAnswer": "8353"
+  },
+  {
+    "id": 106,
+    "questionText": "8353 − 4785",
+    "showProcess": "Step 1: Borrow to make 13 − 5 = 8. Step 2: Remaining 4 becomes 14 − 8 = 6. Step 3: Remaining 2 becomes 12 − 7 = 5. Step 4: Remaining 7 − 4 = 3.",
+    "showAnswer": "3568"
+  },
+  {
+    "id": 107,
+    "questionText": "7946 + 1387",
+    "showProcess": "Step 1: 6+7=13 (carry 1). Step 2: 4+8+1=13 (carry 1). Step 3: 9+3+1=13 (carry 1). Step 4: 7+1+1=9.",
+    "showAnswer": "9333"
+  },
+  {
+    "id": 108,
+    "questionText": "9333 − 1387",
+    "showProcess": "Step 1: Borrow to make 13 − 7 = 6. Step 2: Remaining 2 becomes 12 − 8 = 4. Step 3: Remaining 2 becomes 12 − 3 = 9. Step 4: Remaining 8 − 1 = 7.",
+    "showAnswer": "7946"
+  },
+  {
+    "id": 109,
+    "questionText": "2874 + 5659",
+    "showProcess": "Step 1: 4+9=13 (carry 1). Step 2: 7+5+1=13 (carry 1). Step 3: 8+6+1=15 (carry 1). Step 4: 2+5+1=8.",
+    "showAnswer": "8533"
+  },
+  {
+    "id": 110,
+    "questionText": "8533 − 5659",
+    "showProcess": "Step 1: Borrow to make 13 − 9 = 4. Step 2: Remaining 2 becomes 12 − 5 = 7. Step 3: Remaining 4 becomes 14 − 6 = 8. Step 4: Remaining 7 − 5 = 2.",
+    "showAnswer": "2874"
+  },
+  {
+    "id": 111,
+    "questionText": "5489 + 3768",
+    "showProcess": "Step 1: 9+8=17 (carry 1). Step 2: 8+6+1=15 (carry 1). Step 3: 4+7+1=12 (carry 1). Step 4: 5+3+1=9.",
+    "showAnswer": "9257"
+  },
+  {
+    "id": 112,
+    "questionText": "9257 − 3768",
+    "showProcess": "Step 1: Borrow to make 17 − 8 = 9. Step 2: Remaining 4 becomes 14 − 6 = 8. Step 3: Remaining 1 becomes 11 − 7 = 4. Step 4: Remaining 8 − 3 = 5.",
+    "showAnswer": "5489"
+  },
+  {
+    "id": 113,
+    "questionText": "8695 + 1437",
+    "showProcess": "Step 1: 5+7=12 (carry 1). Step 2: 9+3+1=13 (carry 1). Step 3: 6+4+1=11 (carry 1). Step 4: 8+1+1=10.",
+    "showAnswer": "10132"
+  },
+  {
+    "id": 114,
+    "questionText": "9132 − 1437",
+    "showProcess": "Step 1: Borrow to make 12 − 7 = 5. Step 2: Remaining 2 becomes 12 − 3 = 9. Step 3: Remaining 0 becomes 10 − 4 = 6. Step 4: Remaining 8 − 1 = 7.",
+    "showAnswer": "7695"
+  },
+  {
+    "id": 115,
+    "questionText": "1988 + 7355",
+    "showProcess": "Step 1: 8+5=13 (carry 1). Step 2: 8+5+1=14 (carry 1). Step 3: 9+3+1=13 (carry 1). Step 4: 1+7+1=9.",
+    "showAnswer": "9343"
+  },
+  {
+    "id": 116,
+    "questionText": "9343 − 7355",
+    "showProcess": "Step 1: Borrow to make 13 − 5 = 8. Step 2: Remaining 3 becomes 13 − 5 = 8. Step 3: Remaining 2 becomes 12 − 3 = 9. Step 4: Remaining 8 − 7 = 1.",
+    "showAnswer": "1988"
+  },
+  {
+    "id": 117,
+    "questionText": "6754 + 2879",
+    "showProcess": "Step 1: 4+7+9=13 (carry 1). Step 2: 5+7+1=13 (carry 1). Step 3: 7+8+1=16 (carry 1). Step 4: 6+2+1=9.",
+    "showAnswer": "9633"
+  },
+  {
+    "id": 118,
+    "questionText": "9633 − 2879",
+    "showProcess": "Step 1: Borrow to make 13 − 9 = 4. Step 2: Remaining 2 becomes 12 − 7 = 5. Step 3: Remaining 5 becomes 15 − 8 = 7. Step 4: Remaining 8 − 2 = 6.",
+    "showAnswer": "6754"
+  },
+  {
+    "id": 119,
+    "questionText": "9999 + 8888",
+    "showProcess": "Step 1: 9+8=17 (carry 1). Step 2: 9+8+1=18 (carry 1). Step 3: 9+8+1=18 (carry 1). Step 4: 9+8+1=18.",
+    "showAnswer": "18887"
+  },
+  {
+    "id": 120,
+    "questionText": "5000 − 2345",
+    "showProcess": "Step 1: Borrow across zeros. 10 − 5 = 5. Step 2: 9 − 4 = 5. Step 3: 9 − 3 = 6. Step 4: Remaining 4 − 2 = 2.",
+    "showAnswer": "2655"
+  },
+  {
+    "id": 121,
+    "questionText": "23145 + 54623",
+    "showProcess": "Step 1: 5+3=8. Step 2: 4+2=6. Step 3: 1+6=7. Step 4: 3+4=7. Step 5: 2+5=7.",
+    "showAnswer": "77768"
+  },
+  {
+    "id": 122,
+    "questionText": "77768 − 54623",
+    "showProcess": "Step 1: 8 − 3 = 5. Step 2: 6 − 2 = 4. Step 3: 7 − 6 = 1. Step 4: 7 − 4 = 3. Step 5: 7 − 5 = 2.",
+    "showAnswer": "23145"
+  },
+  {
+    "id": 123,
+    "questionText": "41032 + 37845",
+    "showProcess": "Step 1: 2+5=7. Step 2: 3+4=7. Step 3: 0+8=8. Step 4: 1+7=8. Step 5: 4+3=7.",
+    "showAnswer": "78877"
+  },
+  {
+    "id": 124,
+    "questionText": "78877 − 37845",
+    "showProcess": "Step 1: 7 − 5 = 2. Step 2: 7 − 4 = 3. Step 3: 8 − 8 = 0. Step 4: 8 − 7 = 1. Step 5: 7 − 3 = 4.",
+    "showAnswer": "41032"
+  },
+  {
+    "id": 125,
+    "questionText": "62504 + 15283",
+    "showProcess": "Step 1: 4+3=7. Step 2: 0+8=8. Step 3: 5+2=7. Step 4: 2+5=7. Step 5: 6+1=7.",
+    "showAnswer": "77787"
+  },
+  {
+    "id": 126,
+    "questionText": "77787 − 15283",
+    "showProcess": "Step 1: 7 − 3 = 4. Step 2: 8 − 8 = 0. Step 3: 7 − 2 = 5. Step 4: 7 − 5 = 2. Step 5: 7 − 1 = 6.",
+    "showAnswer": "62504"
+  },
+  {
+    "id": 127,
+    "questionText": "70316 + 28452",
+    "showProcess": "Step 1: 6+2=8. Step 2: 1+5=6. Step 3: 3+4=7. Step 4: 0+8=8. Step 5: 7+2=9.",
+    "showAnswer": "98768"
+  },
+  {
+    "id": 128,
+    "questionText": "98768 − 28452",
+    "showProcess": "Step 1: 8 − 2 = 6. Step 2: 6 − 5 = 1. Step 3: 7 − 4 = 3. Step 4: 8 − 8 = 0. Step 5: 9 − 2 = 7.",
+    "showAnswer": "70316"
+  },
+  {
+    "id": 129,
+    "questionText": "14270 + 83519",
+    "showProcess": "Step 1: 0+9=9. Step 2: 7+1=8. Step 3: 2+5=7. Step 4: 4+3=7. Step 5: 1+8=9.",
+    "showAnswer": "97789"
+  },
+  {
+    "id": 130,
+    "questionText": "97789 − 83510",
+    "showProcess": "Step 1: 9 − 0 = 9. Step 2: 8 − 1 = 7. Step 3: 7 − 5 = 2. Step 4: 7 − 3 = 4. Step 5: 9 − 8 = 1.",
+    "showAnswer": "14279"
+  },
+  {
+    "id": 131,
+    "questionText": "53142 + 26735",
+    "showProcess": "Step 1: 2+5=7. Step 2: 4+3=7. Step 3: 1+7=8. Step 4: 5+3+6=9. Step 5: 5+2=7.",
+    "showAnswer": "79877"
+  },
+  {
+    "id": 132,
+    "questionText": "79877 − 26735",
+    "showProcess": "Step 1: 7 − 5 = 2. Step 2: 7 − 3 = 4. Step 3: 8 − 7 = 1. Step 4: 9 − 6 = 3. Step 5: 7 − 2 = 5.",
+    "showAnswer": "53142"
+  },
+  {
+    "id": 133,
+    "questionText": "82035 + 15842",
+    "showProcess": "Step 1: 5+2=7. Step 2: 3+4=7. Step 3: 0+8=8. Step 4: 2+5=7. Step 5: 8+1=9.",
+    "showAnswer": "97877"
+  },
+  {
+    "id": 134,
+    "questionText": "97877 − 15842",
+    "showProcess": "Step 1: 7 − 2 = 5. Step 2: 7 − 4 = 3. Step 3: 8 − 8 = 0. Step 4: 7 − 5 = 2. Step 5: 9 − 1 = 8.",
+    "showAnswer": "82035"
+  },
+  {
+    "id": 135,
+    "questionText": "34521 + 61347",
+    "showProcess": "Step 1: 1+7=8. Step 2: 2+4=6. Step 3: 5+3=8. Step 4: 4+1=5. Step 5: 3+6=9.",
+    "showAnswer": "95868"
+  },
+  {
+    "id": 136,
+    "questionText": "95868 − 61347",
+    "showProcess": "Step 1: 8 − 7 = 1. Step 2: 6 − 4 = 2. Step 3: 8 − 3 = 5. Step 4: 5 − 1 = 4. Step 5: 9 − 6 = 3.",
+    "showAnswer": "34521"
+  },
+  {
+    "id": 137,
+    "questionText": "91204 + 07583",
+    "showProcess": "Step 1: 4+3=7. Step 2: 0+8=8. Step 3: 2+5=7. Step 4: 1+7=8. Step 5: 9+0=9.",
+    "showAnswer": "98787"
+  },
+  {
+    "id": 138,
+    "questionText": "98787 − 07583",
+    "showProcess": "Step 1: 7 − 3 = 4. Step 2: 8 − 8 = 0. Step 3: 7 − 5 = 2. Step 4: 8 − 7 = 1. Step 5: 9 − 0 = 9.",
+    "showAnswer": "91204"
+  },
+  {
+    "id": 139,
+    "questionText": "55555 + 22222",
+    "showProcess": "Step 1: 5+2=7. Step 2: 5+2=7. Step 3: 5+2=7. Step 4: 5+2=7. Step 5: 5+2=7.",
+    "showAnswer": "77777"
+  },
+  {
+    "id": 140,
+    "questionText": "77777 − 22222",
+    "showProcess": "Step 1: 7 − 2 = 5 each time.",
+    "showAnswer": "55555"
+  },
+  {
+    "id": 141,
+    "questionText": "32456 + 14328",
+    "showProcess": "Step 1: 6+8=14 (carry 1). Step 2: 5+2+1=8. Step 3: 4+3=7. Step 4: 2+4=6. Step 5: 3+1=4.",
+    "showAnswer": "46784"
+  },
+  {
+    "id": 142,
+    "questionText": "46784 − 14328",
+    "showProcess": "Step 1: Borrow to make 14 − 8 = 6. Step 2: Remaining 7 − 2 = 5. Step 3: 7 − 3 = 4. Step 4: 6 − 4 = 2. Step 5: 4 − 1 = 3.",
+    "showAnswer": "32456"
+  },
+  {
+    "id": 143,
+    "questionText": "61804 + 25473",
+    "showProcess": "Step 1: 4+3=7. Step 2: 0+7=7. Step 3: 8+4=12 (carry 1). Step 4: 1+5+1=7. Step 5: 6+2=8.",
+    "showAnswer": "87277"
+  },
+  {
+    "id": 144,
+    "questionText": "87277 − 25473",
+    "showProcess": "Step 1: 7 − 3 = 4. Step 2: 7 − 7 = 0. Step 3: 2 − 4 needs borrowing. Borrow to make 12 − 4 = 8. Step 4: Remaining 6 − 5 = 1. Step 5: 8 − 2 = 6.",
+    "showAnswer": "61804"
+  },
+  {
+    "id": 145,
+    "questionText": "45291 + 31605",
+    "showProcess": "Step 1: 1+5=6. Step 2: 9+0=9. Step 3: 2+6=8. Step 4: 5+1=6. Step 5: 4+3=7.",
+    "showAnswer": "76896"
+  },
+  {
+    "id": 146,
+    "questionText": "76896 − 31605",
+    "showProcess": "Step 1: 6 − 5 = 1. Step 2: 9 − 0 = 9. Step 3: 8 − 6 = 2. Step 4: 6 − 1 = 5. Step 5: 7 − 3 = 4.",
+    "showAnswer": "45291"
+  },
+  {
+    "id": 147,
+    "questionText": "70365 + 18273",
+    "showProcess": "Step 1: 5+3=8. Step 2: 6+7=13 (carry 1). Step 3: 3+2+1=6. Step 4: 0+8=8. Step 5: 7+1=8.",
+    "showAnswer": "88638"
+  },
+  {
+    "id": 148,
+    "questionText": "88638 − 18273",
+    "showProcess": "Step 1: 8 − 3 = 5. Step 2: 3 − 7 needs borrowing. Borrow to make 13 − 7 = 6. Step 3: Remaining 5 − 2 = 3. Step 4: 8 − 8 = 0. Step 5: 8 − 1 = 7.",
+    "showAnswer": "70365"
+  },
+  {
+    "id": 149,
+    "questionText": "29410 + 50385",
+    "showProcess": "Step 1: 0+5=5. Step 2: 1+8=9. Step 3: 4+3=7. Step 4: 9+0=9. Step 5: 2+5=7.",
+    "showAnswer": "79795"
+  },
+  {
+    "id": 150,
+    "questionText": "79795 − 50385",
+    "showProcess": "Step 1: 5 − 5 = 0. Step 2: 9 − 8 = 1. Step 3: 7 − 3 = 4. Step 4: 9 − 0 = 9. Step 5: 7 − 5 = 2.",
+    "showAnswer": "29410"
+  },
+  {
+    "id": 151,
+    "questionText": "81247 + 13526",
+    "showProcess": "Step 1: 7+6=13 (carry 1). Step 2: 4+2+1=7. Step 3: 2+5=7. Step 4: 1+3=4. Step 5: 8+1=9.",
+    "showAnswer": "94773"
+  },
+  {
+    "id": 152,
+    "questionText": "94773 − 13526",
+    "showProcess": "Step 1: Borrow to make 13 − 6 = 7. Step 2: Remaining 6 − 2 = 4. Step 3: 7 − 5 = 2. Step 4: 4 − 3 = 1. Step 5: 9 − 1 = 8.",
+    "showAnswer": "81247"
+  },
+  {
+    "id": 153,
+    "questionText": "53782 + 24109",
+    "showProcess": "Step 1: 2+9=11 (carry 1). Step 2: 8+0+1=9. Step 3: 7+1=8. Step 4: 3+4=7. Step 5: 5+2=7.",
+    "showAnswer": "77891"
+  },
+  {
+    "id": 154,
+    "questionText": "77891 − 24109",
+    "showProcess": "Step 1: Borrow to make 11 − 9 = 2. Step 2: Remaining 8 − 0 = 8. Step 3: 8 − 1 = 7. Step 4: 7 − 4 = 3. Step 5: 7 − 2 = 5.",
+    "showAnswer": "53782"
+  },
+  {
+    "id": 155,
+    "questionText": "16054 + 72831",
+    "showProcess": "Step 1: 4+1=5. Step 2: 5+3=8. Step 3: 0+8=8. Step 4: 6+2=8. Step 5: 1+7=8.",
+    "showAnswer": "88885"
+  },
+  {
+    "id": 156,
+    "questionText": "88885 − 72831",
+    "showProcess": "Step 1: 5 − 1 = 4. Step 2: 8 − 3 = 5. Step 3: 8 − 8 = 0. Step 4: 8 − 2 = 6. Step 5: 8 − 7 = 1.",
+    "showAnswer": "16054"
+  },
+  {
+    "id": 157,
+    "questionText": "43529 + 38140",
+    "showProcess": "Step 1: 9+0=9. Step 2: 2+4=6. Step 3: 5+1=6. Step 4: 3+8=11 (carry 1). Step 5: 4+3+1=8.",
+    "showAnswer": "81669"
+  },
+  {
+    "id": 158,
+    "questionText": "81669 − 38140",
+    "showProcess": "Step 1: 9 − 0 = 9. Step 2: 6 − 4 = 2. Step 3: 6 − 1 = 5. Step 4: 1 − 8 needs borrowing. Borrow to make 11 − 8 = 3. Step 5: Remaining 7 − 3 = 4.",
+    "showAnswer": "43529"
+  },
+  {
+    "id": 159,
+    "questionText": "67248 + 15634",
+    "showProcess": "Step 1: 8+4=12 (carry 1). Step 2: 4+3+1=8. Step 3: 2+6=8. Step 4: 7+5=12 (carry 1). Step 5: 6+1+1=8.",
+    "showAnswer": "82882"
+  },
+  {
+    "id": 160,
+    "questionText": "82882 − 15634",
+    "showProcess": "Step 1: Borrow to make 12 − 4 = 8. Step 2: Remaining 7 − 3 = 4. Step 3: 8 − 6 = 2. Step 4: 2 − 5 needs borrowing. Borrow to make 12 − 5 = 7. Step 5: Remaining 7 − 1 = 6.",
+    "showAnswer": "67248"
+  },
+  {
+    "id": 161,
+    "questionText": "47856 + 26439",
+    "showProcess": "Step 1: 6+9=15 (carry 1). Step 2: 5+3+1=9. Step 3: 8+4=12 (carry 1). Step 4: 7+6+1=14 (carry 1). Step 5: 4+2+1=7.",
+    "showAnswer": "74295"
+  },
+  {
+    "id": 162,
+    "questionText": "74295 − 26439",
+    "showProcess": "Step 1: Borrow to make 15 − 9 = 6. Step 2: Remaining 8 − 3 = 5. Step 3: 2 − 4 needs borrowing. 12 − 4 = 8. Step 4: Remaining 3 becomes 13 − 6 = 7. Step 5: Remaining 6 − 2 = 4.",
+    "showAnswer": "47856"
+  },
+  {
+    "id": 163,
+    "questionText": "63974 + 18352",
+    "showProcess": "Step 1: 4+2=6. Step 2: 7+5=12 (carry 1). Step 3: 9+3+1=13 (carry 1). Step 4: 3+8+1=12 (carry 1). Step 5: 6+1+1=8.",
+    "showAnswer": "82326"
+  },
+  {
+    "id": 164,
+    "questionText": "82326 − 18352",
+    "showProcess": "Step 1: 6 − 2 = 4. Step 2: Borrow to make 12 − 5 = 7. Step 3: Remaining 2 becomes 12 − 3 = 9. Step 4: Remaining 1 becomes 11 − 8 = 3. Step 5: Remaining 7 − 1 = 6.",
+    "showAnswer": "63974"
+  },
+  {
+    "id": 165,
+    "questionText": "35681 + 47854",
+    "showProcess": "Step 1: 1+4=5. Step 2: 8+5=13 (carry 1). Step 3: 6+8+1=15 (carry 1). Step 4: 5+7+1=13 (carry 1). Step 5: 3+4+1=8.",
+    "showAnswer": "83535"
+  },
+  {
+    "id": 166,
+    "questionText": "83535 − 47854",
+    "showProcess": "Step 1: 5 − 4 = 1. Step 2: Borrow to make 13 − 5 = 8. Step 3: Remaining 4 becomes 14 − 8 = 6. Step 4: Remaining 2 becomes 12 − 7 = 5. Step 5: Remaining 7 − 4 = 3.",
+    "showAnswer": "35681"
+  },
+  {
+    "id": 167,
+    "questionText": "79463 + 13872",
+    "showProcess": "Step 1: 3+2=5. Step 2: 6+7=13 (carry 1). Step 3: 4+8+1=13 (carry 1). Step 4: 9+3+1=13 (carry 1). Step 5: 7+1+1=9.",
+    "showAnswer": "93335"
+  },
+  {
+    "id": 168,
+    "questionText": "93335 − 13872",
+    "showProcess": "Step 1: 5 − 2 = 3. Step 2: Borrow to make 13 − 7 = 6. Step 3: Remaining 2 becomes 12 − 8 = 4. Step 4: Remaining 2 becomes 12 − 3 = 9. Step 5: Remaining 8 − 1 = 7.",
+    "showAnswer": "79463"
+  },
+  {
+    "id": 169,
+    "questionText": "28745 + 56592",
+    "showProcess": "Step 1: 5+2=7. Step 2: 4+9=13 (carry 1). Step 3: 7+5+1=13 (carry 1). Step 4: 8+6+1=15 (carry 1). Step 5: 2+5+1=8.",
+    "showAnswer": "85337"
+  },
+  {
+    "id": 170,
+    "questionText": "85337 − 56592",
+    "showProcess": "Step 1: 7 − 2 = 5. Step 2: Borrow to make 13 − 9 = 4. Step 3: Remaining 2 becomes 12 − 5 = 7. Step 4: Remaining 4 becomes 14 − 6 = 8. Step 5: Remaining 7 − 5 = 2.",
+    "showAnswer": "28745"
+  },
+  {
+    "id": 171,
+    "questionText": "54896 + 37687",
+    "showProcess": "Step 1: 6+7=13 (carry 1). Step 2: 9+8+1=18 (carry 1). Step 3: 8+6+1=15 (carry 1). Step 4: 4+7+1=12 (carry 1). Step 5: 5+3+1=9.",
+    "showAnswer": "92583"
+  },
+  {
+    "id": 172,
+    "questionText": "92583 − 37687",
+    "showProcess": "Step 1: Borrow to make 13 − 7 = 6. Step 2: Remaining 7 becomes 17 − 8 = 9. Step 3: Remaining 4 becomes 14 − 6 = 8. Step 4: Remaining 1 becomes 11 − 7 = 4. Step 5: Remaining 8 − 3 = 5.",
+    "showAnswer": "54896"
+  },
+  {
+    "id": 173,
+    "questionText": "86954 + 14378",
+    "showProcess": "Step 1: 4+8=12 (carry 1). Step 2: 5+7+1=13 (carry 1). Step 3: 9+3+1=13 (carry 1). Step 4: 6+4+1=11 (carry 1). Step 5: 8+1+1=10.",
+    "showAnswer": "101332"
+  },
+  {
+    "id": 174,
+    "questionText": "101332 − 14378",
+    "showProcess": "Step 1: Borrow to make 12 − 8 = 4. Step 2: Remaining 2 becomes 12 − 7 = 5. Step 3: Remaining 2 becomes 12 − 3 = 9. Step 4: Remaining 0 becomes 10 − 4 = 6. Step 5: Remaining 9 − 1 = 8.",
+    "showAnswer": "86954"
+  },
+  {
+    "id": 175,
+    "questionText": "19885 + 73559",
+    "showProcess": "Step 1: 5+9=14 (carry 1). Step 2: 8+5+1=14 (carry 1). Step 3: 8+5+1=14 (carry 1). Step 4: 9+3+1=13 (carry 1). Step 5: 1+7+1=9.",
+    "showAnswer": "93444"
+  },
+  {
+    "id": 176,
+    "questionText": "93444 − 73559",
+    "showProcess": "Step 1: Borrow to make 14 − 9 = 5. Step 2: Remaining 3 becomes 13 − 5 = 8. Step 3: Remaining 3 becomes 13 − 5 = 8. Step 4: Remaining 2 becomes 12 − 3 = 9. Step 5: Remaining 8 − 7 = 1.",
+    "showAnswer": "19885"
+  },
+  {
+    "id": 177,
+    "questionText": "67542 + 28799",
+    "showProcess": "Step 1: 2+9=11 (carry 1). Step 2: 4+9+1=14 (carry 1). Step 3: 5+7+1=13 (carry 1). Step 4: 7+8+1=16 (carry 1). Step 5: 6+2+1=9.",
+    "showAnswer": "96341"
+  },
+  {
+    "id": 178,
+    "questionText": "96341 − 28799",
+    "showProcess": "Step 1: Borrow to make 11 − 9 = 2. Step 2: Remaining 3 becomes 13 − 9 = 4. Step 3: Remaining 2 becomes 12 − 7 = 5. Step 4: Remaining 5 becomes 15 − 8 = 7. Step 5: Remaining 8 − 2 = 6.",
+    "showAnswer": "67542"
+  },
+  {
+    "id": 179,
+    "questionText": "99999 + 88888",
+    "showProcess": "Step 1: 9+8=17 (carry 1). Step 2: 9+8+1=18 (carry 1). Step 3: 9+8+1=18 (carry 1). Step 4: 9+8+1=18 (carry 1). Step 5: 9+8+1=18.",
+    "showAnswer": "188887"
+  },
+  {
+    "id": 180,
+    "questionText": "188887 − 88888",
+    "showProcess": "Step 1: Borrow to make 17 − 8 = 9. Step 2: Remaining 7 becomes 17 − 8 = 9. Step 3: Remaining 7 becomes 17 − 8 = 9. Step 4: Remaining 7 becomes 17 − 8 = 9. Step 5: Remaining 17 − 8 = 9.",
+    "showAnswer": "99999"
+  },
+  {
+    "id": 181,
+    "questionText": "78965 + 45678",
+    "showProcess": "Step 1: 5+8=13 (carry 1). Step 2: 6+7+1=14 (carry 1). Step 3: 9+6+1=16 (carry 1). Step 4: 8+5+1=14 (carry 1). Step 5: 7+4+1=12.",
+    "showAnswer": "124643"
+  },
+  {
+    "id": 182,
+    "questionText": "124643 − 45678",
+    "showProcess": "Step 1: Borrow to make 13 − 8 = 5. Step 2: Remaining 3 becomes 13 − 7 = 6. Step 3: Remaining 5 becomes 15 − 6 = 9. Step 4: Remaining 3 becomes 13 − 5 = 8. Step 5: Remaining 11 − 4 = 7.",
+    "showAnswer": "78965"
+  },
+  {
+    "id": 183,
+    "questionText": "89754 + 23468",
+    "showProcess": "Step 1: 4+8=12 (carry 1). Step 2: 5+6+1=12 (carry 1). Step 3: 7+4+1=12 (carry 1). Step 4: 9+2+1=13 (carry 1). Step 5: 8+2+1=11.",
+    "showAnswer": "113222"
+  },
+  {
+    "id": 184,
+    "questionText": "113222 − 23468",
+    "showProcess": "Step 1: Borrow to make 12 − 8 = 4. Step 2: Remaining 1 becomes 11 − 6 = 5. Step 3: Remaining 1 becomes 11 − 4 = 7. Step 4: Remaining 2 becomes 12 − 3 = 9. Step 5: Remaining 10 − 2 = 8.",
+    "showAnswer": "89754"
+  },
+  {
+    "id": 185,
+    "questionText": "96847 + 57386",
+    "showProcess": "Step 1: 7+6=13 (carry 1). Step 2: 4+8+1=13 (carry 1). Step 3: 8+3+1=12 (carry 1). Step 4: 6+7+1=14 (carry 1). Step 5: 9+5+1=15.",
+    "showAnswer": "154233"
+  },
+  {
+    "id": 186,
+    "questionText": "154233 − 57386",
+    "showProcess": "Step 1: Borrow to make 13 − 6 = 7. Step 2: Remaining 2 becomes 12 − 8 = 4. Step 3: Remaining 1 becomes 11 − 3 = 8. Step 4: Remaining 3 becomes 13 − 7 = 6. Step 5: Remaining 14 − 5 = 9.",
+    "showAnswer": "96847"
+  },
+  {
+    "id": 187,
+    "questionText": "88888 + 77777",
+    "showProcess": "Step 1: 8+7=15 (carry 1). Step 2: 8+7+1=16 (carry 1). Step 3: 8+7+1=16 (carry 1). Step 4: 8+7+1=16 (carry 1). Step 5: 8+7+1=16.",
+    "showAnswer": "166665"
+  },
+  {
+    "id": 188,
+    "questionText": "166665 − 77777",
+    "showProcess": "Step 1: Borrow to make 15 − 7 = 8. Step 2: Remaining 5 becomes 15 − 7 = 8 (repeated across digits).",
+    "showAnswer": "88888"
+  },
+  {
+    "id": 189,
+    "questionText": "69584 + 74639",
+    "showProcess": "Step 1: 4+9=13 (carry 1). Step 2: 8+3+1=12 (carry 1). Step 3: 5+6+1=12 (carry 1). Step 4: 9+4+1=14 (carry 1). Step 5: 6+7+1=14.",
+    "showAnswer": "144223"
+  },
+  {
+    "id": 190,
+    "questionText": "144223 − 74639",
+    "showProcess": "Step 1: Borrow to make 13 − 9 = 4. Step 2: Remaining 1 becomes 11 − 3 = 8. Step 3: Remaining 1 becomes 11 − 6 = 5. Step 4: Remaining 3 becomes 13 − 4 = 9. Step 5: Remaining 13 − 7 = 6.",
+    "showAnswer": "69584"
+  },
+  {
+    "id": 191,
+    "questionText": "75849 + 86173",
+    "showProcess": "Step 1: 9+3=12 (carry 1). Step 2: 4+7+1=12 (carry 1). Step 3: 8+1+1=10 (carry 1). Step 4: 5+6+1=12 (carry 1). Step 5: 7+8+1=16.",
+    "showAnswer": "162022"
+  },
+  {
+    "id": 192,
+    "questionText": "162022 − 86173",
+    "showProcess": "Step 1: Borrow to make 12 − 3 = 9. Step 2: Remaining 1 becomes 11 − 7 = 4. Step 3: Remaining 9 − 1 = 8. Step 4: Remaining 1 becomes 11 − 6 = 5. Step 5: Remaining 15 − 8 = 7.",
+    "showAnswer": "75849"
+  },
+  {
+    "id": 193,
+    "questionText": "94738 + 68594",
+    "showProcess": "Step 1: 8+4=12 (carry 1). Step 2: 3+9+1=13 (carry 1). Step 3: 7+5+1=13 (carry 1). Step 4: 4+8+1=13 (carry 1). Step 5: 9+6+1=16.",
+    "showAnswer": "163332"
+  },
+  {
+    "id": 194,
+    "questionText": "163332 − 68594",
+    "showProcess": "Step 1: Borrow to make 12 − 4 = 8. Step 2: Remaining 2 becomes 12 − 9 = 3. Step 3: Remaining 2 becomes 12 − 5 = 7. Step 4: Remaining 2 becomes 12 − 8 = 4. Step 5: Remaining 15 − 6 = 9.",
+    "showAnswer": "94738"
+  },
+  {
+    "id": 195,
+    "questionText": "85967 + 94285",
+    "showProcess": "Step 1: 7+5=12 (carry 1). Step 2: 6+8+1=15 (carry 1). Step 3: 9+2+1=12 (carry 1). Step 4: 5+4+1=10 (carry 1). Step 5: 8+9+1=18.",
+    "showAnswer": "180252"
+  },
+  {
+    "id": 196,
+    "questionText": "180252 − 94285",
+    "showProcess": "Step 1: Borrow to make 12 − 5 = 7. Step 2: Remaining 4 becomes 14 − 8 = 6. Step 3: Remaining 1 becomes 11 − 2 = 9. Step 4: Remaining 9 − 4 = 5. Step 5: Remaining 17 − 9 = 8.",
+    "showAnswer": "85967"
+  },
+  {
+    "id": 197,
+    "questionText": "99887 + 88996",
+    "showProcess": "Step 1: 7+6=13 (carry 1). Step 2: 8+9+1=18 (carry 1). Step 3: 8+9+1=18 (carry 1). Step 4: 9+8+1=18 (carry 1). Step 5: 9+8+1=18.",
+    "showAnswer": "188883"
+  },
+  {
+    "id": 198,
+    "questionText": "188883 − 88996",
+    "showProcess": "Step 1: Borrow to make 13 − 6 = 7. Step 2: Remaining 7 becomes 17 − 9 = 8. Step 3: Remaining 7 becomes 17 − 9 = 8. Step 4: Remaining 7 becomes 17 − 8 = 9. Step 5: Remaining 17 − 8 = 9.",
+    "showAnswer": "99887"
+  },
+  {
+    "id": 199,
+    "questionText": "99999 + 99999",
+    "showProcess": "Step 1: 9+9=18 (carry 1). Step 2: 9+9+1=19 (carry 1). Step 3: 9+9+1=19 (carry 1). Step 4: 9+9+1=19 (carry 1). Step 5: 9+9+1=19.",
+    "showAnswer": "199998"
+  },
+  {
+    "id": 200,
+    "questionText": "100000 − 23456",
+    "showProcess": "Step 1: Borrow across zeros all the way from the first digit. 10 − 6 = 4. Step 2: 9 − 5 = 4. Step 3: 9 − 4 = 5. Step 4: 9 − 3 = 6. Step 5: 9 − 2 = 7.",
+    "showAnswer": "76544"
+  }
+]

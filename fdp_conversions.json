@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">2</span></div>",
+    "showProcess": "1. 1 ÷ 2 = 0.5<br>2. Multiply 0.5 by 100 to get percentage.",
+    "showAnswer": "0.5 and 50%"
+  },
+  {
+    "id": 2,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">4</span></div>",
+    "showProcess": "1. 1 ÷ 4 = 0.25<br>2. Multiply 0.25 by 100 to get percentage.",
+    "showAnswer": "0.25 and 25%"
+  },
+  {
+    "id": 3,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">4</span></div>",
+    "showProcess": "1. 3 ÷ 4 = 0.75<br>2. Multiply 0.75 by 100 to get percentage.",
+    "showAnswer": "0.75 and 75%"
+  },
+  {
+    "id": 4,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">5</span></div>",
+    "showProcess": "1. 1 ÷ 5 = 0.2<br>2. Multiply 0.2 by 100 to get percentage.",
+    "showAnswer": "0.2 and 20%"
+  },
+  {
+    "id": 5,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">2</span><span class=\"bottom\">5</span></div>",
+    "showProcess": "1. 2 ÷ 5 = 0.4<br>2. Multiply 0.4 by 100 to get percentage.",
+    "showAnswer": "0.4 and 40%"
+  },
+  {
+    "id": 6,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">5</span></div>",
+    "showProcess": "1. 3 ÷ 5 = 0.6<br>2. Multiply 0.6 by 100 to get percentage.",
+    "showAnswer": "0.6 and 60%"
+  },
+  {
+    "id": 7,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">4</span><span class=\"bottom\">5</span></div>",
+    "showProcess": "1. 4 ÷ 5 = 0.8<br>2. Multiply 0.8 by 100 to get percentage.",
+    "showAnswer": "0.8 and 80%"
+  },
+  {
+    "id": 8,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">10</span></div>",
+    "showProcess": "1. 1 ÷ 10 = 0.1<br>2. Multiply 0.1 by 100 to get percentage.",
+    "showAnswer": "0.1 and 10%"
+  },
+  {
+    "id": 9,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">10</span></div>",
+    "showProcess": "1. 3 ÷ 10 = 0.3<br>2. Multiply 0.3 by 100 to get percentage.",
+    "showAnswer": "0.3 and 30%"
+  },
+  {
+    "id": 10,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">7</span><span class=\"bottom\">10</span></div>",
+    "showProcess": "1. 7 ÷ 10 = 0.7<br>2. Multiply 0.7 by 100 to get percentage.",
+    "showAnswer": "0.7 and 70%"
+  },
+  {
+    "id": 11,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">9</span><span class=\"bottom\">10</span></div>",
+    "showProcess": "1. 9 ÷ 10 = 0.9<br>2. Multiply 0.9 by 100 to get percentage.",
+    "showAnswer": "0.9 and 90%"
+  },
+  {
+    "id": 12,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">1</span></div>",
+    "showProcess": "1. 1 ÷ 1 = 1.0<br>2. Multiply 1.0 by 100 to get percentage.",
+    "showAnswer": "1.0 and 100%"
+  },
+  {
+    "id": 13,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">2</span><span class=\"bottom\">2</span></div>",
+    "showProcess": "1. 2 ÷ 2 = 1.0<br>2. Whole numbers equal 100%.",
+    "showAnswer": "1.0 and 100%"
+  },
+  {
+    "id": 14,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">4</span><span class=\"bottom\">4</span></div>",
+    "showProcess": "1. Any fraction with matching top and bottom equals 1.<br>2. 1 = 1.0 = 100%",
+    "showAnswer": "1.0 and 100%"
+  },
+  {
+    "id": 15,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">0</span><span class=\"bottom\">5</span></div>",
+    "showProcess": "1. 0 divided by anything is 0.<br>2. 0 = 0.0 = 0%",
+    "showAnswer": "0.0 and 0%"
+  },
+  {
+    "id": 16,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">2</span><span class=\"bottom\">4</span></div>",
+    "showProcess": "1. Simplify to 1/2.<br>2. 1 ÷ 2 = 0.5 = 50%",
+    "showAnswer": "0.5 and 50%"
+  },
+  {
+    "id": 17,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">5</span><span class=\"bottom\">10</span></div>",
+    "showProcess": "1. Simplify to 1/2.<br>2. 1 ÷ 2 = 0.5 = 50%",
+    "showAnswer": "0.5 and 50%"
+  },
+  {
+    "id": 18,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">6</span><span class=\"bottom\">10</span></div>",
+    "showProcess": "1. Simplify to 3/5.<br>2. 3 ÷ 5 = 0.6 = 60%",
+    "showAnswer": "0.6 and 60%"
+  },
+  {
+    "id": 19,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">8</span><span class=\"bottom\">10</span></div>",
+    "showProcess": "1. Simplify to 4/5.<br>2. 4 ÷ 5 = 0.8 = 80%",
+    "showAnswer": "0.8 and 80%"
+  },
+  {
+    "id": 20,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">2</span><span class=\"bottom\">10</span></div>",
+    "showProcess": "1. Simplify to 1/5.<br>2. 1 ÷ 5 = 0.2 = 20%",
+    "showAnswer": "0.2 and 20%"
+  },
+  {
+    "id": 21,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">4</span><span class=\"bottom\">10</span></div>",
+    "showProcess": "1. Simplify to 2/5.<br>2. 2 ÷ 5 = 0.4 = 40%",
+    "showAnswer": "0.4 and 40%"
+  },
+  {
+    "id": 22,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">10</span><span class=\"bottom\">10</span></div>",
+    "showProcess": "1. 10 ÷ 10 = 1.<br>2. 1 = 1.0 = 100%",
+    "showAnswer": "1.0 and 100%"
+  },
+  {
+    "id": 23,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">0</span><span class=\"bottom\">2</span></div>",
+    "showProcess": "1. 0 divided by 2 is 0.<br>2. 0 = 0.0 = 0%",
+    "showAnswer": "0.0 and 0%"
+  },
+  {
+    "id": 24,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">1</span></div>",
+    "showProcess": "1. 1 ÷ 1 = 1.<br>2. 1 = 1.0 = 100%",
+    "showAnswer": "1.0 and 100%"
+  },
+  {
+    "id": 25,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">0</span><span class=\"bottom\">10</span></div>",
+    "showProcess": "1. 0 over 10 is 0.<br>2. 0 = 0.0 = 0%",
+    "showAnswer": "0.0 and 0%"
+  },
+  {
+    "id": 26,
+    "questionText": "Convert 0.5 to a simplified fraction and percentage",
+    "showProcess": "1. 0.5 is 5 tenths = 5/10.<br>2. Simplify 5/10 to 1/2.<br>3. 0.5 × 100 = 50%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">2</span></div> and 50%"
+  },
+  {
+    "id": 27,
+    "questionText": "Convert 0.25 to a simplified fraction and percentage",
+    "showProcess": "1. 0.25 is 25 hundredths = 25/100.<br>2. Simplify 25/100 to 1/4.<br>3. 0.25 × 100 = 25%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">4</span></div> and 25%"
+  },
+  {
+    "id": 28,
+    "questionText": "Convert 0.75 to a simplified fraction and percentage",
+    "showProcess": "1. 0.75 is 75 hundredths = 75/100.<br>2. Simplify 75/100 to 3/4.<br>3. 0.75 × 100 = 75%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">4</span></div> and 75%"
+  },
+  {
+    "id": 29,
+    "questionText": "Convert 0.2 to a simplified fraction and percentage",
+    "showProcess": "1. 0.2 is 2 tenths = 2/10.<br>2. Simplify 2/10 to 1/5.<br>3. 0.2 × 100 = 20%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">5</span></div> and 20%"
+  },
+  {
+    "id": 30,
+    "questionText": "Convert 0.4 to a simplified fraction and percentage",
+    "showProcess": "1. 0.4 is 4 tenths = 4/10.<br>2. Simplify 4/10 to 2/5.<br>3. 0.4 × 100 = 40%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">2</span><span class=\"bottom\">5</span></div> and 40%"
+  },
+  {
+    "id": 31,
+    "questionText": "Convert 0.6 to a simplified fraction and percentage",
+    "showProcess": "1. 0.6 is 6 tenths = 6/10.<br>2. Simplify 6/10 to 3/5.<br>3. 0.6 × 100 = 60%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">5</span></div> and 60%"
+  },
+  {
+    "id": 32,
+    "questionText": "Convert 0.8 to a simplified fraction and percentage",
+    "showProcess": "1. 0.8 is 8 tenths = 8/10.<br>2. Simplify 8/10 to 4/5.<br>3. 0.8 × 100 = 80%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">4</span><span class=\"bottom\">5</span></div> and 80%"
+  },
+  {
+    "id": 33,
+    "questionText": "Convert 0.1 to a simplified fraction and percentage",
+    "showProcess": "1. 0.1 is 1 tenth = 1/10.<br>2. Cannot be simplified further.<br>3. 0.1 × 100 = 10%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">10</span></div> and 10%"
+  },
+  {
+    "id": 34,
+    "questionText": "Convert 0.3 to a simplified fraction and percentage",
+    "showProcess": "1. 0.3 is 3 tenths = 3/10.<br>2. Cannot be simplified further.<br>3. 0.3 × 100 = 30%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">10</span></div> and 30%"
+  },
+  {
+    "id": 35,
+    "questionText": "Convert 0.7 to a simplified fraction and percentage",
+    "showProcess": "1. 0.7 is 7 tenths = 7/10.<br>2. Cannot be simplified further.<br>3. 0.7 × 100 = 70%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">7</span><span class=\"bottom\">10</span></div> and 70%"
+  },
+  {
+    "id": 36,
+    "questionText": "Convert 0.9 to a simplified fraction and percentage",
+    "showProcess": "1. 0.9 is 9 tenths = 9/10.<br>2. Cannot be simplified further.<br>3. 0.9 × 100 = 90%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">9</span><span class=\"bottom\">10</span></div> and 90%"
+  },
+  {
+    "id": 37,
+    "questionText": "Convert 0.05 to a simplified fraction and percentage",
+    "showProcess": "1. 0.05 is 5 hundredths = 5/100.<br>2. Simplify 5/100 by dividing by 5: 1/20.<br>3. 0.05 × 100 = 5%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">20</span></div> and 5%"
+  },
+  {
+    "id": 38,
+    "questionText": "Convert 0.15 to a simplified fraction and percentage",
+    "showProcess": "1. 0.15 is 15 hundredths = 15/100.<br>2. Simplify 15/100 by dividing by 5: 3/20.<br>3. 0.15 × 100 = 15%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">20</span></div> and 15%"
+  },
+  {
+    "id": 39,
+    "questionText": "Convert 0.35 to a simplified fraction and percentage",
+    "showProcess": "1. 0.35 is 35 hundredths = 35/100.<br>2. Simplify 35/100 by dividing by 5: 7/20.<br>3. 0.35 × 100 = 35%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">7</span><span class=\"bottom\">20</span></div> and 35%"
+  },
+  {
+    "id": 40,
+    "questionText": "Convert 0.45 to a simplified fraction and percentage",
+    "showProcess": "1. 0.45 is 45 hundredths = 45/100.<br>2. Simplify 45/100 by dividing by 5: 9/20.<br>3. 0.45 × 100 = 45%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">9</span><span class=\"bottom\">20</span></div> and 45%"
+  },
+  {
+    "id": 41,
+    "questionText": "Convert 0.55 to a simplified fraction and percentage",
+    "showProcess": "1. 0.55 is 55 hundredths = 55/100.<br>2. Simplify 55/100 by dividing by 5: 11/20.<br>3. 0.55 × 100 = 55%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">11</span><span class=\"bottom\">20</span></div> and 55%"
+  },
+  {
+    "id": 42,
+    "questionText": "Convert 0.65 to a simplified fraction and percentage",
+    "showProcess": "1. 0.65 is 65 hundredths = 65/100.<br>2. Simplify 65/100 by dividing by 5: 13/20.<br>3. 0.65 × 100 = 65%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">13</span><span class=\"bottom\">20</span></div> and 65%"
+  },
+  {
+    "id": 43,
+    "questionText": "Convert 0.85 to a simplified fraction and percentage",
+    "showProcess": "1. 0.85 is 85 hundredths = 85/100.<br>2. Simplify 85/100 by dividing by 5: 17/20.<br>3. 0.85 × 100 = 85%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">17</span><span class=\"bottom\">20</span></div> and 85%"
+  },
+  {
+    "id": 44,
+    "questionText": "Convert 0.95 to a simplified fraction and percentage",
+    "showProcess": "1. 0.95 is 95 hundredths = 95/100.<br>2. Simplify 95/100 by dividing by 5: 19/20.<br>3. 0.95 × 100 = 95%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">19</span><span class=\"bottom\">20</span></div> and 95%"
+  },
+  {
+    "id": 45,
+    "questionText": "Convert 0.12 to a simplified fraction and percentage",
+    "showProcess": "1. 0.12 = 12/100.<br>2. Divide top and bottom by 4: 3/25.<br>3. 0.12 × 100 = 12%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">25</span></div> and 12%"
+  },
+  {
+    "id": 46,
+    "questionText": "Convert 0.24 to a simplified fraction and percentage",
+    "showProcess": "1. 0.24 = 24/100.<br>2. Divide top and bottom by 4: 6/25.<br>3. 0.24 × 100 = 24%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">6</span><span class=\"bottom\">25</span></div> and 24%"
+  },
+  {
+    "id": 47,
+    "questionText": "Convert 0.36 to a simplified fraction and percentage",
+    "showProcess": "1. 0.36 = 36/100.<br>2. Divide top and bottom by 4: 9/25.<br>3. 0.36 × 100 = 36%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">9</span><span class=\"bottom\">25</span></div> and 36%"
+  },
+  {
+    "id": 48,
+    "questionText": "Convert 0.48 to a simplified fraction and percentage",
+    "showProcess": "1. 0.48 = 48/100.<br>2. Divide top and bottom by 4: 12/25.<br>3. 0.48 × 100 = 48%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">12</span><span class=\"bottom\">25</span></div> and 48%"
+  },
+  {
+    "id": 49,
+    "questionText": "Convert 0.56 to a simplified fraction and percentage",
+    "showProcess": "1. 0.56 = 56/100.<br>2. Divide top and bottom by 4: 14/25.<br>3. 0.56 × 100 = 56%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">14</span><span class=\"bottom\">25</span></div> and 56%"
+  },
+  {
+    "id": 50,
+    "questionText": "Convert 1.0 to a simplified fraction and percentage",
+    "showProcess": "1. 1.0 is exactly 1 whole.<br>2. 1 as a fraction is 1/1.<br>3. 1.0 × 100 = 100%",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">1</span></div> and 100%"
+  },
+  {
+    "id": 51,
+    "questionText": "Convert 50% to a simplified fraction and decimal",
+    "showProcess": "1. 50% = 50/100.<br>2. Simplify 50/100 to 1/2.<br>3. 50 ÷ 100 = 0.5",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">2</span></div> and 0.5"
+  },
+  {
+    "id": 52,
+    "questionText": "Convert 25% to a simplified fraction and decimal",
+    "showProcess": "1. 25% = 25/100.<br>2. Simplify 25/100 to 1/4.<br>3. 25 ÷ 100 = 0.25",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">4</span></div> and 0.25"
+  },
+  {
+    "id": 53,
+    "questionText": "Convert 75% to a simplified fraction and decimal",
+    "showProcess": "1. 75% = 75/100.<br>2. Simplify 75/100 to 3/4.<br>3. 75 ÷ 100 = 0.75",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">4</span></div> and 0.75"
+  },
+  {
+    "id": 54,
+    "questionText": "Convert 20% to a simplified fraction and decimal",
+    "showProcess": "1. 20% = 20/100.<br>2. Simplify 20/100 to 1/5.<br>3. 20 ÷ 100 = 0.2",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">5</span></div> and 0.2"
+  },
+  {
+    "id": 55,
+    "questionText": "Convert 40% to a simplified fraction and decimal",
+    "showProcess": "1. 40% = 40/100.<br>2. Simplify 40/100 to 2/5.<br>3. 40 ÷ 100 = 0.4",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">2</span><span class=\"bottom\">5</span></div> and 0.4"
+  },
+  {
+    "id": 56,
+    "questionText": "Convert 60% to a simplified fraction and decimal",
+    "showProcess": "1. 60% = 60/100.<br>2. Simplify 60/100 to 3/5.<br>3. 60 ÷ 100 = 0.6",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">5</span></div> and 0.6"
+  },
+  {
+    "id": 57,
+    "questionText": "Convert 80% to a simplified fraction and decimal",
+    "showProcess": "1. 80% = 80/100.<br>2. Simplify 80/100 to 4/5.<br>3. 80 ÷ 100 = 0.8",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">4</span><span class=\"bottom\">5</span></div> and 0.8"
+  },
+  {
+    "id": 58,
+    "questionText": "Convert 10% to a simplified fraction and decimal",
+    "showProcess": "1. 10% = 10/100.<br>2. Simplify 10/100 to 1/10.<br>3. 10 ÷ 100 = 0.1",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">10</span></div> and 0.1"
+  },
+  {
+    "id": 59,
+    "questionText": "Convert 30% to a simplified fraction and decimal",
+    "showProcess": "1. 30% = 30/100.<br>2. Simplify 30/100 to 3/10.<br>3. 30 ÷ 100 = 0.3",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">10</span></div> and 0.3"
+  },
+  {
+    "id": 60,
+    "questionText": "Convert 70% to a simplified fraction and decimal",
+    "showProcess": "1. 70% = 70/100.<br>2. Simplify 70/100 to 7/10.<br>3. 70 ÷ 100 = 0.7",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">7</span><span class=\"bottom\">10</span></div> and 0.7"
+  },
+  {
+    "id": 61,
+    "questionText": "Convert 90% to a simplified fraction and decimal",
+    "showProcess": "1. 90% = 90/100.<br>2. Simplify 90/100 to 9/10.<br>3. 90 ÷ 100 = 0.9",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">9</span><span class=\"bottom\">10</span></div> and 0.9"
+  },
+  {
+    "id": 62,
+    "questionText": "Convert 5% to a simplified fraction and decimal",
+    "showProcess": "1. 5% = 5/100.<br>2. Simplify 5/100 down to 1/20.<br>3. 5 ÷ 100 = 0.05",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">20</span></div> and 0.05"
+  },
+  {
+    "id": 63,
+    "questionText": "Convert 15% to a simplified fraction and decimal",
+    "showProcess": "1. 15% = 15/100.<br>2. Divide top and bottom by 5: 3/20.<br>3. 15 ÷ 100 = 0.15",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">20</span></div> and 0.15"
+  },
+  {
+    "id": 64,
+    "questionText": "Convert 45% to a simplified fraction and decimal",
+    "showProcess": "1. 45% = 45/100.<br>2. Divide top and bottom by 5: 9/20.<br>3. 45 ÷ 100 = 0.45",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">9</span><span class=\"bottom\">20</span></div> and 0.45"
+  },
+  {
+    "id": 65,
+    "questionText": "Convert 35% to a simplified fraction and decimal",
+    "showProcess": "1. 35% = 35/100.<br>2. Divide top and bottom by 5: 7/20.<br>3. 35 ÷ 100 = 0.35",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">7</span><span class=\"bottom\">20</span></div> and 0.35"
+  },
+  {
+    "id": 66,
+    "questionText": "Convert 2% to a simplified fraction and decimal",
+    "showProcess": "1. 2% = 2/100.<br>2. Simplify 2/100 down to 1/50.<br>3. 2 ÷ 100 = 0.02",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">50</span></div> and 0.02"
+  },
+  {
+    "id": 67,
+    "questionText": "Convert 4% to a simplified fraction and decimal",
+    "showProcess": "1. 4% = 4/100.<br>2. Simplify 4/100 down to 1/25.<br>3. 4 ÷ 100 = 0.04",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">25</span></div> and 0.04"
+  },
+  {
+    "id": 68,
+    "questionText": "Convert 6% to a simplified fraction and decimal",
+    "showProcess": "1. 6% = 6/100.<br>2. Simplify 6/100 down to 3/50.<br>3. 6 ÷ 100 = 0.06",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">50</span></div> and 0.06"
+  },
+  {
+    "id": 69,
+    "questionText": "Convert 8% to a simplified fraction and decimal",
+    "showProcess": "1. 8% = 8/100.<br>2. Simplify 8/100 down to 2/25.<br>3. 8 ÷ 100 = 0.08",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">2</span><span class=\"bottom\">25</span></div> and 0.08"
+  },
+  {
+    "id": 70,
+    "questionText": "Convert 12% to a simplified fraction and decimal",
+    "showProcess": "1. 12% = 12/100.<br>2. Divide top and bottom by 4: 3/25.<br>3. 12 ÷ 100 = 0.12",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">25</span></div> and 0.12"
+  },
+  {
+    "id": 71,
+    "questionText": "Convert 16% to a simplified fraction and decimal",
+    "showProcess": "1. 16% = 16/100.<br>2. Divide top and bottom by 4: 4/25.<br>3. 16 ÷ 100 = 0.16",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">4</span><span class=\"bottom\">25</span></div> and 0.16"
+  },
+  {
+    "id": 72,
+    "questionText": "Convert 24% to a simplified fraction and decimal",
+    "showProcess": "1. 24% = 24/100.<br>2. Divide top and bottom by 4: 6/25.<br>3. 24 ÷ 100 = 0.24",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">6</span><span class=\"bottom\">25</span></div> and 0.24"
+  },
+  {
+    "id": 73,
+    "questionText": "Convert 28% to a simplified fraction and decimal",
+    "showProcess": "1. 28% = 28/100.<br>2. Divide top and bottom by 4: 7/25.<br>3. 28 ÷ 100 = 0.28",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">7</span><span class=\"bottom\">25</span></div> and 0.28"
+  },
+  {
+    "id": 74,
+    "questionText": "Convert 32% to a simplified fraction and decimal",
+    "showProcess": "1. 32% = 32/100.<br>2. Divide top and bottom by 4: 8/25.<br>3. 32 ÷ 100 = 0.32",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">8</span><span class=\"bottom\">25</span></div> and 0.32"
+  },
+  {
+    "id": 75,
+    "questionText": "Convert 100% to a simplified fraction and decimal",
+    "showProcess": "1. 100% = 100/100 = 1.<br>2. 1 as a fraction is 1/1.<br>3. Decimal is 1.0",
+    "showAnswer": "<div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">1</span></div> and 1.0"
+  },
+  {
+    "id": 76,
+    "questionText": "Convert to a decimal and percentage: 1<div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">2</span></div>",
+    "showProcess": "1. The whole number is 1.<br>2. 1/2 = 0.5, so total decimal is 1.5.<br>3. Multiply 1.5 by 100 for percentage.",
+    "showAnswer": "1.5 and 150%"
+  },
+  {
+    "id": 77,
+    "questionText": "Convert to a decimal and percentage: 1<div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">4</span></div>",
+    "showProcess": "1. Whole number is 1. 1/4 = 0.25.<br>2. Total decimal = 1.25.<br>3. Multiply by 100 = 125%.",
+    "showAnswer": "1.25 and 125%"
+  },
+  {
+    "id": 78,
+    "questionText": "Convert to a decimal and percentage: 2<div class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">4</span></div>",
+    "showProcess": "1. Whole number is 2. 3/4 = 0.75.<br>2. Total decimal = 2.75.<br>3. Multiply by 100 = 275%.",
+    "showAnswer": "2.75 and 275%"
+  },
+  {
+    "id": 79,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">3</span></div>",
+    "showProcess": "1. 1 ÷ 3 results in a repeating decimal: 0.333...<br>2. Multiply by 100 for percentage: 33.33% (or 33 1/3%).",
+    "showAnswer": "0.333... and 33.3%"
+  },
+  {
+    "id": 80,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">2</span><span class=\"bottom\">3</span></div>",
+    "showProcess": "1. 2 ÷ 3 results in a repeating decimal: 0.666...<br>2. Multiply by 100 for percentage: 66.67% (or 66 2/3%).",
+    "showAnswer": "0.666... and 66.7%"
+  },
+  {
+    "id": 81,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">8</span></div>",
+    "showProcess": "1. 1 ÷ 8 = 0.125.<br>2. Multiply 0.125 by 100 to get percentage.",
+    "showAnswer": "0.125 and 12.5%"
+  },
+  {
+    "id": 82,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">8</span></div>",
+    "showProcess": "1. 3 ÷ 8 = 0.375.<br>2. Multiply 0.375 by 100 to get percentage.",
+    "showAnswer": "0.375 and 37.5%"
+  },
+  {
+    "id": 83,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">5</span><span class=\"bottom\">8</span></div>",
+    "showProcess": "1. 5 ÷ 8 = 0.625.<br>2. Multiply 0.625 by 100 to get percentage.",
+    "showAnswer": "0.625 and 62.5%"
+  },
+  {
+    "id": 84,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">7</span><span class=\"bottom\">8</span></div>",
+    "showProcess": "1. 7 ÷ 8 = 0.875.<br>2. Multiply 0.875 by 100 to get percentage.",
+    "showAnswer": "0.875 and 87.5%"
+  },
+  {
+    "id": 85,
+    "questionText": "Convert 1.5 to a simplified mixed number and percentage",
+    "showProcess": "1. 1.5 has 1 whole and 5 tenths (5/10).<br>2. Simplify 5/10 to 1/2 -> 1 1/2.<br>3. 1.5 × 100 = 150%",
+    "showAnswer": "1<div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">2</span></div> and 150%"
+  },
+  {
+    "id": 86,
+    "questionText": "Convert 2.25 to a simplified mixed number and percentage",
+    "showProcess": "1. 2.25 has 2 wholes and 25 hundredths (25/100).<br>2. Simplify 25/100 to 1/4 -> 2 1/4.<br>3. 2.25 × 100 = 225%",
+    "showAnswer": "2<div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">4</span></div> and 225%"
+  },
+  {
+    "id": 87,
+    "questionText": "Convert 1.75 to a simplified mixed number and percentage",
+    "showProcess": "1. 1.75 has 1 whole and 75 hundredths (75/100).<br>2. Simplify 75/100 to 3/4 -> 1 3/4.<br>3. 1.75 × 100 = 175%",
+    "showAnswer": "1<div class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">4</span></div> and 175%"
+  },
+  {
+    "id": 88,
+    "questionText": "Convert 12.5% to a decimal and simplified fraction",
+    "showProcess": "1. 12.5 ÷ 100 = 0.125.<br>2. 0.125 is 125/1000.<br>3. Divide top and bottom by 125 to get 1/8.",
+    "showAnswer": "0.125 and <div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">8</span></div>"
+  },
+  {
+    "id": 89,
+    "questionText": "Convert 37.5% to a decimal and simplified fraction",
+    "showProcess": "1. 37.5 ÷ 100 = 0.375.<br>2. 0.375 is 375/1000.<br>3. Divide top and bottom by 125 to get 3/8.",
+    "showAnswer": "0.375 and <div class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">8</span></div>"
+  },
+  {
+    "id": 90,
+    "questionText": "Convert 62.5% to a decimal and simplified fraction",
+    "showProcess": "1. 62.5 ÷ 100 = 0.625.<br>2. 0.625 is 625/1000.<br>3. Divide top and bottom by 125 to get 5/8.",
+    "showAnswer": "0.625 and <div class=\"fraction\"><span class=\"top\">5</span><span class=\"bottom\">8</span></div>"
+  },
+  {
+    "id": 91,
+    "questionText": "Convert 87.5% to a decimal and simplified fraction",
+    "showProcess": "1. 87.5 ÷ 100 = 0.875.<br>2. 0.875 is 875/1000.<br>3. Divide top and bottom by 125 to get 7/8.",
+    "showAnswer": "0.875 and <div class=\"fraction\"><span class=\"top\">7</span><span class=\"bottom\">8</span></div>"
+  },
+  {
+    "id": 92,
+    "questionText": "Convert 33.3% (repeating) to a decimal and simplified fraction",
+    "showProcess": "1. 33.333...% converted to a decimal is 0.333...<br>2. This standard repeating pattern matches exactly 1/3.",
+    "showAnswer": "0.333... and <div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">3</span></div>"
+  },
+  {
+    "id": 93,
+    "questionText": "Convert 66.7% (repeating) to a decimal and simplified fraction",
+    "showProcess": "1. 66.666...% converted to a decimal is 0.666...<br>2. This standard repeating pattern matches exactly 2/3.",
+    "showAnswer": "0.666... and <div class=\"fraction\"><span class=\"top\">2</span><span class=\"bottom\">3</span></div>"
+  },
+  {
+    "id": 94,
+    "questionText": "Convert 133.3% (repeating) to a decimal and simplified mixed number",
+    "showProcess": "1. 133.333... ÷ 100 = 1.333...<br>2. 1 is the whole number; 0.333... matches 1/3.<br>3. Total is 1 1/3.",
+    "showAnswer": "1.333... and 1<div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">3</span></div>"
+  },
+  {
+    "id": 95,
+    "questionText": "Convert 166.7% (repeating) to a decimal and simplified mixed number",
+    "showProcess": "1. 166.666... ÷ 100 = 1.666...<br>2. 1 is the whole number; 0.666... matches 2/3.<br>3. Total is 1 1/2.",
+    "showAnswer": "1.666... and 1<div class=\"fraction\"><span class=\"top\">2</span><span class=\"bottom\">3</span></div>"
+  },
+  {
+    "id": 96,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">20</span></div>",
+    "showProcess": "1. 1 ÷ 20 = 0.05.<br>2. Multiply 0.05 by 100 to get percentage.",
+    "showAnswer": "0.05 and 5%"
+  },
+  {
+    "id": 97,
+    "questionText": "Convert to a decimal and percentage: <div class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">20</span></div>",
+    "showProcess": "1. 3 ÷ 20 = 0.15.<br>2. Multiply 0.15 by 100 to get percentage.",
+    "showAnswer": "0.15 and 15%"
+  },
+  {
+    "id": 98,
+    "questionText": "Convert 250% to a decimal and simplified mixed number",
+    "showProcess": "1. 250 ÷ 100 = 2.5.<br>2. 2 is the whole number; 0.5 is 5/10, which reduces to 1/2.",
+    "showAnswer": "2.5 and 2<div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">2</span></div>"
+  },
+  {
+    "id": 99,
+    "questionText": "Convert 3.5 to a simplified mixed number and percentage",
+    "showProcess": "1. 3 is the whole number; 0.5 equals 1/2.<br>2. 3.5 × 100 = 350%",
+    "showAnswer": "3<div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">2</span></div> and 350%"
+  },
+  {
+    "id": 100,
+    "questionText": "Convert to a decimal and percentage: 5<div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">4</span></div>",
+    "showProcess": "1. Whole number is 5. 1/4 = 0.25.<br>2. Total decimal = 5.25.<br>3. Multiply by 100 = 525%.",
+    "showAnswer": "5.25 and 525%"
+  }
+]

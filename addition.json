@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "questionText": "324 + 142",
+    "showProcess": "Step 1: 4 + 2 = 6. Step 2: 2 + 4 = 6. Step 3: 3 + 1 = 4.",
+    "showAnswer": "466"
+  },
+  {
+    "id": 2,
+    "questionText": "513 + 264",
+    "showProcess": "Step 1: 3 + 4 = 7. Step 2: 1 + 6 = 7. Step 3: 5 + 2 = 7.",
+    "showAnswer": "777"
+  },
+  {
+    "id": 3,
+    "questionText": "402 + 375",
+    "showProcess": "Step 1: 2 + 5 = 7. Step 2: 0 + 7 = 7. Step 3: 4 + 3 = 7.",
+    "showAnswer": "777"
+  },
+  {
+    "id": 4,
+    "questionText": "620 + 158",
+    "showProcess": "Step 1: 0 + 8 = 8. Step 2: 2 + 5 = 7. Step 3: 6 + 1 = 7.",
+    "showAnswer": "778"
+  },
+  {
+    "id": 5,
+    "questionText": "231 + 546",
+    "showProcess": "Step 1: 1 + 6 = 7. Step 2: 3 + 4 = 7. Step 3: 2 + 5 = 7.",
+    "showAnswer": "777"
+  },
+  {
+    "id": 6,
+    "questionText": "704 + 283",
+    "showProcess": "Step 1: 4 + 3 = 7. Step 2: 0 + 8 = 8. Step 3: 7 + 2 = 9.",
+    "showAnswer": "987"
+  },
+  {
+    "id": 7,
+    "questionText": "115 + 842",
+    "showProcess": "Step 1: 5 + 2 = 7. Step 2: 1 + 4 = 5. Step 3: 1 + 8 = 9.",
+    "showAnswer": "957"
+  },
+  {
+    "id": 8,
+    "questionText": "333 + 444",
+    "showProcess": "Step 1: 3 + 4 = 7. Step 2: 3 + 4 = 7. Step 3: 3 + 4 = 7.",
+    "showAnswer": "777"
+  },
+  {
+    "id": 9,
+    "questionText": "521 + 367",
+    "showProcess": "Step 1: 1 + 7 = 8. Step 2: 2 + 6 = 8. Step 3: 5 + 3 = 8.",
+    "showAnswer": "888"
+  },
+  {
+    "id": 10,
+    "questionText": "812 + 175",
+    "showProcess": "Step 1: 2 + 5 = 7. Step 2: 1 + 7 = 8. Step 3: 8 + 1 = 9.",
+    "showAnswer": "987"
+  },
+  {
+    "id": 11,
+    "questionText": "452 + 239",
+    "showProcess": "Step 1: 2 + 9 = 11 (write 1, carry 1). Step 2: 5 + 3 + 1 = 9. Step 3: 4 + 2 = 6.",
+    "showAnswer": "691"
+  },
+  {
+    "id": 12,
+    "questionText": "617 + 145",
+    "showProcess": "Step 1: 7 + 5 = 12 (write 2, carry 1). Step 2: 1 + 4 + 1 = 6. Step 3: 6 + 1 = 7.",
+    "showAnswer": "762"
+  },
+  {
+    "id": 13,
+    "questionText": "381 + 243",
+    "showProcess": "Step 1: 1 + 3 = 4. Step 2: 8 + 4 = 12 (write 2, carry 1). Step 3: 3 + 2 + 1 = 6.",
+    "showAnswer": "624"
+  },
+  {
+    "id": 14,
+    "questionText": "572 + 154",
+    "showProcess": "Step 1: 2 + 4 = 6. Step 2: 7 + 5 = 12 (write 2, carry 1). Step 3: 5 + 1 + 1 = 7.",
+    "showAnswer": "726"
+  },
+  {
+    "id": 15,
+    "questionText": "294 + 403",
+    "showProcess": "Step 1: 4 + 3 = 7. Step 2: 9 + 0 = 9. Step 3: 2 + 4 = 6.",
+    "showAnswer": "697"
+  },
+  {
+    "id": 16,
+    "questionText": "846 + 127",
+    "showProcess": "Step 1: 6 + 7 = 13 (write 3, carry 1). Step 2: 4 + 2 + 1 = 7. Step 3: 8 + 1 = 9.",
+    "showAnswer": "973"
+  },
+  {
+    "id": 17,
+    "questionText": "165 + 728",
+    "showProcess": "Step 1: 5 + 8 = 13 (write 3, carry 1). Step 2: 6 + 2 + 1 = 9. Step 3: 1 + 7 = 8.",
+    "showAnswer": "893"
+  },
+  {
+    "id": 18,
+    "questionText": "439 + 380",
+    "showProcess": "Step 1: 9 + 0 = 9. Step 2: 3 + 8 = 11 (write 1, carry 1). Step 3: 4 + 3 + 1 = 8.",
+    "showAnswer": "819"
+  },
+  {
+    "id": 19,
+    "questionText": "748 + 135",
+    "showProcess": "Step 1: 8 + 5 = 13 (write 3, carry 1). Step 2: 4 + 3 + 1 = 8. Step 3: 7 + 1 = 8.",
+    "showAnswer": "883"
+  },
+  {
+    "id": 20,
+    "questionText": "256 + 681",
+    "showProcess": "Step 1: 6 + 1 = 7. Step 2: 5 + 8 = 13 (write 3, carry 1). Step 3: 2 + 6 + 1 = 9.",
+    "showAnswer": "937"
+  },
+  {
+    "id": 21,
+    "questionText": "387 + 465",
+    "showProcess": "Step 1: 7 + 5 = 12 (write 2, carry 1). Step 2: 8 + 6 + 1 = 15 (write 5, carry 1). Step 3: 3 + 4 + 1 = 8.",
+    "showAnswer": "852"
+  },
+  {
+    "id": 22,
+    "questionText": "596 + 238",
+    "showProcess": "Step 1: 6 + 8 = 14 (write 4, carry 1). Step 2: 9 + 3 + 1 = 13 (write 3, carry 1). Step 3: 5 + 2 + 1 = 8.",
+    "showAnswer": "834"
+  },
+  {
+    "id": 23,
+    "questionText": "679 + 184",
+    "showProcess": "Step 1: 9 + 4 = 13 (write 3, carry 1). Step 2: 7 + 8 + 1 = 16 (write 6, carry 1). Step 3: 6 + 1 + 1 = 8.",
+    "showAnswer": "863"
+  },
+  {
+    "id": 24,
+    "questionText": "488 + 355",
+    "showProcess": "Step 1: 8 + 5 = 13 (write 3, carry 1). Step 2: 8 + 5 + 1 = 14 (write 4, carry 1). Step 3: 4 + 3 + 1 = 8.",
+    "showAnswer": "843"
+  },
+  {
+    "id": 25,
+    "questionText": "764 + 189",
+    "showProcess": "Step 1: 4 + 9 = 13 (write 3, carry 1). Step 2: 6 + 8 + 1 = 15 (write 5, carry 1). Step 3: 7 + 1 + 1 = 9.",
+    "showAnswer": "953"
+  },
+  {
+    "id": 26,
+    "questionText": "295 + 567",
+    "showProcess": "Step 1: 5 + 7 = 12 (write 2, carry 1). Step 2: 9 + 6 + 1 = 16 (write 6, carry 1). Step 3: 2 + 5 + 1 = 8.",
+    "showAnswer": "862"
+  },
+  {
+    "id": 27,
+    "questionText": "876 + 147",
+    "showProcess": "Step 1: 6 + 7 = 13 (write 3, carry 1). Step 2: 7 + 1 + 4 = 12 (write 2, carry 1). Step 3: 8 + 1 + 1 = 10.",
+    "showAnswer": "1023"
+  },
+  {
+    "id": 28,
+    "questionText": "499 + 388",
+    "showProcess": "Step 1: 9 + 8 = 17 (write 7, carry 1). Step 2: 9 + 8 + 1 = 18 (write 8, carry 1). Step 3: 4 + 3 + 1 = 8.",
+    "showAnswer": "887"
+  },
+  {
+    "id": 29,
+    "questionText": "657 + 865",
+    "showProcess": "Step 1: 7 + 5 = 12 (write 2, carry 1). Step 2: 5 + 6 + 1 = 12 (write 2, carry 1). Step 3: 6 + 8 + 1 = 15.",
+    "showAnswer": "1522"
+  },
+  {
+    "id": 30,
+    "questionText": "989 + 768",
+    "showProcess": "Step 1: 9 + 8 = 17 (write 7, carry 1). Step 2: 8 + 6 + 1 = 15 (write 5, carry 1). Step 3: 9 + 7 + 1 = 17.",
+    "showAnswer": "1757"
+  },
+  {
+    "id": 31,
+    "questionText": "4325 + 1542",
+    "showProcess": "Step 1: 5+2=7. Step 2: 2+4=6. Step 3: 3+5=8. Step 4: 4+1=5.",
+    "showAnswer": "5867"
+  },
+  {
+    "id": 32,
+    "questionText": "6104 + 2783",
+    "showProcess": "Step 1: 4+3=7. Step 2: 0+8=8. Step 3: 1+7=8. Step 4: 6+2=8.",
+    "showAnswer": "8887"
+  },
+  {
+    "id": 33,
+    "questionText": "2531 + 5462",
+    "showProcess": "Step 1: 1+2=3. Step 2: 3+6=9. Step 3: 5+4=9. Step 4: 2+5=7.",
+    "showAnswer": "7993"
+  },
+  {
+    "id": 34,
+    "questionText": "7015 + 1842",
+    "showProcess": "Step 1: 5+2=7. Step 2: 1+4=5. Step 3: 0+8=8. Step 4: 7+1=8.",
+    "showAnswer": "8857"
+  },
+  {
+    "id": 35,
+    "questionText": "3420 + 4159",
+    "showProcess": "Step 1: 0+9=9. Step 2: 2+5=7. Step 3: 4+1=5. Step 4: 3+4=7.",
+    "showAnswer": "7579"
+  },
+  {
+    "id": 36,
+    "questionText": "8234 + 1653",
+    "showProcess": "Step 1: 4+3=7. Step 2: 3+5=8. Step 3: 2+6=8. Step 4: 8+1=9.",
+    "showAnswer": "9887"
+  },
+  {
+    "id": 37,
+    "questionText": "1562 + 7314",
+    "showProcess": "Step 1: 2+4=6. Step 2: 6+1=7. Step 3: 5+3=8. Step 4: 1+7=8.",
+    "showAnswer": "8876"
+  },
+  {
+    "id": 38,
+    "questionText": "5371 + 3208",
+    "showProcess": "Step 1: 1+8=9. Step 2: 7+0=7. Step 3: 3+2=5. Step 4: 5+3=8.",
+    "showAnswer": "8579"
+  },
+  {
+    "id": 39,
+    "questionText": "9024 +  console 853",
+    "showProcess": "Step 1: 4+3=7. Step 2: 2+5=7. Step 3: 0+8=8. Step 4: 9+0=9.",
+    "showAnswer": "9877"
+  },
+  {
+    "id": 40,
+    "questionText": "4444 + 5555",
+    "showProcess": "Step 1: 4+5=9. Step 2: 4+5=9. Step 3: 4+5=9. Step 4: 4+5=9.",
+    "showAnswer": "9999"
+  },
+  {
+    "id": 41,
+    "questionText": "3256 + 1428",
+    "showProcess": "Step 1: 6+8=14 (carry 1). Step 2: 5+2+1=8. Step 3: 2+4=6. Step 4: 3+1=4.",
+    "showAnswer": "4684"
+  },
+  {
+    "id": 42,
+    "questionText": "6713 + 2154",
+    "showProcess": "Step 1: 3+4=7. Step 2: 1+5=6. Step 3: 7+1=8. Step 4: 6+2=8.",
+    "showAnswer": "8867"
+  },
+  {
+    "id": 43,
+    "questionText": "5182 + 3475",
+    "showProcess": "Step 1: 2+5=7. Step 2: 8+7=15 (carry 1). Step 3: 1+4+1=6. Step 4: 5+3=8.",
+    "showAnswer": "8657"
+  },
+  {
+    "id": 44,
+    "questionText": "2491 + 4305",
+    "showProcess": "Step 1: 1+5=6. Step 2: 9+0=9. Step 3: 4+3=7. Step 4: 2+4=6.",
+    "showAnswer": "6796"
+  },
+  {
+    "id": 45,
+    "questionText": "8037 + 1526",
+    "showProcess": "Step 1: 7+6=13 (carry 1). Step 2: 3+2+1=6. Step 3: 0+5=5. Step 4: 8+1=9.",
+    "showAnswer": "9563"
+  },
+  {
+    "id": 46,
+    "questionText": "1365 + 6273",
+    "showProcess": "Step 1: 5+3=8. Step 2: 6+7=13 (carry 1). Step 3: 3+2+1=6. Step 4: 1+6=7.",
+    "showAnswer": "7638"
+  },
+  {
+    "id": 47,
+    "questionText": "7248 + 1534",
+    "showProcess": "Step 1: 8+4=12 (carry 1). Step 2: 4+3+1=8. Step 3: 2+5=7. Step 4: 7+1=8.",
+    "showAnswer": "8782"
+  },
+  {
+    "id": 48,
+    "questionText": "4810 + 2935",
+    "showProcess": "Step 1: 0+5=5. Step 2: 1+3=4. Step 3: 8+9=17 (carry 1). Step 4: 4+2+1=7.",
+    "showAnswer": "7745"
+  },
+  {
+    "id": 49,
+    "questionText": "3529 + 5143",
+    "showProcess": "Step 1: 9+3=12 (carry 1). Step 2: 2+4+1=7. Step 3: 5+1=6. Step 4: 3+5=8.",
+    "showAnswer": "8672"
+  },
+  {
+    "id": 50,
+    "questionText": "6074 + 2851",
+    "showProcess": "Step 1: 4+1=5. Step 2: 7+5=12 (carry 1). Step 3: 0+8+1=9. Step 4: 6+2=8.",
+    "showAnswer": "8925"
+  },
+  {
+    "id": 51,
+    "questionText": "4785 + 2649",
+    "showProcess": "Step 1: 5+9=14 (carry 1). Step 2: 8+4+1=13 (carry 1). Step 3: 7+6+1=14 (carry 1). Step 4: 4+2+1=7.",
+    "showAnswer": "7434"
+  },
+  {
+    "id": 52,
+    "questionText": "6897 + 1435",
+    "showProcess": "Step 1: 7+5=12 (carry 1). Step 2: 9+3+1=13 (carry 1). Step 3: 8+4+1=13 (carry 1). Step 4: 6+1+1=8.",
+    "showAnswer": "8332"
+  },
+  {
+    "id": 53,
+    "questionText": "3568 + 4785",
+    "showProcess": "Step 1: 8+5=13 (carry 1). Step 2: 6+8+1=15 (carry 1). Step 3: 5+4+7+1=13 (carry 1). Step 4: 3+4+1=8.",
+    "showAnswer": "8353"
+  },
+  {
+    "id": 54,
+    "questionText": "7946 + 1387",
+    "showProcess": "Step 1: 6+7=13 (carry 1). Step 2: 4+8+1=13 (carry 1). Step 3: 9+3+1=13 (carry 1). Step 4: 7+1+1=9.",
+    "showAnswer": "9333"
+  },
+  {
+    "id": 55,
+    "questionText": "2874 + 5659",
+    "showProcess": "Step 1: 4+9=13 (carry 1). Step 2: 7+5+1=13 (carry 1). Step 3: 8+6+1=15 (carry 1). Step 4: 2+5+1=8.",
+    "showAnswer": "8533"
+  },
+  {
+    "id": 56,
+    "questionText": "5489 + 3768",
+    "showProcess": "Step 1: 9+8=17 (carry 1). Step 2: 8+6+1=15 (carry 1). Step 3: 4+7+1=12 (carry 1). Step 4: 5+3+1=9.",
+    "showAnswer": "9257"
+  },
+  {
+    "id": 57,
+    "questionText": "8695 + 1437",
+    "showProcess": "Step 1: 5+7=12 (carry 1). Step 2: 9+3+1=13 (carry 1). Step 3: 6+4+1=11 (carry 1). Step 4: 8+1+1=10.",
+    "showAnswer": "10132"
+  },
+  {
+    "id": 58,
+    "questionText": "1988 + 7355",
+    "showProcess": "Step 1: 8+5=13 (carry 1). Step 2: 8+5+1=14 (carry 1). Step 3: 9+3+1=13 (carry 1). Step 4: 1+7+1=9.",
+    "showAnswer": "9343"
+  },
+  {
+    "id": 59,
+    "questionText": "6754 + 2879",
+    "showProcess": "Step 1: 4+7+9=13 (carry 1). Step 2: 5+7+1=13 (carry 1). Step 3: 7+8+1=16 (carry 1). Step 4: 6+2+1=9.",
+    "showAnswer": "9633"
+  },
+  {
+    "id": 60,
+    "questionText": "9999 + 8888",
+    "showProcess": "Step 1: 9+8=17 (carry 1). Step 2: 9+8+1=18 (carry 1). Step 3: 9+8+1=18 (carry 1). Step 4: 9+8+1=18.",
+    "showAnswer": "18887"
+  },
+  {
+    "id": 61,
+    "questionText": "23145 + 54623",
+    "showProcess": "Step 1: 5+3=8. Step 2: 4+2=6. Step 3: 1+6=7. Step 4: 3+4=7. Step 5: 2+5=7.",
+    "showAnswer": "77768"
+  },
+  {
+    "id": 62,
+    "questionText": "41032 + 37845",
+    "showProcess": "Step 1: 2+5=7. Step 2: 3+4=7. Step 3: 0+8=8. Step 4: 1+7=8. Step 5: 4+3=7.",
+    "showAnswer": "78877"
+  },
+  {
+    "id": 63,
+    "questionText": "62504 + 15283",
+    "showProcess": "Step 1: 4+3=7. Step 2: 0+8=8. Step 3: 5+2=7. Step 4: 2+5=7. Step 5: 6+1=7.",
+    "showAnswer": "77787"
+  },
+  {
+    "id": 64,
+    "questionText": "70316 + 28452",
+    "showProcess": "Step 1: 6+2=8. Step 2: 1+5=6. Step 3: 3+4=7. Step 4: 0+8=8. Step 5: 7+2=9.",
+    "showAnswer": "98768"
+  },
+  {
+    "id": 65,
+    "questionText": "14270 + 83519",
+    "showProcess": "Step 1: 0+9=9. Step 2: 7+1=8. Step 3: 2+5=7. Step 4: 4+3=7. Step 5: 1+8=9.",
+    "showAnswer": "97789"
+  },
+  {
+    "id": 66,
+    "questionText": "53142 + 26735",
+    "showProcess": "Step 1: 2+5=7. Step 2: 4+3=7. Step 3: 1+7=8. Step 4: 5+3+6=9. Step 5: 5+2=7.",
+    "showAnswer": "79877"
+  },
+  {
+    "id": 67,
+    "questionText": "82035 + 15842",
+    "showProcess": "Step 1: 5+2=7. Step 2: 3+4=7. Step 3: 0+8=8. Step 4: 2+5=7. Step 5: 8+1=9.",
+    "showAnswer": "97877"
+  },
+  {
+    "id": 68,
+    "questionText": "34521 + 61347",
+    "showProcess": "Step 1: 1+7=8. Step 2: 2+4=6. Step 3: 5+3=8. Step 4: 4+1=5. Step 5: 3+6=9.",
+    "showAnswer": "95868"
+  },
+  {
+    "id": 69,
+    "questionText": "91204 + 07583",
+    "showProcess": "Step 1: 4+3=7. Step 2: 0+8=8. Step 3: 2+5=7. Step 4: 1+7=8. Step 5: 9+0=9.",
+    "showAnswer": "98787"
+  },
+  {
+    "id": 70,
+    "questionText": "55555 + 22222",
+    "showProcess": "Step 1: 5+2=7. Step 2: 5+2=7. Step 3: 5+2=7. Step 4: 5+2=7. Step 5: 5+2=7.",
+    "showAnswer": "77777"
+  },
+  {
+    "id": 71,
+    "questionText": "32456 + 14328",
+    "showProcess": "Step 1: 6+8=14 (carry 1). Step 2: 5+2+1=8. Step 3: 4+3=7. Step 4: 2+4=6. Step 5: 3+1=4.",
+    "showAnswer": "46784"
+  },
+  {
+    "id": 72,
+    "questionText": "61804 + 25473",
+    "showProcess": "Step 1: 4+3=7. Step 2: 0+7=7. Step 3: 8+4=12 (carry 1). Step 4: 1+5+1=7. Step 5: 6+2=8.",
+    "showAnswer": "87277"
+  },
+  {
+    "id": 73,
+    "questionText": "45291 + 31605",
+    "showProcess": "Step 1: 1+5=6. Step 2: 9+0=9. Step 3: 2+6=8. Step 4: 5+1=6. Step 5: 4+3=7.",
+    "showAnswer": "76896"
+  },
+  {
+    "id": 74,
+    "questionText": "70365 + 18273",
+    "showProcess": "Step 1: 5+3=8. Step 2: 6+7=13 (carry 1). Step 3: 3+2+1=6. Step 4: 0+8=8. Step 5: 7+1=8.",
+    "showAnswer": "88638"
+  },
+  {
+    "id": 75,
+    "questionText": "29410 + 50385",
+    "showProcess": "Step 1: 0+5=5. Step 2: 1+8=9. Step 3: 4+3=7. Step 4: 9+0=9. Step 5: 2+5=7.",
+    "showAnswer": "79795"
+  },
+  {
+    "id": 76,
+    "questionText": "81247 + 13526",
+    "showProcess": "Step 1: 7+6=13 (carry 1). Step 2: 4+2+1=7. Step 3: 2+5=7. Step 4: 1+3=4. Step 5: 8+1=9.",
+    "showAnswer": "94773"
+  },
+  {
+    "id": 77,
+    "questionText": "53782 + 24109",
+    "showProcess": "Step 1: 2+9=11 (carry 1). Step 2: 8+0+1=9. Step 3: 7+1=8. Step 4: 3+4=7. Step 5: 5+2=7.",
+    "showAnswer": "77891"
+  },
+  {
+    "id": 78,
+    "questionText": "16054 + 72831",
+    "showProcess": "Step 1: 4+1=5. Step 2: 5+3=8. Step 3: 0+8=8. Step 4: 6+2=8. Step 5: 1+7=8.",
+    "showAnswer": "88885"
+  },
+  {
+    "id": 79,
+    "questionText": "43529 + 38140",
+    "showProcess": "Step 1: 9+0=9. Step 2: 2+4=6. Step 3: 5+1=6. Step 4: 3+8=11 (carry 1). Step 5: 4+3+1=8.",
+    "showAnswer": "81669"
+  },
+  {
+    "id": 80,
+    "questionText": "67248 + 15634",
+    "showProcess": "Step 1: 8+4=12 (carry 1). Step 2: 4+3+1=8. Step 3: 2+6=8. Step 4: 7+5=12 (carry 1). Step 5: 6+1+1=8.",
+    "showAnswer": "82882"
+  },
+  {
+    "id": 81,
+    "questionText": "47856 + 26439",
+    "showProcess": "Step 1: 6+9=15 (carry 1). Step 2: 5+3+1=9. Step 3: 8+4=12 (carry 1). Step 4: 7+6+1=14 (carry 1). Step 5: 4+2+1=7.",
+    "showAnswer": "74295"
+  },
+  {
+    "id": 82,
+    "questionText": "63974 + 18352",
+    "showProcess": "Step 1: 4+2=6. Step 2: 7+5=12 (carry 1). Step 3: 9+3+1=13 (carry 1). Step 4: 3+8+1=12 (carry 1). Step 5: 6+1+1=8.",
+    "showAnswer": "82326"
+  },
+  {
+    "id": 83,
+    "questionText": "35681 + 47854",
+    "showProcess": "Step 1: 1+4=5. Step 2: 8+5=13 (carry 1). Step 3: 6+8+1=15 (carry 1). Step 4: 5+7+1=13 (carry 1). Step 5: 3+4+1=8.",
+    "showAnswer": "83535"
+  },
+  {
+    "id": 84,
+    "questionText": "79463 + 13872",
+    "showProcess": "Step 1: 3+2=5. Step 2: 6+7=13 (carry 1). Step 3: 4+8+1=13 (carry 1). Step 4: 9+3+1=13 (carry 1). Step 5: 7+1+1=9.",
+    "showAnswer": "93335"
+  },
+  {
+    "id": 85,
+    "questionText": "28745 + 56592",
+    "showProcess": "Step 1: 5+2=7. Step 2: 4+9=13 (carry 1). Step 3: 7+5+1=13 (carry 1). Step 4: 8+6+1=15 (carry 1). Step 5: 2+5+1=8.",
+    "showAnswer": "85337"
+  },
+  {
+    "id": 86,
+    "questionText": "54896 + 37687",
+    "showProcess": "Step 1: 6+7=13 (carry 1). Step 2: 9+8+1=18 (carry 1). Step 3: 8+6+1=15 (carry 1). Step 4: 4+7+1=12 (carry 1). Step 5: 5+3+1=9.",
+    "showAnswer": "92583"
+  },
+  {
+    "id": 87,
+    "questionText": "86954 + 14378",
+    "showProcess": "Step 1: 4+8=12 (carry 1). Step 2: 5+7+1=13 (carry 1). Step 3: 9+3+1=13 (carry 1). Step 4: 6+4+1=11 (carry 1). Step 5: 8+1+1=10.",
+    "showAnswer": "101332"
+  },
+  {
+    "id": 88,
+    "questionText": "19885 + 73559",
+    "showProcess": "Step 1: 5+9=14 (carry 1). Step 2: 8+5+1=14 (carry 1). Step 3: 8+5+1=14 (carry 1). Step 4: 9+3+1=13 (carry 1). Step 5: 1+7+1=9.",
+    "showAnswer": "93444"
+  },
+  {
+    "id": 89,
+    "questionText": "67542 + 28799",
+    "showProcess": "Step 1: 2+9=11 (carry 1). Step 2: 4+9+1=14 (carry 1). Step 3: 5+7+1=13 (carry 1). Step 4: 7+8+1=16 (carry 1). Step 5: 6+2+1=9.",
+    "showAnswer": "96341"
+  },
+  {
+    "id": 90,
+    "questionText": "99999 + 88888",
+    "showProcess": "Step 1: 9+8=17 (carry 1). Step 2: 9+8+1=18 (carry 1). Step 3: 9+8+1=18 (carry 1). Step 4: 9+8+1=18 (carry 1). Step 5: 9+8+1=18.",
+    "showAnswer": "188887"
+  },
+  {
+    "id": 91,
+    "questionText": "78965 + 45678",
+    "showProcess": "Step 1: 5+8=13 (carry 1). Step 2: 6+7+1=14 (carry 1). Step 3: 9+6+1=16 (carry 1). Step 4: 8+5+1=14 (carry 1). Step 5: 7+4+1=12.",
+    "showAnswer": "124643"
+  },
+  {
+    "id": 92,
+    "questionText": "89754 + 23468",
+    "showProcess": "Step 1: 4+8=12 (carry 1). Step 2: 5+6+1=12 (carry 1). Step 3: 7+4+1=12 (carry 1). Step 4: 9+2+1=13 (carry 1). Step 5: 8+2+1=11.",
+    "showAnswer": "113222"
+  },
+  {
+    "id": 93,
+    "questionText": "96847 + 57386",
+    "showProcess": "Step 1: 7+6=13 (carry 1). Step 2: 4+8+1=13 (carry 1). Step 3: 8+3+1=12 (carry 1). Step 4: 6+7+1=14 (carry 1). Step 5: 9+5+1=15.",
+    "showAnswer": "154233"
+  },
+  {
+    "id": 94,
+    "questionText": "88888 + 77777",
+    "showProcess": "Step 1: 8+7=15 (carry 1). Step 2: 8+7+1=16 (carry 1). Step 3: 8+7+1=16 (carry 1). Step 4: 8+7+1=16 (carry 1). Step 5: 8+7+1=16.",
+    "showAnswer": "166665"
+  },
+  {
+    "id": 95,
+    "questionText": "69584 + 74639",
+    "showProcess": "Step 1: 4+9=13 (carry 1). Step 2: 8+3+1=12 (carry 1). Step 3: 5+6+1=12 (carry 1). Step 4: 9+4+1=14 (carry 1). Step 5: 6+7+1=14.",
+    "showAnswer": "144223"
+  },
+  {
+    "id": 96,
+    "questionText": "75849 + 86173",
+    "showProcess": "Step 1: 9+3=12 (carry 1). Step 2: 4+7+1=12 (carry 1). Step 3: 8+1+1=10 (carry 1). Step 4: 5+6+1=12 (carry 1). Step 5: 7+8+1=16.",
+    "showAnswer": "162022"
+  },
+  {
+    "id": 97,
+    "questionText": "94738 + 68594",
+    "showProcess": "Step 1: 8+4=12 (carry 1). Step 2: 3+9+1=13 (carry 1). Step 3: 7+5+1=13 (carry 1). Step 4: 4+8+1=13 (carry 1). Step 5: 9+6+1=16.",
+    "showAnswer": "163332"
+  },
+  {
+    "id": 98,
+    "questionText": "85967 + 94285",
+    "showProcess": "Step 1: 7+5=12 (carry 1). Step 2: 6+8+1=15 (carry 1). Step 3: 9+2+1=12 (carry 1). Step 4: 5+4+1=10 (carry 1). Step 5: 8+9+1=18.",
+    "showAnswer": "180252"
+  },
+  {
+    "id": 99,
+    "questionText": "99887 + 88996",
+    "showProcess": "Step 1: 7+6=13 (carry 1). Step 2: 8+9+1=18 (carry 1). Step 3: 8+9+1=18 (carry 1). Step 4: 9+8+1=18 (carry 1). Step 5: 9+8+1=18.",
+    "showAnswer": "188883"
+  },
+  {
+    "id": 100,
+    "questionText": "99999 + 99999",
+    "showProcess": "Step 1: 9+9=18 (carry 1). Step 2: 9+9+1=19 (carry 1). Step 3: 9+9+1=19 (carry 1). Step 4: 9+9+1=19 (carry 1). Step 5: 9+9+1=19.",
+    "showAnswer": "199998"
+  }
+]

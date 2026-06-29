@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "questionText": "1204 ÷ 4",
+    "showProcess": "Step 1: 12 ÷ 4 = 3. Step 2: 0 ÷ 4 = 0. Step 3: 4 ÷ 4 = 1. No remainder.",
+    "showAnswer": "301"
+  },
+  {
+    "id": 2,
+    "questionText": "3505 ÷ 5",
+    "showProcess": "Step 1: 35 ÷ 5 = 7. Step 2: 0 ÷ 5 = 0. Step 3: 5 ÷ 5 = 1. No remainder.",
+    "showAnswer": "701"
+  },
+  {
+    "id": 3,
+    "questionText": "1836 ÷ 3",
+    "showProcess": "Step 1: 18 ÷ 3 = 6. Step 2: 3 ÷ 3 = 1. Step 3: 6 ÷ 3 = 2. No remainder.",
+    "showAnswer": "612"
+  },
+  {
+    "id": 4,
+    "questionText": "4884 ÷ 4",
+    "showProcess": "Step 1: 4 ÷ 4 = 1. Step 2: 8 ÷ 4 = 2. Step 3: 8 ÷ 4 = 2. Step 4: 4 ÷ 4 = 1. No remainder.",
+    "showAnswer": "1221"
+  },
+  {
+    "id": 5,
+    "questionText": "2709 ÷ 9",
+    "showProcess": "Step 1: 27 ÷ 9 = 3. Step 2: 0 ÷ 9 = 0. Step 3: 9 ÷ 9 = 1. No remainder.",
+    "showAnswer": "301"
+  },
+  {
+    "id": 6,
+    "questionText": "1426 ÷ 2",
+    "showProcess": "Step 1: 14 ÷ 2 = 7. Step 2: 2 ÷ 2 = 1. Step 3: 6 ÷ 2 = 3. No remainder.",
+    "showAnswer": "713"
+  },
+  {
+    "id": 7,
+    "questionText": "4207 ÷ 7",
+    "showProcess": "Step 1: 42 ÷ 7 = 6. Step 2: 0 ÷ 7 = 0. Step 3: 7 ÷ 7 = 1. No remainder.",
+    "showAnswer": "601"
+  },
+  {
+    "id": 8,
+    "questionText": "2448 ÷ 6",
+    "showProcess": "Step 1: 24 ÷ 6 = 4. Step 2: 4 ÷ 6 = 0 (carry 4). Step 3: 48 ÷ 6 = 8. No remainder.",
+    "showAnswer": "408"
+  },
+  {
+    "id": 9,
+    "questionText": "3208 ÷ 8",
+    "showProcess": "Step 1: 32 ÷ 8 = 4. Step 2: 0 ÷ 8 = 0. Step 3: 8 ÷ 8 = 1. No remainder.",
+    "showAnswer": "401"
+  },
+  {
+    "id": 10,
+    "questionText": "4550 ÷ 5",
+    "showProcess": "Step 1: 45 ÷ 5 = 9. Step 2: 5 ÷ 5 = 1. Step 3: 0 ÷ 5 = 0. No remainder.",
+    "showAnswer": "910"
+  },
+  {
+    "id": 11,
+    "questionText": "16424 ÷ 4",
+    "showProcess": "Step 1: 16 ÷ 4 = 4. Step 2: 4 ÷ 4 = 1. Step 3: 2 ÷ 4 = 0 (carry 2). Step 4: 24 ÷ 4 = 6. No remainder.",
+    "showAnswer": "4106"
+  },
+  {
+    "id": 12,
+    "questionText": "35015 ÷ 5",
+    "showProcess": "Step 1: 35 ÷ 5 = 7. Step 2: 0 ÷ 5 = 0. Step 3: 1 ÷ 5 = 0 (carry 1). Step 4: 15 ÷ 5 = 3. No remainder.",
+    "showAnswer": "7003"
+  },
+  {
+    "id": 13,
+    "questionText": "12639 ÷ 3",
+    "showProcess": "Step 1: 12 ÷ 3 = 4. Step 2: 6 ÷ 3 = 2. Step 3: 3 ÷ 3 = 1. Step 4: 9 ÷ 3 = 3. No remainder.",
+    "showAnswer": "4213"
+  },
+  {
+    "id": 14,
+    "questionText": "28042 ÷ 7",
+    "showProcess": "Step 1: 28 ÷ 7 = 4. Step 2: 0 ÷ 7 = 0. Step 3: 4 ÷ 7 = 0 (carry 4). Step 4: 42 ÷ 7 = 6. No remainder.",
+    "showAnswer": "4006"
+  },
+  {
+    "id": 15,
+    "questionText": "54018 ÷ 9",
+    "showProcess": "Step 1: 54 ÷ 9 = 6. Step 2: 0 ÷ 9 = 0. Step 3: 1 ÷ 9 = 0 (carry 1). Step 4: 18 ÷ 9 = 2. No remainder.",
+    "showAnswer": "6002"
+  },
+  {
+    "id": 16,
+    "questionText": "14826 ÷ 2",
+    "showProcess": "Step 1: 14 ÷ 2 = 7. Step 2: 8 ÷ 2 = 4. Step 3: 2 ÷ 2 = 1. Step 4: 6 ÷ 2 = 3. No remainder.",
+    "showAnswer": "7413"
+  },
+  {
+    "id": 17,
+    "questionText": "32056 ÷ 8",
+    "showProcess": "Step 1: 32 ÷ 8 = 4. Step 2: 0 ÷ 8 = 0. Step 3: 5 ÷ 8 = 0 (carry 5). Step 4: 56 ÷ 8 = 7. No remainder.",
+    "showAnswer": "4007"
+  },
+  {
+    "id": 18,
+    "questionText": "42612 ÷ 6",
+    "showProcess": "Step 1: 42 ÷ 6 = 7. Step 2: 6 ÷ 6 = 1. Step 3: 1 ÷ 6 = 0 (carry 1). Step 4: 12 ÷ 6 = 2. No remainder.",
+    "showAnswer": "7102"
+  },
+  {
+    "id": 19,
+    "questionText": "18945 ÷ 9",
+    "showProcess": "Step 1: 18 ÷ 9 = 2. Step 2: 9 ÷ 9 = 1. Step 3: 4 ÷ 9 = 0 (carry 4). Step 4: 45 ÷ 9 = 5. No remainder.",
+    "showAnswer": "2105"
+  },
+  {
+    "id": 20,
+    "questionText": "55550 ÷ 5",
+    "showProcess": "Step 1: 5 ÷ 5 = 1 for each position, final 0 ÷ 5 = 0. No remainder.",
+    "showAnswer": "11110"
+  },
+  {
+    "id": 21,
+    "questionText": "1207 ÷ 4",
+    "showProcess": "Step 1: 12 ÷ 4 = 3. Step 2: 0 ÷ 4 = 0. Step 3: 7 ÷ 4 = 1 with a remainder of 3.",
+    "showAnswer": "301 r 3"
+  },
+  {
+    "id": 22,
+    "questionText": "3508 ÷ 5",
+    "showProcess": "Step 1: 35 ÷ 5 = 7. Step 2: 0 ÷ 5 = 0. Step 3: 8 ÷ 5 = 1 with a remainder of 3.",
+    "showAnswer": "701 r 3"
+  },
+  {
+    "id": 23,
+    "questionText": "1838 ÷ 3",
+    "showProcess": "Step 1: 18 ÷ 3 = 6. Step 2: 3 ÷ 3 = 1. Step 3: 8 ÷ 3 = 2 with a remainder of 2.",
+    "showAnswer": "612 r 2"
+  },
+  {
+    "id": 24,
+    "questionText": "4887 ÷ 4",
+    "showProcess": "Step 1: 4 ÷ 4 = 1. Step 2: 8 ÷ 4 = 2. Step 3: 8 ÷ 4 = 2. Step 4: 7 ÷ 4 = 1 with a remainder of 3.",
+    "showAnswer": "1221 r 3"
+  },
+  {
+    "id": 25,
+    "questionText": "2714 ÷ 9",
+    "showProcess": "Step 1: 27 ÷ 9 = 3. Step 2: 1 ÷ 9 = 0 (carry 1). Step 3: 14 ÷ 9 = 1 with a remainder of 5.",
+    "showAnswer": "301 r 5"
+  },
+  {
+    "id": 26,
+    "questionText": "1427 ÷ 2",
+    "showProcess": "Step 1: 14 ÷ 2 = 7. Step 2: 2 ÷ 2 = 1. Step 3: 7 ÷ 2 = 3 with a remainder of 1.",
+    "showAnswer": "713 r 1"
+  },
+  {
+    "id": 27,
+    "questionText": "4213 ÷ 7",
+    "showProcess": "Step 1: 42 ÷ 7 = 6. Step 2: 1 ÷ 7 = 0 (carry 1). Step 3: 13 ÷ 7 = 1 with a remainder of 6.",
+    "showAnswer": "601 r 6"
+  },
+  {
+    "id": 28,
+    "questionText": "2453 ÷ 6",
+    "showProcess": "Step 1: 24 ÷ 6 = 4. Step 2: 5 ÷ 6 = 0 (carry 5). Step 3: 53 ÷ 6 = 8 with a remainder of 5.",
+    "showAnswer": "408 r 5"
+  },
+  {
+    "id": 29,
+    "questionText": "3213 ÷ 8",
+    "showProcess": "Step 1: 32 ÷ 8 = 4. Step 2: 1 ÷ 8 = 0 (carry 1). Step 3: 13 ÷ 8 = 1 with a remainder of 5.",
+    "showAnswer": "401 r 5"
+  },
+  {
+    "id": 30,
+    "questionText": "4554 ÷ 5",
+    "showProcess": "Step 1: 45 ÷ 5 = 9. Step 2: 5 ÷ 5 = 1. Step 3: 4 ÷ 5 = 0 with a remainder of 4.",
+    "showAnswer": "910 r 4"
+  },
+  {
+    "id": 31,
+    "questionText": "16427 ÷ 4",
+    "showProcess": "Step 1: 16 ÷ 4 = 4. Step 2: 4 ÷ 4 = 1. Step 3: 2 ÷ 4 = 0 (carry 2). Step 4: 27 ÷ 4 = 6 with a remainder of 3.",
+    "showAnswer": "4106 r 3"
+  },
+  {
+    "id": 32,
+    "questionText": "35019 ÷ 5",
+    "showProcess": "Step 1: 35 ÷ 5 = 7. Step 2: 0 ÷ 5 = 0. Step 3: 1 ÷ 5 = 0 (carry 1). Step 4: 19 ÷ 5 = 3 with a remainder of 4.",
+    "showAnswer": "7003 r 4"
+  },
+  {
+    "id": 33,
+    "questionText": "12638 ÷ 3",
+    "showProcess": "Step 1: 12 ÷ 3 = 4. Step 2: 6 ÷ 3 = 2. Step 3: 3 ÷ 3 = 1. Step 4: 8 ÷ 3 = 2 with a remainder of 2.",
+    "showAnswer": "4212 r 2"
+  },
+  {
+    "id": 34,
+    "questionText": "28046 ÷ 7",
+    "showProcess": "Step 1: 28 ÷ 7 = 4. Step 2: 0 ÷ 7 = 0. Step 3: 4 ÷ 7 = 0 (carry 4). Step 4: 46 ÷ 7 = 6 with a remainder of 4.",
+    "showAnswer": "4006 r 4"
+  },
+  {
+    "id": 35,
+    "questionText": "54025 ÷ 9",
+    "showProcess": "Step 1: 54 ÷ 9 = 6. Step 2: 0 ÷ 9 = 0. Step 3: 2 ÷ 9 = 0 (carry 2). Step 4: 25 ÷ 9 = 2 with a remainder of 7.",
+    "showAnswer": "6002 r 7"
+  },
+  {
+    "id": 36,
+    "questionText": "14827 ÷ 2",
+    "showProcess": "Step 1: 14 ÷ 2 = 7. Step 2: 8 ÷ 2 = 4. Step 3: 2 ÷ 2 = 1. Step 4: 7 ÷ 2 = 3 with a remainder of 1.",
+    "showAnswer": "7413 r 1"
+  },
+  {
+    "id": 37,
+    "questionText": "32061 ÷ 8",
+    "showProcess": "Step 1: 32 ÷ 8 = 4. Step 2: 0 ÷ 8 = 0. Step 3: 6 ÷ 8 = 0 (carry 6). Step 4: 61 ÷ 8 = 7 with a remainder of 5.",
+    "showAnswer": "4007 r 5"
+  },
+  {
+    "id": 38,
+    "questionText": "42617 ÷ 6",
+    "showProcess": "Step 1: 42 ÷ 6 = 7. Step 2: 6 ÷ 6 = 1. Step 3: 1 ÷ 6 = 0 (carry 1). Step 4: 17 ÷ 6 = 2 with a remainder of 5.",
+    "showAnswer": "7102 r 5"
+  },
+  {
+    "id": 39,
+    "questionText": "18949 ÷ 9",
+    "showProcess": "Step 1: 18 ÷ 9 = 2. Step 2: 9 ÷ 9 = 1. Step 3: 4 ÷ 9 = 0 (carry 4). Step 4: 49 ÷ 9 = 5 with a remainder of 4.",
+    "showAnswer": "2105 r 4"
+  },
+  {
+    "id": 40,
+    "questionText": "55554 ÷ 5",
+    "showProcess": "Step 1: 5 ÷ 5 = 1 for the first four positions. Step 2: 4 ÷ 5 = 0 with a remainder of 4.",
+    "showAnswer": "11110 r 4"
+  },
+  {
+    "id": 41,
+    "questionText": "1205 ÷ 4 (Show answer as a fraction)",
+    "showProcess": "Step 1: 1205 ÷ 4 = 301 with a remainder of 1. Step 2: Put the remainder over the divisor.",
+    "showAnswer": "301 <div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">4</span></div>"
+  },
+  {
+    "id": 42,
+    "questionText": "3507 ÷ 5 (Show answer as a fraction)",
+    "showProcess": "Step 1: 3507 ÷ 5 = 701 with a remainder of 2. Step 2: Put the remainder over the divisor.",
+    "showAnswer": "701 <div class=\"fraction\"><span class=\"top\">2</span><span class=\"bottom\">5</span></div>"
+  },
+  {
+    "id": 43,
+    "questionText": "1838 ÷ 3 (Show answer as a fraction)",
+    "showProcess": "Step 1: 1838 ÷ 3 = 612 with a remainder of 2. Step 2: Put the remainder over the divisor.",
+    "showAnswer": "612 <div class=\"fraction\"><span class=\"top\">2</span><span class=\"bottom\">3</span></div>"
+  },
+  {
+    "id": 44,
+    "questionText": "4887 ÷ 4 (Show answer as a fraction)",
+    "showProcess": "Step 1: 4887 ÷ 4 = 1221 with a remainder of 3. Step 2: Put the remainder over the divisor.",
+    "showAnswer": "1221 <div class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">4</span></div>"
+  },
+  {
+    "id": 45,
+    "questionText": "2711 ÷ 9 (Show answer as a fraction)",
+    "showProcess": "Step 1: 2711 ÷ 9 = 301 with a remainder of 2. Step 2: Put the remainder over the divisor.",
+    "showAnswer": "301 <div class=\"fraction\"><span class=\"top\">2</span><span class=\"bottom\">9</span></div>"
+  },
+  {
+    "id": 46,
+    "questionText": "1427 ÷ 2 (Show answer as a fraction)",
+    "showProcess": "Step 1: 1427 ÷ 2 = 713 with a remainder of 1. Step 2: Put the remainder over the divisor.",
+    "showAnswer": "713 <div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">2</span></div>"
+  },
+  {
+    "id": 47,
+    "questionText": "4211 ÷ 7 (Show answer as a fraction)",
+    "showProcess": "Step 1: 4211 ÷ 7 = 601 with a remainder of 4. Step 2: Put the remainder over the divisor.",
+    "showAnswer": "601 <div class=\"fraction\"><span class=\"top\">4</span><span class=\"bottom\">7</span></div>"
+  },
+  {
+    "id": 48,
+    "questionText": "2453 ÷ 6 (Show answer as a fraction)",
+    "showProcess": "Step 1: 2453 ÷ 6 = 408 with a remainder of 5. Step 2: Put the remainder over the divisor.",
+    "showAnswer": "408 <div class=\"fraction\"><span class=\"top\">5</span><span class=\"bottom\">6</span></div>"
+  },
+  {
+    "id": 49,
+    "questionText": "3211 ÷ 8 (Show answer as a fraction)",
+    "showProcess": "Step 1: 3211 ÷ 8 = 401 with a remainder of 3. Step 2: Put the remainder over the divisor.",
+    "showAnswer": "401 <div class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">8</span></div>"
+  },
+  {
+    "id": 50,
+    "questionText": "4553 ÷ 5 (Show answer as a fraction)",
+    "showProcess": "Step 1: 4553 ÷ 5 = 910 with a remainder of 3. Step 2: Put the remainder over the divisor.",
+    "showAnswer": "910 <div class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">5</span></div>"
+  },
+  {
+    "id": 51,
+    "questionText": "1205 ÷ 4 (Show answer to 2 decimal places)",
+    "showProcess": "Step 1: 1205 ÷ 4 = 301 remainder 1. Step 2: Add decimals. 1.00 ÷ 4 = 0.25.",
+    "showAnswer": "301.25"
+  },
+  {
+    "id": 52,
+    "questionText": "3507 ÷ 5 (Show answer to 2 decimal places)",
+    "showProcess": "Step 1: 3507 ÷ 5 = 701 remainder 2. Step 2: Add decimals. 2.00 ÷ 5 = 0.40.",
+    "showAnswer": "701.40"
+  },
+  {
+    "id": 53,
+    "questionText": "1838 ÷ 3 (Show answer to 2 decimal places)",
+    "showProcess": "Step 1: 1838 ÷ 3 = 612 remainder 2. Step 2: 2.00 ÷ 3 = 0.666... round up.",
+    "showAnswer": "612.67"
+  },
+  {
+    "id": 54,
+    "questionText": "4887 ÷ 4 (Show answer to 2 decimal places)",
+    "showProcess": "Step 1: 4887 ÷ 4 = 1221 remainder 3. Step 2: Add decimals. 3.00 ÷ 4 = 0.75.",
+    "showAnswer": "1221.75"
+  },
+  {
+    "id": 55,
+    "questionText": "2711 ÷ 9 (Show answer to 2 decimal places)",
+    "showProcess": "Step 1: 2711 ÷ 9 = 301 remainder 2. Step 2: 2.00 ÷ 9 = 0.222... round down.",
+    "showAnswer": "301.22"
+  },
+  {
+    "id": 56,
+    "questionText": "1427 ÷ 2 (Show answer to 2 decimal places)",
+    "showProcess": "Step 1: 1427 ÷ 2 = 713 remainder 1. Step 2: Add decimals. 1.00 ÷ 2 = 0.50.",
+    "showAnswer": "713.50"
+  },
+  {
+    "id": 57,
+    "questionText": "4211 ÷ 7 (Show answer to 2 decimal places)",
+    "showProcess": "Step 1: 4211 ÷ 7 = 601 remainder 4. Step 2: 4.00 ÷ 7 = 0.571... round down.",
+    "showAnswer": "601.57"
+  },
+  {
+    "id": 58,
+    "questionText": "2453 ÷ 6 (Show answer to 2 decimal places)",
+    "showProcess": "Step 1: 2453 ÷ 6 = 408 remainder 5. Step 2: 5.00 ÷ 6 = 0.833... round down.",
+    "showAnswer": "408.83"
+  },
+  {
+    "id": 59,
+    "questionText": "3211 ÷ 8 (Show answer to 2 decimal places)",
+    "showProcess": "Step 1: 3211 ÷ 8 = 401 remainder 3. Step 2: Add decimals. 3.00 ÷ 8 = 0.375. Round up.",
+    "showAnswer": "401.38"
+  },
+  {
+    "id": 60,
+    "questionText": "4553 ÷ 5 (Show answer to 2 decimal places)",
+    "showProcess": "Step 1: 4553 ÷ 5 = 910 remainder 3. Step 2: Add decimals. 3.00 ÷ 5 = 0.60.",
+    "showAnswer": "910.60"
+  },
+  {
+    "id": 61,
+    "questionText": "1212 ÷ 12",
+    "showProcess": "Step 1: 12 ÷ 12 = 1. Step 2: 1 ÷ 12 = 0 (carry 1). Step 3: 12 ÷ 12 = 1. No remainder.",
+    "showAnswer": "101"
+  },
+  {
+    "id": 62,
+    "questionText": "2550 ÷ 25",
+    "showProcess": "Step 1: 25 ÷ 25 = 1. Step 2: 5 ÷ 25 = 0 (carry 5). Step 3: 50 ÷ 25 = 2. No remainder.",
+    "showAnswer": "102"
+  },
+  {
+    "id": 63,
+    "questionText": "3648 ÷ 12",
+    "showProcess": "Step 1: 36 ÷ 12 = 3. Step 2: 4 ÷ 12 = 0 (carry 4). Step 3: 48 ÷ 12 = 4. No remainder.",
+    "showAnswer": "304"
+  },
+  {
+    "id": 64,
+    "questionText": "4422 ÷ 11",
+    "showProcess": "Step 1: 44 ÷ 11 = 4. Step 2: 2 ÷ 11 = 0 (carry 2). Step 3: 22 ÷ 11 = 2. No remainder.",
+    "showAnswer": "402"
+  },
+  {
+    "id": 65,
+    "questionText": "1530 ÷ 15",
+    "showProcess": "Step 1: 15 ÷ 15 = 1. Step 2: 3 ÷ 15 = 0 (carry 3). Step 3: 30 ÷ 15 = 2. No remainder.",
+    "showAnswer": "102"
+  },
+  {
+    "id": 66,
+    "questionText": "14412 ÷ 12",
+    "showProcess": "Step 1: 14 ÷ 12 = 1 (rem 2). Step 2: 24 ÷ 12 = 2. Step 3: 1 ÷ 12 = 0 (carry 1). Step 4: 12 ÷ 12 = 1. No remainder.",
+    "showAnswer": "1201"
+  },
+  {
+    "id": 67,
+    "questionText": "26013 ÷ 13",
+    "showProcess": "Step 1: 26 ÷ 13 = 2. Step 2: 0 ÷ 13 = 0. Step 3: 1 ÷ 13 = 0 (carry 1). Step 4: 13 ÷ 13 = 1. No remainder.",
+    "showAnswer": "2001"
+  },
+  {
+    "id": 68,
+    "questionText": "48024 ÷ 24",
+    "showProcess": "Step 1: 48 ÷ 24 = 2. Step 2: 0 ÷ 24 = 0. Step 3: 2 ÷ 24 = 0 (carry 2). Step 4: 24 ÷ 24 = 1. No remainder.",
+    "showAnswer": "2001"
+  },
+  {
+    "id": 69,
+    "questionText": "35070 ÷ 35",
+    "showProcess": "Step 1: 35 ÷ 35 = 1. Step 2: 0 ÷ 35 = 0. Step 3: 7 ÷ 35 = 0 (carry 7). Step 4: 70 ÷ 35 = 2. No remainder.",
+    "showAnswer": "1002"
+  },
+  {
+    "id": 70,
+    "questionText": "50050 ÷ 50",
+    "showProcess": "Step 1: 50 ÷ 50 = 1. Step 2: 0 ÷ 50 = 0. Step 3: 5 ÷ 50 = 0 (carry 5). Step 4: 50 ÷ 50 = 1. No remainder.",
+    "showAnswer": "1001"
+  },
+  {
+    "id": 71,
+    "questionText": "1215 ÷ 12",
+    "showProcess": "Step 1: 12 ÷ 12 = 1. Step 2: 1 ÷ 12 = 0 (carry 1). Step 3: 15 ÷ 12 = 1 with a remainder of 3.",
+    "showAnswer": "101 r 3"
+  },
+  {
+    "id": 72,
+    "questionText": "2554 ÷ 25",
+    "showProcess": "Step 1: 25 ÷ 25 = 1. Step 2: 5 ÷ 25 = 0 (carry 5). Step 3: 54 ÷ 25 = 2 with a remainder of 4.",
+    "showAnswer": "102 r 4"
+  },
+  {
+    "id": 73,
+    "questionText": "3653 ÷ 12",
+    "showProcess": "Step 1: 36 ÷ 12 = 3. Step 2: 5 ÷ 12 = 0 (carry 5). Step 3: 53 ÷ 12 = 4 with a remainder of 5.",
+    "showAnswer": "304 r 5"
+  },
+  {
+    "id": 74,
+    "questionText": "4429 ÷ 11",
+    "showProcess": "Step 1: 44 ÷ 11 = 4. Step 2: 2 ÷ 11 = 0 (carry 2). Step 3: 29 ÷ 11 = 2 with a remainder of 7.",
+    "showAnswer": "402 r 7"
+  },
+  {
+    "id": 75,
+    "questionText": "1538 ÷ 15",
+    "showProcess": "Step 1: 15 ÷ 15 = 1. Step 2: 3 ÷ 15 = 0 (carry 3). Step 3: 38 ÷ 15 = 2 with a remainder of 8.",
+    "showAnswer": "102 r 8"
+  },
+  {
+    "id": 76,
+    "questionText": "14419 ÷ 12",
+    "showProcess": "Step 1: 144 ÷ 12 = 12. Step 2: 1 ÷ 12 = 0 (carry 1). Step 3: 19 ÷ 12 = 1 with a remainder of 7.",
+    "showAnswer": "1201 r 7"
+  },
+  {
+    "id": 77,
+    "questionText": "26020 ÷ 13",
+    "showProcess": "Step 1: 26 ÷ 13 = 2. Step 2: 0 ÷ 13 = 0. Step 3: 2 ÷ 13 = 0 (carry 2). Step 4: 20 ÷ 13 = 1 with a remainder of 7.",
+    "showAnswer": "2001 r 7"
+  },
+  {
+    "id": 78,
+    "questionText": "48030 ÷ 24",
+    "showProcess": "Step 1: 48 ÷ 24 = 2. Step 2: 0 ÷ 24 = 0. Step 3: 3 ÷ 24 = 0 (carry 3). Step 4: 30 ÷ 24 = 1 with a remainder of 6.",
+    "showAnswer": "2001 r 6"
+  },
+  {
+    "id": 79,
+    "questionText": "35082 ÷ 35",
+    "showProcess": "Step 1: 35 ÷ 35 = 1. Step 2: 0 ÷ 35 = 0. Step 3: 8 ÷ 35 = 0 (carry 8). Step 4: 82 ÷ 35 = 2 with a remainder of 12.",
+    "showAnswer": "1002 r 12"
+  },
+  {
+    "id": 80,
+    "questionText": "50095 ÷ 50",
+    "showProcess": "Step 1: 50 ÷ 50 = 1. Step 2: 0 ÷ 50 = 0. Step 3: 9 ÷ 50 = 0 (carry 9). Step 4: 95 ÷ 50 = 1 with a remainder of 45.",
+    "showAnswer": "1001 r 45"
+  },
+  {
+    "id": 81,
+    "questionText": "1216 ÷ 12 (Show answer as a fraction)",
+    "showProcess": "Step 1: 1216 ÷ 12 = 101 remainder 4. Step 2: Put 4 over 12 and simplify to 1 third.",
+    "showAnswer": "101 <div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">3</span></div>"
+  },
+  {
+    "id": 82,
+    "questionText": "2555 ÷ 25 (Show answer as a fraction)",
+    "showProcess": "Step 1: 2555 ÷ 25 = 102 remainder 5. Step 2: Put 5 over 25 and simplify to 1 fifth.",
+    "showAnswer": "102 <div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">5</span></div>"
+  },
+  {
+    "id": 83,
+    "questionText": "3651 ÷ 12 (Show answer as a fraction)",
+    "showProcess": "Step 1: 3651 ÷ 12 = 304 remainder 3. Step 2: Put 3 over 12 and simplify to 1 fourth.",
+    "showAnswer": "304 <div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">4</span></div>"
+  },
+  {
+    "id": 84,
+    "questionText": "4424 ÷ 11 (Show answer as a fraction)",
+    "showProcess": "Step 1: 4424 ÷ 11 = 402 remainder 2. Step 2: Put 2 over 11.",
+    "showAnswer": "402 <div class=\"fraction\"><span class=\"top\">2</span><span class=\"bottom\">11</span></div>"
+  },
+  {
+    "id": 85,
+    "questionText": "1535 ÷ 15 (Show answer as a fraction)",
+    "showProcess": "Step 1: 1535 ÷ 15 = 102 remainder 5. Step 2: Put 5 over 15 and simplify to 1 third.",
+    "showAnswer": "102 <div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">3</span></div>"
+  },
+  {
+    "id": 86,
+    "questionText": "14415 ÷ 12 (Show answer as a fraction)",
+    "showProcess": "Step 1: 14415 ÷ 12 = 1201 remainder 3. Step 2: Put 3 over 12 and simplify to 1 fourth.",
+    "showAnswer": "1201 <div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">4</span></div>"
+  },
+  {
+    "id": 87,
+    "questionText": "26015 ÷ 13 (Show answer as a fraction)",
+    "showProcess": "Step 1: 26015 ÷ 13 = 2001 remainder 2. Step 2: Put 2 over 13.",
+    "showAnswer": "2001 <div class=\"fraction\"><span class=\"top\">2</span><span class=\"bottom\">13</span></div>"
+  },
+  {
+    "id": 88,
+    "questionText": "48032 ÷ 24 (Show answer as a fraction)",
+    "showProcess": "Step 1: 48032 ÷ 24 = 2001 remainder 8. Step 2: Put 8 over 24 and simplify to 1 third.",
+    "showAnswer": "2001 <div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">3</span></div>"
+  },
+  {
+    "id": 89,
+    "questionText": "35077 ÷ 35 (Show answer as a fraction)",
+    "showProcess": "Step 1: 35077 ÷ 35 = 1002 remainder 7. Step 2: Put 7 over 35 and simplify to 1 fifth.",
+    "showAnswer": "1002 <div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">5</span></div>"
+  },
+  {
+    "id": 90,
+    "questionText": "50075 ÷ 50 (Show answer as a fraction)",
+    "showProcess": "Step 1: 50075 ÷ 50 = 1001 remainder 25. Step 2: Put 25 over 50 and simplify to 1 half.",
+    "showAnswer": "1001 <div class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">2</span></div>"
+  },
+  {
+    "id": 91,
+    "questionText": "1215 ÷ 12 (Show answer to 2 decimal places)",
+    "showProcess": "Step 1: 1215 ÷ 12 = 101 remainder 3. Step 2: Add decimals. 3.00 ÷ 12 = 0.25.",
+    "showAnswer": "101.25"
+  },
+  {
+    "id": 92,
+    "questionText": "2555 ÷ 25 (Show answer to 2 decimal places)",
+    "showProcess": "Step 1: 2555 ÷ 25 = 102 remainder 5. Step 2: Add decimals. 5.00 ÷ 25 = 0.20.",
+    "showAnswer": "102.40"
+  },
+  {
+    "id": 93,
+    "questionText": "3651 ÷ 12 (Show answer to 2 decimal places)",
+    "showProcess": "Step 1: 3651 ÷ 12 = 304 remainder 3. Step 2: Add decimals. 3.00 ÷ 12 = 0.25.",
+    "showAnswer": "304.25"
+  },
+  {
+    "id": 94,
+    "questionText": "4424 ÷ 11 (Show answer to 2 decimal places)",
+    "showProcess": "Step 1: 4424 ÷ 11 = 402 remainder 2. Step 2: 2.00 ÷ 11 = 0.1818... round down.",
+    "showAnswer": "402.18"
+  },
+  {
+    "id": 95,
+    "questionText": "1533 ÷ 15 (Show answer to 2 decimal places)",
+    "showProcess": "Step 1: 1533 ÷ 15 = 102 remainder 3. Step 2: Add decimals. 3.00 ÷ 15 = 0.20.",
+    "showAnswer": "102.20"
+  },
+  {
+    "id": 96,
+    "questionText": "14415 ÷ 12 (Show answer to 2 decimal places)",
+    "showProcess": "Step 1: 14415 ÷ 12 = 1201 remainder 3. Step 2: Add decimals. 3.00 ÷ 12 = 0.25.",
+    "showAnswer": "1201.25"
+  },
+  {
+    "id": 97,
+    "questionText": "26015 ÷ 13 (Show answer to 2 decimal places)",
+    "showProcess": "Step 1: 26015 ÷ 13 = 2001 remainder 2. Step 2: 2.00 ÷ 13 = 0.153... round down.",
+    "showAnswer": "2001.15"
+  },
+  {
+    "id": 98,
+    "questionText": "48030 ÷ 24 (Show answer to 2 decimal places)",
+    "showProcess": "Step 1: 48030 ÷ 24 = 2001 remainder 6. Step 2: Add decimals. 6.00 ÷ 24 = 0.25.",
+    "showAnswer": "2001.25"
+  },
+  {
+    "id": 99,
+    "questionText": "35077 ÷ 35 (Show answer to 2 decimal places)",
+    "showProcess": "Step 1: 35077 ÷ 35 = 1002 remainder 7. Step 2: Add decimals. 7.00 ÷ 35 = 0.20.",
+    "showAnswer": "1002.20"
+  },
+  {
+    "id": 100,
+    "questionText": "50075 ÷ 50 (Show answer to 2 decimal places)",
+    "showProcess": "Step 1: 50075 ÷ 50 = 1001 remainder 25. Step 2: Add decimals. 25.00 ÷ 50 = 0.50.",
+    "showAnswer": "1001.50"
+  }
+]
