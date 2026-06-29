@@ -16,11 +16,11 @@
       --text-color: #ffffff;
       --text-secondary: #a0a0b0;
       
-      /* Vibrant Tailored Accents */
+      /* Vibrant Classroom-Tailored Accents */
       --accent-yellow: hsl(48, 100%, 50%);
-      --accent-yellow-glow: rgba(255, 215, 0, 0.15);
+      --accent-yellow-glow: rgba(255, 215, 0, 0.12);
       --accent-cyan: hsl(180, 100%, 45%);
-      --accent-cyan-glow: rgba(0, 240, 255, 0.15);
+      --accent-cyan-glow: rgba(0, 240, 255, 0.12);
       --accent-red: #ff4a5a;
       
       /* Module Gradients */
@@ -160,128 +160,81 @@
     /* --- QUIZ VIEW --- */
     #quiz-screen {
       display: none;
-      width: 92vw;
-      height: 92vh;
+      width: 94vw;
+      height: 94vh;
       background: var(--card-bg);
       border: 0.2vh solid var(--card-border);
       border-radius: 3vh;
       flex-direction: column;
       position: relative;
       box-shadow: 0 4vh 10vh rgba(0, 0, 0, 0.6);
-      padding: 3vh 3vw;
+      padding: 2vh 3vw;
     }
 
-    /* --- HUD HEADER --- */
-    .quiz-hud {
+    /* --- MINIMALIST TOP BAR --- */
+    .quiz-top-bar {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      height: 8vh;
-      border-bottom: 0.15vh solid rgba(255, 255, 255, 0.05);
-      padding-bottom: 2vh;
-    }
-
-    .hud-left {
-      display: flex;
-      align-items: center;
-      gap: 2vw;
+      height: 6vh;
     }
 
     .home-btn {
-      background: rgba(255, 255, 255, 0.05);
-      border: 0.15vh solid rgba(255, 255, 255, 0.1);
-      color: var(--text-color);
-      padding: 1.2vh 1.8vw;
-      border-radius: 1.2vh;
-      font-size: 2.2vh;
+      background: rgba(255, 255, 255, 0.04);
+      border: 0.15vh solid rgba(255, 255, 255, 0.08);
+      color: var(--text-secondary);
+      padding: 1vh 1.5vw;
+      border-radius: 1vh;
+      font-size: 2vh;
       font-weight: 600;
       cursor: pointer;
       display: flex;
       align-items: center;
-      gap: 0.8vw;
+      gap: 0.6vw;
       transition: all var(--transition-speed) ease;
     }
 
     .home-btn:hover {
       background: var(--accent-red);
       border-color: var(--accent-red);
-      transform: scale(1.03);
+      color: var(--text-color);
+      transform: scale(1.02);
     }
 
-    .hud-title {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .hud-title .module-name {
-      font-size: 2.8vh;
+    .active-module-indicator {
+      font-size: 2.2vh;
       font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.2vh;
       background: var(--theme-gradient, linear-gradient(to right, #fff, #aaa));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      opacity: 0.85;
     }
 
-    .hud-title .progress-text {
-      font-size: 1.8vh;
-      color: var(--text-secondary);
-      font-weight: 600;
-      margin-top: 0.3vh;
-    }
-
-    /* Keyboard shortcut legend in HUD */
-    .hud-shortcuts {
-      display: flex;
-      gap: 1.5vw;
-    }
-
-    .shortcut-badge {
-      display: flex;
-      align-items: center;
-      gap: 0.5vw;
-      font-size: 1.8vh;
-      color: var(--text-secondary);
-      background: rgba(255, 255, 255, 0.03);
-      padding: 0.8vh 1.2vw;
-      border-radius: 0.8vh;
-      border: 0.15vh solid rgba(255, 255, 255, 0.05);
-    }
-
-    .key-cap {
-      background: #2a2a30;
-      border-bottom: 0.3vh solid #1a1a20;
-      padding: 0.2vh 0.8vw;
-      border-radius: 0.4vh;
-      font-family: 'Fira Code', monospace;
-      font-size: 1.6vh;
-      font-weight: 700;
-      color: var(--text-color);
-      box-shadow: 0 0.2vh 0.4vh rgba(0,0,0,0.4);
-    }
-
-    /* --- CENTRAL THEATER --- */
+    /* --- CENTRAL THEATER (55% SCREEN HEIGHT) --- */
     .quiz-theater {
-      flex-grow: 1;
+      height: 54vh;
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 4vh 0;
       text-align: center;
       position: relative;
+      margin: 1vh 0;
     }
 
     .question-container {
-      font-size: 7.5vh;
+      font-size: 12.5vh;
       font-weight: 800;
-      line-height: 1.25;
-      max-width: 95%;
-      margin-bottom: 4vh;
-      animation: fadeIn 0.4s ease-out;
+      line-height: 1.2;
+      width: 100%;
+      max-height: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
-      gap: 1.5vw;
+      gap: 2vw;
+      animation: fadeIn 0.35s ease-out;
     }
 
     /* --- MATH FRACTION STYLING --- */
@@ -291,36 +244,35 @@
       align-items: center;
       vertical-align: middle;
       line-height: 1.05;
-      margin: 0 0.8vw;
+      margin: 0 1vw;
     }
 
-    .fraction .top {
-      padding: 0 0.5vw;
+    .fraction .top, .fraction .bottom {
+      font-size: 11vh;
+      padding: 0 0.6vw;
       text-align: center;
     }
 
     .fraction .bottom {
-      padding: 0 0.5vw;
-      text-align: center;
-      border-top: 0.4vh solid var(--text-color);
-      margin-top: 0.2vh;
+      border-top: 0.6vh solid var(--text-color);
+      margin-top: 0.3vh;
     }
 
     /* --- SHAPE BLOCKS (ASCII GEOMETRY) --- */
     pre {
       font-family: 'Fira Code', 'Courier New', Courier, monospace;
-      font-size: 3.5vh;
-      line-height: 1.2;
+      font-size: 5vh;
+      line-height: 1.25;
       font-weight: 700;
       white-space: pre;
       display: inline-block;
       text-align: left;
       background: rgba(255, 255, 255, 0.02);
-      border: 0.15vh solid rgba(255, 255, 255, 0.05);
-      border-radius: 1.5vh;
-      padding: 2.5vh 3vw;
-      margin: 2vh 0;
-      box-shadow: inset 0 0.2vh 1vh rgba(0,0,0,0.5);
+      border: 0.2vh solid rgba(255, 255, 255, 0.05);
+      border-radius: 2vh;
+      padding: 2.5vh 4vw;
+      margin: 0;
+      box-shadow: inset 0 0.3vh 1.5vh rgba(0, 0, 0, 0.55);
     }
 
     /* --- REVEAL PANELS (PROCESS & ANSWER) --- */
@@ -328,24 +280,24 @@
       display: flex;
       gap: 3vw;
       width: 100%;
-      max-width: 1200px;
-      justify-content: center;
-      margin-top: auto;
+      max-width: 1300px;
+      height: 22vh;
+      margin: 0 auto;
     }
 
     .reveal-box {
       flex: 1;
       border-radius: 2vh;
-      padding: 3vh 2.5vw;
-      min-height: 20vh;
+      padding: 2.5vh 2.5vw;
+      height: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       text-align: center;
       opacity: 0;
-      transform: translateY(2vh);
-      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transform: translateY(1.5vh);
+      transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.2);
       pointer-events: none;
     }
 
@@ -357,6 +309,7 @@
 
     /* Process Box Specifics */
     .process-box {
+      flex: 1.4;
       border: 0.3vh solid var(--accent-yellow);
       background: var(--accent-yellow-glow);
       box-shadow: 0 1vh 3vh rgba(255, 215, 0, 0.08);
@@ -364,11 +317,11 @@
 
     .process-box .box-header {
       color: var(--accent-yellow);
-      font-size: 2vh;
+      font-size: 1.8vh;
       font-weight: 800;
       text-transform: uppercase;
       letter-spacing: 0.15vh;
-      margin-bottom: 1.5vh;
+      margin-bottom: 1vh;
     }
 
     .process-box .box-content {
@@ -379,6 +332,7 @@
 
     /* Answer Box Specifics */
     .answer-box {
+      flex: 1;
       border: 0.3vh solid var(--accent-cyan);
       background: var(--accent-cyan-glow);
       box-shadow: 0 1vh 3vh rgba(0, 240, 255, 0.08);
@@ -386,11 +340,11 @@
 
     .answer-box .box-header {
       color: var(--accent-cyan);
-      font-size: 2vh;
+      font-size: 1.8vh;
       font-weight: 800;
       text-transform: uppercase;
       letter-spacing: 0.15vh;
-      margin-bottom: 1.5vh;
+      margin-bottom: 1vh;
     }
 
     .answer-box .box-content {
@@ -405,18 +359,37 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding-top: 2vh;
-      margin-top: 2vh;
+      padding-top: 1.5vh;
     }
 
     .toolbar-left, .toolbar-right {
       display: flex;
-      gap: 1.5vw;
+      align-items: center;
+      width: 25%;
+    }
+
+    .toolbar-right {
+      justify-content: flex-end;
     }
 
     .toolbar-center {
       display: flex;
+      justify-content: center;
+      align-items: center;
       gap: 2vw;
+      width: 50%;
+    }
+
+    /* Progress Badge */
+    .progress-badge {
+      background: rgba(255, 255, 255, 0.04);
+      border: 0.15vh solid rgba(255, 255, 255, 0.08);
+      padding: 1.2vh 2vw;
+      border-radius: 5vh;
+      font-size: 2.2vh;
+      font-weight: 800;
+      color: var(--text-secondary);
+      letter-spacing: 0.1vh;
     }
 
     /* Modern Toolbar Buttons */
@@ -424,21 +397,21 @@
       background: #1e1e24;
       border: 0.2vh solid rgba(255, 255, 255, 0.1);
       color: var(--text-color);
-      padding: 1.8vh 2.5vw;
+      padding: 1.6vh 2.2vw;
       border-radius: 1.5vh;
       font-size: 2.2vh;
       font-weight: 700;
       cursor: pointer;
       display: flex;
       align-items: center;
-      gap: 1vw;
-      transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+      gap: 0.8vw;
+      transition: all 0.12s cubic-bezier(0.4, 0, 0.2, 1);
       box-shadow: 0 0.5vh 1.5vh rgba(0,0,0,0.2);
     }
 
     .btn svg {
-      width: 2.5vh;
-      height: 2.5vh;
+      width: 2.4vh;
+      height: 2.4vh;
       stroke-width: 2.5;
     }
 
@@ -456,7 +429,7 @@
     }
 
     .btn:disabled {
-      opacity: 0.3;
+      opacity: 0.25;
       cursor: not-allowed;
       transform: none !important;
       box-shadow: none !important;
@@ -465,7 +438,7 @@
 
     /* Highlighted buttons */
     .btn-process {
-      border-color: rgba(255, 215, 0, 0.3);
+      border-color: rgba(255, 215, 0, 0.25);
     }
     .btn-process:hover {
       background: rgba(255, 215, 0, 0.08);
@@ -481,7 +454,7 @@
     }
 
     .btn-answer {
-      border-color: rgba(0, 240, 255, 0.3);
+      border-color: rgba(0, 240, 255, 0.25);
     }
     .btn-answer:hover {
       background: rgba(0, 240, 255, 0.08);
@@ -507,13 +480,19 @@
     }
 
     /* Key Cap inside buttons */
-    .btn .key-cap {
-      background: rgba(255, 255, 255, 0.1);
-      border-bottom-color: rgba(0,0,0,0.3);
-      color: inherit;
+    .key-cap {
+      background: #2a2a30;
+      border-bottom: 0.3vh solid #1a1a20;
+      padding: 0.2vh 0.6vw;
+      border-radius: 0.4vh;
+      font-family: 'Fira Code', monospace;
       font-size: 1.4vh;
-      margin-left: 0.5vw;
+      font-weight: 700;
+      color: var(--text-color);
+      box-shadow: 0 0.2vh 0.4vh rgba(0,0,0,0.4);
+      margin-left: 0.3vw;
     }
+
     .btn-next .key-cap {
       background: rgba(0,0,0,0.08);
       border-bottom-color: rgba(0,0,0,0.2);
@@ -524,7 +503,7 @@
     @keyframes fadeIn {
       from {
         opacity: 0;
-        transform: translateY(-1vh);
+        transform: translateY(-0.8vh);
       }
       to {
         opacity: 1;
@@ -597,67 +576,44 @@
 
   <!-- QUIZ SCREEN -->
   <div id="quiz-screen">
-    <!-- HUD HEADER -->
-    <div class="quiz-hud">
-      <div class="hud-left">
-        <button class="home-btn" id="btn-home" onclick="returnHome()">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="width: 2.2vh; height: 2.2vh;">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-          </svg>
-          Home
-          <span class="key-cap">Esc</span>
-        </button>
-        <div class="hud-title">
-          <span class="module-name" id="hud-module-name">Module Name</span>
-          <span class="progress-text" id="hud-progress">Question 0 of 0</span>
-        </div>
-      </div>
-      <div class="hud-shortcuts">
-        <div class="shortcut-badge">
-          <span>Prev</span>
-          <span class="key-cap">←</span>
-        </div>
-        <div class="shortcut-badge">
-          <span>Next</span>
-          <span class="key-cap">→</span>
-          <span class="key-cap">Space</span>
-        </div>
-        <div class="shortcut-badge">
-          <span>Process</span>
-          <span class="key-cap">P</span>
-        </div>
-        <div class="shortcut-badge">
-          <span>Answer</span>
-          <span class="key-cap">A</span>
-        </div>
-      </div>
+    <!-- MINIMALIST TOP BAR -->
+    <div class="quiz-top-bar">
+      <button class="home-btn" id="btn-home" onclick="returnHome()">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="width: 2.2vh; height: 2.2vh;">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+        </svg>
+        Back to Main Hub
+        <span class="key-cap">Esc</span>
+      </button>
+      <div class="active-module-indicator" id="hud-module-name">Module Name</div>
     </div>
 
-    <!-- CENTRAL THEATER -->
+    <!-- CENTRAL THEATER (MASSIVE MATH VIEWPORT) -->
     <div class="quiz-theater">
       <div class="question-container" id="question-text">
         <!-- Question injected here -->
       </div>
+    </div>
 
-      <div class="reveal-grid">
-        <!-- Process Box -->
-        <div class="reveal-box process-box" id="process-box">
-          <div class="box-header">Resolution Process</div>
-          <div class="box-content" id="process-content">
-            <!-- Process details injected here -->
-          </div>
+    <!-- REVEAL PANELS -->
+    <div class="reveal-grid">
+      <!-- Process Box -->
+      <div class="reveal-box process-box" id="process-box">
+        <div class="box-header">Resolution Process</div>
+        <div class="box-content" id="process-content">
+          <!-- Process details injected here -->
         </div>
-        <!-- Answer Box -->
-        <div class="reveal-box answer-box" id="answer-box">
-          <div class="box-header">Final Answer</div>
-          <div class="box-content" id="answer-content">
-            <!-- Answer injected here -->
-          </div>
+      </div>
+      <!-- Answer Box -->
+      <div class="reveal-box answer-box" id="answer-box">
+        <div class="box-header">Final Answer</div>
+        <div class="box-content" id="answer-content">
+          <!-- Answer injected here -->
         </div>
       </div>
     </div>
 
-    <!-- BOTTOM TOOLBAR -->
+    <!-- LOW-PROFILE BOTTOM TOOLBAR -->
     <div class="quiz-toolbar">
       <div class="toolbar-left">
         <button class="btn" id="btn-back" onclick="previousQuestion()">
@@ -668,6 +624,7 @@
           <span class="key-cap">←</span>
         </button>
       </div>
+      
       <div class="toolbar-center">
         <button class="btn btn-process" id="btn-toggle-process" onclick="toggleProcess()">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -676,6 +633,9 @@
           Show Process
           <span class="key-cap">P</span>
         </button>
+
+        <span class="progress-badge" id="hud-progress">0 / 0</span>
+
         <button class="btn btn-answer" id="btn-toggle-answer" onclick="toggleAnswer()">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -684,6 +644,7 @@
           <span class="key-cap">A</span>
         </button>
       </div>
+      
       <div class="toolbar-right">
         <button class="btn btn-next" id="btn-next" onclick="nextQuestion()">
           Next / Skip
@@ -847,8 +808,8 @@
       appState.processVisible = false;
       appState.answerVisible = false;
 
-      // Update HUD Progress
-      hudProgress.textContent = `Question ${appState.currentIndex + 1} of ${appState.questions.length}`;
+      // Update HUD Progress (using a clean, low-profile format)
+      hudProgress.textContent = `${appState.currentIndex + 1} / ${appState.questions.length}`;
 
       // Set Question Content (using innerHTML to parse fraction divs, superscripts, pre tags)
       questionText.innerHTML = currentQuestion.questionText;
@@ -921,7 +882,6 @@
       }
     }
 
-    // Previous Question
     function previousQuestion() {
       if (appState.currentIndex > 0) {
         appState.currentIndex--;
@@ -934,6 +894,7 @@
       updateRevealPanels();
     }
 
+    // Toggle Answer Panel
     function toggleAnswer() {
       appState.answerVisible = !appState.answerVisible;
       updateRevealPanels();
